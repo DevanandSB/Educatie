@@ -47,7 +47,7 @@ public class Home extends AppCompatActivity
 
         urls[0] = "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing"; //Google Digital Marketing
         urls[1] = "http://educatie.me/certificate"; //Sample Certificate
-        urls[2] = "http://educatie.me/moodle/my"; //Moodle
+        urls[2] = "http://educatie.me/lms/login/index.php"; //Moodle
         FloatingActionButton fab = findViewById(R.id.fab);
 
         //Third Year

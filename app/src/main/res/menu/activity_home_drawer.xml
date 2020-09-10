@@ -24,12 +24,17 @@
         <item
             android:id="@+id/onlinecourses"
             android:icon="@drawable/ic_online"
-            android:title="Online Courses" />
+            android:title="Free Courses" />
 
         <item
             android:id="@+id/exams"
             android:icon="@drawable/ic_schedule_black_24dp"
             android:title="CIA Exams" />
+
+        <item
+            android:id="@+id/lounge"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="Activity Lounge" />
 
     </group>
 

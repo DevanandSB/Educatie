@@ -35,11 +35,12 @@
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="6dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="false">
 
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
+                            android:layout_marginEnd="@dimen/_5sdp"
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img" />
 
@@ -50,12 +51,13 @@
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="6dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="false">
 
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
                             android:scaleType="centerInside"
+                            android:layout_marginEnd="@dimen/_5sdp"
                             android:src="@drawable/banner_img1" />
 
                     </androidx.cardview.widget.CardView>
@@ -70,6 +72,7 @@
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
+                            android:layout_marginEnd="@dimen/_5sdp"
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img2" />
 
@@ -85,6 +88,7 @@
                             android:layout_width="300dp"
                             android:layout_height="150dp"
                             android:scaleType="centerInside"
+                            android:layout_marginEnd="@dimen/_5sdp"
                             android:src="@drawable/banner_img3" />
 
                     </androidx.cardview.widget.CardView>
@@ -99,6 +103,7 @@
                             android:layout_width="300dp"
                             android:layout_height="150dp"
                             android:scaleType="centerInside"
+                            android:layout_marginEnd="@dimen/_5sdp"
                             android:src="@drawable/banner_img4" />
 
                     </androidx.cardview.widget.CardView>
@@ -1831,7 +1836,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="139dp"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
@@ -1843,23 +1848,14 @@
                     android:orientation="horizontal"
                     android:weightSum="100">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="4dp"
-                        app:cardUseCompatPadding="true"
-                        app:contentPadding="4dp">
 
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="40"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/dm" />
-
-                    </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="123dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="40"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dm" />
 
                     <LinearLayout
                         android:layout_width="186dp"
@@ -1873,7 +1869,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Digital Marketing"
+                            android:text="Digital Marketing Course"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1889,24 +1885,26 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="right"
-                            android:layout_marginTop="@dimen/_5sdp"
-                            android:fontFamily="@font/calibri"
-                            android:text="Enroll >"
-                            android:padding="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_2sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
                             android:background="@drawable/blue_rounded_solid"
+                            android:fontFamily="@font/calibri"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Enroll >"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
                         <TextView
-                            android:layout_marginTop="@dimen/_5sdp"
                             android:id="@+id/viewcertificate1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="right"
-                            android:fontFamily="@font/calibri"
-                            android:text="Sample Certificate >"
-                            android:padding="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_2sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
                             android:background="@drawable/blue_rounded_solid"
+                            android:fontFamily="@font/calibri"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Sample Certificate >"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
@@ -1931,7 +1929,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
-                    android:text="@string/learning_management_system"
+                    android:text="Activity Lounge"
                     android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
@@ -1940,7 +1938,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/moodleEducatie"
-                android:layout_width="match_parent"
+                android:layout_width="393dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
@@ -1953,25 +1951,16 @@
                     android:orientation="horizontal"
                     android:weightSum="100">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="4dp"
-                        app:cardUseCompatPadding="true"
-                        app:contentPadding="4dp">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="40"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/moode" />
-
-                    </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="134dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="40"
+                        android:elevation="30dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/moode" />
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="187dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_weight="75"
@@ -1982,15 +1971,25 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="@string/moodle"
+                            android:text="@string/learning_management_system"
                             android:textColor="#000000"
                             android:textSize="20sp" />
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="206dp"
+                            android:paddingBottom="2dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Moodle is a Learning Platform or course management system (CMS) - a free Open Source software package designed to help educators create effective online ..."
+                            android:text="Post an Assignment, Conduct Quiz and also supports Online Classes. You can also access the courses and activities via web portal also"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="206dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:textColor="@color/colorAccent"
+                            android:paddingBottom="@dimen/_4sdp"
+                            android:text="Site name: educatie.me/lms"
                             android:textSize="14sp" />
 
                     </LinearLayout>
