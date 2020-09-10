@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Objects;
+
 public class Exams extends AppCompatActivity {
 
     TextView CAI1S,CAI2S, CAI3S,CAI4S,CAI5S;
@@ -18,7 +20,6 @@ public class Exams extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exams);
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         CAI1S = findViewById(R.id.sI1);
         CAI2S = findViewById(R.id.sI2);
         CAI3S = findViewById(R.id.sI3);
@@ -102,11 +103,5 @@ public class Exams extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Home.class);
         startActivity(intent);
         finish();
-    }
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return true;
     }
 }

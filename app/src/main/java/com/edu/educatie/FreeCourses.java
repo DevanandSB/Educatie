@@ -11,6 +11,8 @@ import android.widget.LinearLayout;
 
 import com.shashank.sony.fancytoastlib.FancyToast;
 
+import java.util.Objects;
+
 public class FreeCourses extends AppCompatActivity {
 
     CardView java, AWS, android, python, linux, database;
@@ -30,6 +32,7 @@ public class FreeCourses extends AppCompatActivity {
         linux = findViewById(R.id.freelinuxcourse);
         database = findViewById(R.id.freedatabasecourse);
         anim = findViewById(R.id.animlayout);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         urls[0] = "https://www.youtube.com/playlist?list=PLzTEv3l8hsKeAIaS8zQ4YsnyUcmoSJwLa"; //Java
         urls[1] = "https://www.youtube.com/playlist?list=PLzTEv3l8hsKe0atlMAbWckI62INlxmiV_"; //Amazon
@@ -98,5 +101,10 @@ public class FreeCourses extends AppCompatActivity {
         Intent intent = new Intent(FreeCourses.this, Home.class);
         startActivity(intent);
         finish();
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 }
