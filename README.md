@@ -13,7 +13,7 @@
 <br><br>
 <img src="http://educatie.me/img3.jpg" height="600" width="300" hspace="40"><img src="http://educatie.me/img4.jpg" height="600" width="300" hspace="40">
 <br><br>
-<center> <img src="http://educatie.me/img5.jpg" height="600" width="300" hspace="40"> </center>
+<img src="http://educatie.me/img5.jpg" height="600" width="300" hspace="40"><img src="http://educatie.me/img6.jpg" height="600" width="300" hspace="40">
 
 ## 📖 Features
 
