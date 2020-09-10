@@ -21,7 +21,6 @@
 - [x] Page Transformer Animations
 - [x] Clean UI
 - [x] No Fragments (Light Weight)
-- [x] Students can attend Online Classes
 - [x] Students can refer their Schedule
 
 ## 🙌 Show your support
