@@ -33,7 +33,7 @@
 
         <item
             android:id="@+id/lounge"
-            android:icon="@drawable/ic_schedule_black_24dp"
+            android:icon="@drawable/activity"
             android:title="Activity Lounge" />
 
     </group>

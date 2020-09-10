@@ -472,11 +472,13 @@ public class Home extends AppCompatActivity
         } else if (id == R.id.timetables) {
             Intent intent = new Intent(getApplicationContext(), TimeTableYear.class);
             startActivity(intent);
-
+        }else if (id == R.id.lounge) {
+            FancyToast.makeText(Home.this, "Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+        }else if (id == R.id.myprofile) {
+            FancyToast.makeText(Home.this, "Innum ready pannala irru da", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
         }else if (id == R.id.onlinecourses) {
                 Intent intent = new Intent(getApplicationContext(), FreeCourses.class);
                 startActivity(intent);
-
         } else if (id == R.id.exams) {
             Intent intent = new Intent(getApplicationContext(), RadioActivity.class);
             startActivity(intent);

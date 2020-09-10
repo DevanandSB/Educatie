@@ -1827,7 +1827,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
-                    android:text="@string/free_certification_courses"
+                    android:text="Top Companies Free Certification Courses"
                     android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
