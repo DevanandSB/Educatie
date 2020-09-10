@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff393a</color>
+    <color name="colorPrimaryDark">#c45248</color>
+    <color name="colorAccent">#ff393a</color>
+    <color name="white">#FFF</color>
+    <color name="textInputLayout">#96ffffff</color>
+
+    <!-- Onboarding Color-->
+    <color name="blackNavy">#10101C</color>
+    <color name="next_1">#8B88DC</color>
+    <color name="next_2">#0183C5</color>
+    <color name="next_3">#2F6DFF</color>
+    <color name="next_4">#5FA091</color>
+    <color name="dark_navy">#0E2132</color>
+
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#ff393a</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+    <!--                Given color in project    -->
+<!--    <color name="colorPrimaryDark">#3F5185</color>-->
+<!--    <color name="colorPrimary">#303F9F</color>-->
+<!--    <color name="colorAccent">#FF5722</color>-->
+    <color name="colorPrimaryText">#000000</color>
+    <!--    Top value is 757575-->
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorHintText">#BDBDBD</color>
+    <color name="colorMeetingInvitationStart">#F44336</color>
+    <color name="colorMeetingInvitationEnd">#F4BD4F</color>
+</resources>

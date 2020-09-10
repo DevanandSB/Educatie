@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/nav_header_home">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Syllabus" />
+<!--    <item-->
+<!--            android:id="@+id/nav_events"-->
+<!--            android:icon="@drawable/ic_event_black_24dp"-->
+<!--            android:title="Events" />-->
+        <item
+            android:id="@+id/timetables"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Time Table" />
+
+        <item
+            android:id="@+id/onlinecourses"
+            android:icon="@drawable/ic_online"
+            android:title="Online Courses" />
+
+        <item
+            android:id="@+id/exams"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="CIA Exams" />
+
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="App info" />
+            <item
+                android:id="@+id/myprofile"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="About Developer" />
+        </menu>
+    </item>
+
+</menu>

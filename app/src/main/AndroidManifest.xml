@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.edu.educatie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/OldAppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="m">
+        <activity android:name=".HomeWeb"/>
+        <activity android:name=".Onboarding.OnboardingActivity"
+            android:theme="@style/MyAppTheme"/>
+        <activity android:name=".FreeCourseWeb" />
+        <activity
+            android:name=".FreeCourses"
+            android:screenOrientation="portrait"
+            android:label="Free Courses"/>
+        <activity android:name=".SyllabusActivity" />
+
+        <activity android:name=".RadioActivity" />
+        <activity android:name=".TimeTableYear" />
+        <activity
+            android:name=".Settings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exams"
+            android:configChanges="orientation|screenSize"
+            android:label="CIA Exams" />
+        <activity
+            android:name=".Timetable"
+            android:configChanges="orientation|screenSize"
+            android:label="Time Table" />
+        <activity
+            android:name=".Events"
+            android:configChanges="orientation|screenSize"
+            android:label="Events" />
+        <activity
+            android:name=".Subjects"
+            android:configChanges="orientation|screenSize"
+            android:label="Syllabus" />
+        <activity
+            android:name=".MyProfile"
+            android:configChanges="orientation|screenSize"
+            android:label="Staff Profile" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MyAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

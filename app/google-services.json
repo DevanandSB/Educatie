@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "977354413942",
+    "firebase_url": "https://educatie-8c710.firebaseio.com",
+    "project_id": "educatie-8c710",
+    "storage_bucket": "educatie-8c710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977354413942:android:1c519b72e92c07f0640c57",
+        "android_client_info": {
+          "package_name": "com.edu.educatie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977354413942-5ckh9vdto6ehui32iag0o2dt9ioavdt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUPjyJ3Ii4JCqNkGCAb11Cj8yfVCNXFj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977354413942-5ckh9vdto6ehui32iag0o2dt9ioavdt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
