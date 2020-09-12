@@ -15,16 +15,17 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".HomeWeb"/>
-        <activity android:name=".Onboarding.OnboardingActivity"
-            android:theme="@style/MyAppTheme"/>
+        <activity android:name=".AboutDeveloper"></activity>
+        <activity android:name=".HomeWeb" />
+        <activity
+            android:name=".Onboarding.OnboardingActivity"
+            android:theme="@style/MyAppTheme" />
         <activity android:name=".FreeCourseWeb" />
         <activity
             android:name=".FreeCourses"
-            android:screenOrientation="portrait"
-            android:label="Free Courses"/>
+            android:label="Free Courses"
+            android:screenOrientation="portrait" />
         <activity android:name=".SyllabusActivity" />
-
         <activity android:name=".RadioActivity" />
         <activity android:name=".TimeTableYear" />
         <activity
@@ -67,7 +68,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
