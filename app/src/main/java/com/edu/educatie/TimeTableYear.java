@@ -177,6 +177,7 @@ public class TimeTableYear extends AppCompatActivity {
                 intent.putExtra("Staff5VI", Staff5VI);
 
                 startActivity(intent);
+                finish();
             }
             if (IIyear.isChecked()) {
                 Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -319,6 +320,7 @@ public class TimeTableYear extends AppCompatActivity {
                 intent.putExtra("Staff5VI", Staff5VI);
 
                 startActivity(intent);
+                finish();
             }
             if (IIIyear.isChecked()) {
 
@@ -461,6 +463,7 @@ public class TimeTableYear extends AppCompatActivity {
                 intent.putExtra("Staff5VI", Staff5VI);
 
                 startActivity(intent);
+                finish();
             }
           if(!Iyear.isChecked() && !IIyear.isChecked() && !IIIyear.isChecked()) {
               Animation animation = AnimationUtils.loadAnimation(this,R.anim.bounce);
