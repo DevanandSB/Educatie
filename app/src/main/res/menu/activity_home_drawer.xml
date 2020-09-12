@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="@layout/nav_header_home">
 
-    <group android:checkableBehavior="single">
-        <item
+    <item android:title="Features">
+        <menu>
+            <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_home_24"
             android:title="Home" />
-        <item
+            <item
             android:id="@+id/nav_courses"
             android:icon="@drawable/ic_school_black_24dp"
             android:title="Syllabus" />
@@ -16,27 +17,28 @@
 <!--            android:id="@+id/nav_events"-->
 <!--            android:icon="@drawable/ic_event_black_24dp"-->
 <!--            android:title="Events" />-->
-        <item
+            <item
             android:id="@+id/timetables"
             android:icon="@drawable/ic_import_contacts_black_24dp"
             android:title="Time Table" />
 
-        <item
+            <item
             android:id="@+id/onlinecourses"
             android:icon="@drawable/ic_online"
             android:title="Free Courses" />
 
-        <item
+            <item
             android:id="@+id/exams"
             android:icon="@drawable/ic_schedule_black_24dp"
             android:title="CIA Exams" />
 
-        <item
+             <item
             android:id="@+id/lounge"
             android:icon="@drawable/activity"
             android:title="Activity Lounge" />
 
-    </group>
+        </menu>
+    </item>
 
     <item android:title="About">
         <menu>
