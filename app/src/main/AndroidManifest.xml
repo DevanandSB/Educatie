@@ -15,7 +15,8 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".AboutDeveloper"></activity>
+        <activity android:name=".AboutDeveloper"
+            android:theme="@style/Profile"/>
         <activity android:name=".HomeWeb" />
         <activity
             android:name=".Onboarding.OnboardingActivity"

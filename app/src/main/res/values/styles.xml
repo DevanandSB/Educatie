@@ -10,7 +10,7 @@
     <style name="Profile" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#FFF</item>
-        <item name="colorPrimaryDark">#FFF</item>
+        <item name="colorPrimaryDark">#000</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
