@@ -18,19 +18,22 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
         android:text="Devanand S B"
         android:textColor="#000"
         android:layout_below="@id/imageview_profile"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textSize="18sp"
+        android:textSize="22dp"
         android:layout_marginTop="5dp" />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
         android:text="Ambur, India"
+        android:textSize="18dp"
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
@@ -49,8 +52,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
         android:layout_below="@id/profilui"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp">
 
         <ImageView
@@ -60,11 +63,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/calibri"
             android:text="Certificate"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="20sp"
             android:textColor="#000"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"/>
     </LinearLayout>
 
@@ -75,7 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/calibri"
         android:textColor="#000"
         android:text="  I'm Google Certified Digital Marketer."/>
     <TextView
@@ -85,18 +91,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/calibri"
+        android:layout_marginLeft="30dp"
         android:textColor="#000"
         android:text="  Internship Certificate from Microsoft"/>
 
 
     <LinearLayout
         android:id="@+id/linearLayout_2"
+        android:layout_marginLeft="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/certificate2"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp">
 
         <ImageView
@@ -108,10 +116,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Interest and work"
+            android:fontFamily="@font/calibri"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="20sp"
             android:textColor="#000"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"/>
     </LinearLayout>
 
@@ -122,7 +131,9 @@
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/calibri"
+        android:textSize="15sp"
         android:textColor="#000"
         android:text="  Instructor in Udemy. Instructs more than 500 Students"/>
 
@@ -133,7 +144,9 @@
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/calibri"
         android:textColor="#000"
         android:text="  Interested in Android Development"/>
 
@@ -142,8 +155,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
         android:layout_below="@id/profession2"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp">
 
         <ImageView
@@ -156,9 +169,10 @@
             android:layout_height="wrap_content"
             android:text="Contact"
             android:textStyle="bold"
-            android:textSize="18dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/calibri"
             android:textColor="#000"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"/>
     </LinearLayout>
 
@@ -166,10 +180,12 @@
         android:id="@+id/contact1"
         android:layout_below="@+id/linearLayout_3"
         android:layout_width="wrap_content"
+        android:fontFamily="@font/calibri"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
         android:textColor="#000"
         android:text="  Mobile: +91 9344 817 685"/>
 
@@ -180,7 +196,9 @@
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/calibri"
+        android:textSize="15sp"
         android:textColor="#000"
         android:text="  Email: devanandsbofficial@gmail.com"/>
 
