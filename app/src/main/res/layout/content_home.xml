@@ -1860,7 +1860,7 @@
                     <LinearLayout
                         android:layout_width="186dp"
                         android:layout_height="123dp"
-                        android:layout_marginLeft="8dp"
+                        android:layout_marginLeft="10dp"
                         android:layout_weight="75"
                         android:orientation="vertical">
 
@@ -1882,11 +1882,12 @@
 
                         <TextView
                             android:id="@+id/enroll1"
+                            android:gravity="center"
+                            android:layout_gravity="end"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="right"
-                            android:layout_marginEnd="@dimen/_2sdp"
                             android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
                             android:padding="@dimen/_5sdp"
@@ -1899,7 +1900,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="right"
-                            android:layout_marginEnd="@dimen/_2sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
@@ -1938,7 +1939,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/moodleEducatie"
-                android:layout_width="393dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
@@ -1952,15 +1953,15 @@
                     android:weightSum="100">
 
                     <ImageView
-                        android:layout_width="134dp"
-                        android:layout_height="124dp"
+                        android:layout_width="150dp"
+                        android:layout_height="132dp"
                         android:layout_marginRight="8dp"
-                        android:layout_weight="40"
                         android:elevation="30dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/moode" />
+
                     <LinearLayout
-                        android:layout_width="187dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_weight="75"
@@ -1976,7 +1977,7 @@
                             android:textSize="20sp" />
 
                         <TextView
-                            android:layout_width="206dp"
+                            android:layout_width="match_parent"
                             android:paddingBottom="2dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
@@ -1984,7 +1985,7 @@
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_width="206dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
                             android:textColor="@color/colorAccent"
