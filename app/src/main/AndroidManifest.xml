@@ -21,6 +21,7 @@
         <activity android:name=".HomeWeb" />
         <activity
             android:name=".Onboarding.OnboardingActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/MyAppTheme" />
         <activity android:name=".FreeCourseWeb" />
         <activity
