@@ -16,7 +16,8 @@
         tools:ignore="AllowBackup"
         tools:targetApi="m">
         <activity android:name=".AboutDeveloper"
-            android:theme="@style/Profile"/>
+            android:theme="@style/Profile"
+            android:screenOrientation="portrait"/>
         <activity android:name=".HomeWeb" />
         <activity
             android:name=".Onboarding.OnboardingActivity"
@@ -61,11 +62,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SplashScreen"
+            android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize"
             android:theme="@style/MyAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
