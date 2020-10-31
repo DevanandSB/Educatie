@@ -44,11 +44,11 @@
         <menu>
             <item
                 android:id="@+id/info"
-                android:icon="@drawable/ic_baseline_info_24"
+                android:icon="@drawable/ic_info"
                 android:title="App info" />
             <item
                 android:id="@+id/myprofile"
-                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:icon="@drawable/ic_profil"
                 android:title="About Developer" />
         </menu>
     </item>
