@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".AboutDeveloper">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageview_profile"
         android:layout_width="120dp"
@@ -199,7 +207,9 @@
         android:layout_marginLeft="30dp"
         android:fontFamily="@font/calibri"
         android:textSize="15sp"
+        android:layout_marginBottom="@dimen/_30sdp"
         android:textColor="#000"
         android:text="  Email: devanandsbofficial@gmail.com"/>
-
+    </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
