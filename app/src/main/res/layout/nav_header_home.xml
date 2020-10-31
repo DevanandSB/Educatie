@@ -18,12 +18,12 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/ic_person"
+            android:id="@+id/profileimage"
             android:layout_width="84dp"
             android:layout_height="84dp"
             android:contentDescription="@string/app_name"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
-            app:srcCompat="@drawable/user" />
+            app:srcCompat="@drawable/ic_person" />
 
     </RelativeLayout>
 
