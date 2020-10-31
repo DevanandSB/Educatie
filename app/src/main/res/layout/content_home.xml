@@ -1955,7 +1955,7 @@
                 app:cardUseCompatPadding="true"
                 app:contentPadding="4dp">
 
-                <RelativeLayout
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -1970,9 +1970,8 @@
                         android:src="@drawable/moode" />
 
                     <RelativeLayout
-                        android:layout_width="0dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="75"
                         android:orientation="vertical">
 
                         <TextView
@@ -1988,26 +1987,26 @@
                         <TextView
                             android:id="@+id/lmsd"
                             android:layout_width="match_parent"
-                            android:layout_below="@+id/lmst"
-                            android:paddingBottom="2dp"
                             android:layout_height="wrap_content"
+                            android:layout_below="@+id/lmst"
                             android:fontFamily="@font/calibri"
+                            android:paddingBottom="2dp"
                             android:text="Post an Assignment, Conduct Quiz and also supports Online Classes. You can also access the courses and activities via web portal also"
                             android:textSize="14sp" />
 
                         <TextView
-                            android:layout_below="@id/lmsd"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_below="@id/lmsd"
                             android:fontFamily="@font/calibri"
-                            android:textColor="@color/colorAccent"
                             android:paddingBottom="@dimen/_4sdp"
                             android:text="Site name: educatie.me/lms"
+                            android:textColor="@color/colorAccent"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
 
-                </RelativeLayout>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
