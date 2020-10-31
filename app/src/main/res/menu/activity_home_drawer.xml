@@ -48,7 +48,7 @@
                 android:title="App info" />
             <item
                 android:id="@+id/myprofile"
-                android:icon="@drawable/ic_profil"
+                android:icon="@drawable/ic_profile"
                 android:title="About Developer" />
         </menu>
     </item>
