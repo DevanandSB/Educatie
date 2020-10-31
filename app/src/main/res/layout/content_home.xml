@@ -1893,7 +1893,7 @@
                             android:layout_above="@+id/viewcertificate1"
                             android:layout_gravity="end"
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:layout_marginEnd="20dp"
+                            android:layout_marginEnd="@dimen/_10sdp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
                             android:gravity="center"
