@@ -18,7 +18,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/person"
+            android:id="@+id/ic_person"
             android:layout_width="84dp"
             android:layout_height="84dp"
             android:contentDescription="@string/app_name"
