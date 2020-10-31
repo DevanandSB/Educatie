@@ -19,17 +19,17 @@
 <!--            android:title="Events" />-->
             <item
             android:id="@+id/timetables"
-            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:icon="@drawable/ic_schedule"
             android:title="Time Table" />
 
             <item
             android:id="@+id/onlinecourses"
-            android:icon="@drawable/ic_online"
+            android:icon="@drawable/ic_course"
             android:title="Free Courses" />
 
             <item
             android:id="@+id/exams"
-            android:icon="@drawable/ic_schedule_black_24dp"
+            android:icon="@drawable/ic_exam"
             android:title="CIA Exams" />
 
              <item
