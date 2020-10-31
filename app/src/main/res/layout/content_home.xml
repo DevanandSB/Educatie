@@ -120,7 +120,7 @@
                 android:weightSum="100">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
@@ -1842,7 +1842,7 @@
                 app:cardUseCompatPadding="true"
                 app:contentPadding="4dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -1850,46 +1850,53 @@
 
 
                     <ImageView
-                        android:layout_width="150dp"
+                        android:id="@+id/dm"
+                        android:layout_width="180dp"
                         android:layout_height="123dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_weight="40"
+                        android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/dm" />
 
-                    <LinearLayout
-                        android:layout_width="186dp"
+                    <RelativeLayout
+                        android:layout_toEndOf="@+id/dm"
+                        android:layout_width="match_parent"
                         android:layout_height="123dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_weight="75"
                         android:orientation="vertical">
 
                         <TextView
+                            android:layout_toEndOf="@+id/dm"
+                            android:id="@+id/dmt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
                             android:text="Digital Marketing Course"
                             android:textColor="#000000"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            tools:ignore="NotSibling" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
+                            android:layout_alignBottom="@+id/dm"
                             android:text="by Google"
-                            android:textSize="14sp" />
+                            android:layout_below="@+id/dmt"
+                            android:textSize="14sp"
+                            tools:ignore="NotSibling" />
 
                         <TextView
                             android:id="@+id/enroll1"
-                            android:gravity="center"
-                            android:layout_gravity="end"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_above="@+id/viewcertificate1"
+                            android:layout_gravity="end"
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginEnd="20dp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
+                            android:gravity="center"
                             android:padding="@dimen/_5sdp"
                             android:text="Enroll >"
                             android:textColor="@color/white"
@@ -1899,9 +1906,11 @@
                             android:id="@+id/viewcertificate1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="right"
-                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_alignParentBottom="true"
                             android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginBottom="15dp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
                             android:padding="@dimen/_5sdp"
@@ -1909,9 +1918,9 @@
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
-                    </LinearLayout>
+                    </RelativeLayout>
 
-                </LinearLayout>
+                </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
@@ -1960,7 +1969,7 @@
                         android:scaleType="centerInside"
                         android:src="@drawable/moode" />
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -1993,7 +2002,7 @@
                             android:text="Site name: educatie.me/lms"
                             android:textSize="14sp" />
 
-                    </LinearLayout>
+                    </RelativeLayout>
 
                 </LinearLayout>
 
