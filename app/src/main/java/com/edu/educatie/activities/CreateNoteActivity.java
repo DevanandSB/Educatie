@@ -1,10 +1,12 @@
-package com.edu.educatie;
+package com.edu.educatie.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.edu.educatie.R;
 
 public class CreateNoteActivity extends AppCompatActivity {
 

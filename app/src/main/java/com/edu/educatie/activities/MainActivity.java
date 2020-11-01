@@ -1,4 +1,4 @@
-package com.edu.educatie;
+package com.edu.educatie.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.edu.educatie.R;
+import com.edu.educatie.activities.CreateNoteActivity;
 
 public class MainActivity extends AppCompatActivity {
 
