@@ -86,4 +86,6 @@
     <string name="educatie_notes">Educatie Notes</string>
     <string name="search_notes">Search Notes</string>
     <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_note_here">Type note here..</string>
 </resources>
