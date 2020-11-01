@@ -19,7 +19,7 @@
     <color name="NotescolorPrimaryDark">#292929</color>
     <color name="NotescolorAccent">#FDBE3B</color>
     <color name="NotescolorWhite">#FFFFFF</color>
-    <color name="NotescolorSearchIcon">#DBDBDBD</color>
+    <color name="NotescolorSearchIcon">#DBDBDB</color>
     <color name="NotescolorTextHint">#7B7B7B</color>
     <color name="NotescolorQuickActionsBackground">#2F2D2E</color>
     <color name="NotescolorIcons">#A4A4A4</color>

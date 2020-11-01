@@ -83,4 +83,6 @@
     <string name="digital_marketing" tools:ignore="ExtraTranslation">Digital Marketing</string>
     <string name="mr_s_prabakaran">Mr. S. Prabakaran</string>
     <string name="next">Next</string>
+    <string name="educatie_notes">Educatie Notes</string>
+    <string name="search_notes">Search Notes</string>
 </resources>
