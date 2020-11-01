@@ -7,6 +7,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="NotesAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/NotescolorPrimary</item>
+        <item name="colorPrimaryDark">@color/NotescolorPrimaryDark</item>
+        <item name="colorAccent">@color/NotescolorAccent</item>
+    </style>
+
     <style name="Profile" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#FFF</item>
