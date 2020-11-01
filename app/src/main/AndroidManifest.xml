@@ -15,9 +15,11 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".AboutDeveloper"
-            android:theme="@style/Profile"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".AboutDeveloper"
+            android:screenOrientation="portrait"
+            android:theme="@style/Profile" />
         <activity android:name=".HomeWeb" />
         <activity
             android:name=".Onboarding.OnboardingActivity"
@@ -63,11 +65,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SplashScreen"
-            android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
             android:theme="@style/MyAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
