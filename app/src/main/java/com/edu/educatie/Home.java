@@ -465,6 +465,10 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), Home.class);
             startActivity(intent);
             finish();
+        }else if(id == R.id.enterNotes) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
 //        } else if (id == R.id.nav_events) {
 //            Intent intent = new Intent(getApplicationContext(), Events.class);
 //            startActivity(intent);

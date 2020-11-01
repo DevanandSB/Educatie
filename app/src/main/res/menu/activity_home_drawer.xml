@@ -13,6 +13,12 @@
             android:id="@+id/nav_courses"
             android:icon="@drawable/ic_acedemic"
             android:title="Syllabus" />
+
+            <item
+                android:id="@+id/enterNotes"
+                android:icon="@drawable/ic_notes"
+                android:title="Notes" />
+
 <!--    <item-->
 <!--            android:id="@+id/nav_events"-->
 <!--            android:icon="@drawable/ic_event_black_24dp"-->
