@@ -15,7 +15,8 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CreateNoteActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".AboutDeveloper"
             android:screenOrientation="portrait"

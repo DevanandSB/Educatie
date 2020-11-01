@@ -59,6 +59,19 @@
             android:textSize="@dimen/_13ssp"/>
     </LinearLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:clipToPadding="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
+        app:layout_constraintTop_toBottomOf="@id/layoutSearch" />
+
     <LinearLayout
         android:id="@+id/layoutQuickActions"
         android:layout_width="match_parent"
@@ -110,4 +123,6 @@
         app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/layoutQuickActions"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
