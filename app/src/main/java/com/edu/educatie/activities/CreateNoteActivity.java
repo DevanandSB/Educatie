@@ -8,8 +8,10 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.ContentUris;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -46,6 +48,7 @@ public class CreateNoteActivity extends AppCompatActivity {
     private ImageView imageNote;
 
     private String selectedNoteColor;
+    private String selectedImagePath;
 
     private static final int REQUEST_CODE_STORAGE_PERMISSION = 1;
     private static final int REQUEST_CODE_SELECT_IMAGE = 2;
@@ -84,6 +87,8 @@ public class CreateNoteActivity extends AppCompatActivity {
 
         //Default Note Color
         selectedNoteColor = "#333333";
+        selectedImagePath = "";
+
         initMiscellaneous();
         setSubtitleIndicatorColor();
     }
@@ -103,7 +108,7 @@ public class CreateNoteActivity extends AppCompatActivity {
         note.setNoteText(inputNoteText.getText().toString());
         note.setDateTime(textDateTime.getText().toString());
         note.setColor(selectedNoteColor);
-
+        note.setImagePath(selectedImagePath);
 
         @SuppressLint("StaticFieldLeak")
         class SaveNoteTask extends AsyncTask<Void, Void, Void> {
@@ -262,6 +267,8 @@ public class CreateNoteActivity extends AppCompatActivity {
                         imageNote.setImageBitmap(bitmap);
                         imageNote.setVisibility(View.VISIBLE);
 
+                        selectedImagePath = getPathFromUri(selectedImageUri);
+
                     }catch (Exception exception) {
                         FancyToast.makeText(CreateNoteActivity.this, exception.getMessage(), FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
 
@@ -269,5 +276,19 @@ public class CreateNoteActivity extends AppCompatActivity {
                 }
             }
         }
+    }
+
+    private  String getPathFromUri(Uri contentUri) {
+        String filePath;
+        Cursor cursor = getContentResolver().query(contentUri, null,null,null,null);
+        if(cursor == null) {
+            filePath = contentUri.getPath();
+        }else {
+            cursor.moveToFirst();
+            int index = cursor.getColumnIndex("_data");
+            filePath = cursor.getString(index);
+            cursor.close();
+        }
+        return filePath;
     }
 }
