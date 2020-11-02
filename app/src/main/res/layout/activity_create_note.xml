@@ -28,9 +28,9 @@
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/ic_back"
-                app:tint="@color/NotescolorIcons"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/NotescolorIcons" />
 
 
             <ImageView
@@ -46,13 +46,14 @@
                 app:layout_constraintTop_toTopOf="@+id/imageBack"
                 app:tint="@color/NotescolorIcons" />
 
+            <!--            app:layout_constraintStart_toEndOf="@id/viewSubtitleIndicator"-->
+
             <EditText
                 android:id="@+id/inputNotetitle"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginStart="@dimen/_12sdp"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginTop="32dp"
                 android:background="@null"
                 android:fontFamily="@font/ubuntu_bold"
                 android:hint="@string/note_title"
@@ -63,27 +64,31 @@
                 android:textColor="@color/white"
                 android:textColorHint="@color/NotescolorTextHint"
                 android:textSize="@dimen/_16sdp"
-                app:layout_constraintTop_toBottomOf="@+id/imageBack"/>
+                app:layout_constraintTop_toBottomOf="@+id/imageBack"
+                tools:layout_editor_absoluteX="58dp" />
 
             <TextView
                 android:id="@+id/textDateTime"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
                 android:fontFamily="@font/ubuntu_regular"
                 android:includeFontPadding="false"
                 android:textColor="@color/NotescolorIcons"
+                android:padding="@dimen/_3sdp"
                 android:textSize="@dimen/_10ssp"
-                app:layout_constraintEnd_toEndOf="@id/inputNotetitle"
-                app:layout_constraintStart_toStartOf="@id/inputNotetitle"
-                app:layout_constraintBottom_toBottomOf="@id/inputNotetitle"/>
+                app:layout_constraintBottom_toTopOf="@id/inputNoteSubtitle"
+                app:layout_constraintEnd_toEndOf="@+id/inputNotetitle"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/inputNotetitle"
+                app:layout_constraintTop_toTopOf="@+id/inputNotetitle" />
 
             <EditText
                 android:id="@+id/inputNoteSubtitle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_width="397dp"
+                android:layout_height="29dp"
                 android:layout_marginStart="@dimen/_12sdp"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginTop="4dp"
                 android:background="@null"
                 android:fontFamily="@font/ubuntu_medium"
                 android:hint="@string/note_subtitle"
@@ -95,18 +100,21 @@
                 android:textColorHint="@color/NotescolorTextHint"
                 android:textSize="@dimen/_13ssp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/viewSubtitleIndicator"
-                app:layout_constraintTop_toBottomOf="@id/textDateTime"/>
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textDateTime" />
 
             <View
                 android:id="@+id/viewSubtitleIndicator"
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="0dp"
-                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@drawable/background_subtitle_indicator"
                 app:layout_constraintBottom_toBottomOf="@id/inputNoteSubtitle"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/inputNoteSubtitle" />
+            <!--            app:layout_constraintBottom_toBottomOf="@id/inputNoteSubtitle"
+                app:layout_constraintTop_toTopOf="@id/inputNoteSubtitle"-->
 
             <EditText
                 android:id="@+id/inputNote"
@@ -128,8 +136,7 @@
                 android:textColorHint="@color/NotescolorTextHint"
                 android:textSize="@dimen/_13ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/inputNoteSubtitle"/>
-
+                app:layout_constraintTop_toBottomOf="@id/inputNoteSubtitle" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
