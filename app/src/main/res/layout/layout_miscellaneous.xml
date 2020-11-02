@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/layoutMoscellaneous"
+    android:id="@+id/layoutMiscellaneous"
     android:orientation="vertical"
     android:background="@drawable/background_miscellaneous"
     android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:fontFamily="@font/ubuntu_medium"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="@string/miscellaneous"
+        android:text="@string/customisation"
         android:textColor="@color/NotescolorWhite"
         android:textSize="@dimen/_13ssp"/>
 
