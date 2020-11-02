@@ -2,14 +2,21 @@ package com.edu.educatie.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.edu.educatie.R;
-import com.edu.educatie.activities.CreateNoteActivity;
+import com.edu.educatie.database.NotesDatabase;
+import com.edu.educatie.entities.Note;
 
+import java.util.List;
+
+@SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
 
     public static final int REQUEST_CODE_ADD_NOTE = 1;
@@ -27,5 +34,24 @@ public class MainActivity extends AppCompatActivity {
                         REQUEST_CODE_ADD_NOTE);
             }
         });
+
+        getNotes();
+    }
+
+    private void getNotes() {
+        @SuppressLint("StaticFieldLeak")
+        class GetNotesTask extends AsyncTask<Void, Void, List<Note>> {
+            @Override
+            protected List<Note> doInBackground(Void... voids) {
+                return NotesDatabase.getDatabase(getApplicationContext()).noteDao().getAllNotes();
+            }
+
+            @Override
+            protected void onPostExecute(List<Note> notes) {
+                super.onPostExecute(notes);
+                Log.d("MY_NOTES", notes.toString());
+            }
+        }
+        new GetNotesTask().execute();
     }
 }

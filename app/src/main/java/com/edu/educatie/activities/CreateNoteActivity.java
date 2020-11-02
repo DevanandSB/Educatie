@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -40,9 +41,15 @@ public class CreateNoteActivity extends AppCompatActivity {
         textDateTime.setText(new SimpleDateFormat("EEEE, dd MMMM yyyy HH:mm a", Locale.getDefault())
                 .format(new Date())
         );
+        ImageView imageSave = findViewById(R.id.imageSave);
+        imageSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                saveNote();
+            }
+        });
     }
-
-    public void saveNote() {
+    private void saveNote() {
         if(inputNoteTitle.getText().toString().trim().isEmpty()) {
             FancyToast.makeText(CreateNoteActivity.this, "Note title can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
             return;
