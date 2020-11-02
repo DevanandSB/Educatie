@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.edu.educatie.Home;
 import com.edu.educatie.R;
 import com.edu.educatie.adapters.NotesAdapter;
 import com.edu.educatie.database.NotesDatabase;
@@ -28,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView notesRecyclerView;
     private List<Note> noteList;
     private NotesAdapter notesAdapter;
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(MainActivity.this, Home.class);
+        startActivity(intent);
+        finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

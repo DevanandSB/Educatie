@@ -108,13 +108,13 @@
                 android:id="@+id/viewSubtitleIndicator"
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="0dp"
-                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
                 android:background="@drawable/background_subtitle_indicator"
                 app:layout_constraintBottom_toBottomOf="@id/inputNoteSubtitle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/inputNoteSubtitle" />
-            <!--            app:layout_constraintBottom_toBottomOf="@id/inputNoteSubtitle"
-                app:layout_constraintTop_toTopOf="@id/inputNoteSubtitle"-->
+
+
 
             <EditText
                 android:id="@+id/inputNote"

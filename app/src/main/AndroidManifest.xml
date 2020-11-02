@@ -18,10 +18,12 @@
         tools:ignore="AllowBackup"
         tools:targetApi="m">
         <activity android:name=".activities.CreateNoteActivity"
+            android:theme="@style/MyAppTheme"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".activities.MainActivity"
             android:screenOrientation="portrait"
+            android:theme="@style/MyAppTheme"
             android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name=".AboutDeveloper"

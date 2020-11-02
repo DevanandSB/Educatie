@@ -13,7 +13,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.edu.educatie.Home;
 import com.edu.educatie.R;
+import com.edu.educatie.Timetable;
 import com.edu.educatie.database.NotesDatabase;
 import com.edu.educatie.entities.Note;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
@@ -31,6 +34,14 @@ public class CreateNoteActivity extends AppCompatActivity {
     private View viewSubtitleIndicator;
 
     private String selectedNoteColor;
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(CreateNoteActivity.this, Home.class);
+        startActivity(intent);
+        finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,8 +77,10 @@ public class CreateNoteActivity extends AppCompatActivity {
             FancyToast.makeText(CreateNoteActivity.this, "Note title can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
             return;
         } else if(inputNoteSubtitle.getText().toString().trim().isEmpty() && inputNoteText.getText().toString().trim().isEmpty()) {
-            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
+//            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
         }
+
+        Intent intent = new Intent(CreateNoteActivity.this, Home.class);
 
         final Note note = new Note();
         note.setTitle(inputNoteTitle.getText().toString());
@@ -160,7 +173,7 @@ public class CreateNoteActivity extends AppCompatActivity {
         layoutMiscellaneous.findViewById(R.id.viewColor4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedNoteColor = "#3AF2FC";
+                selectedNoteColor = "#3A52Fc";
                 imageColor1.setImageResource(0);
                 imageColor2.setImageResource(0);
                 imageColor3.setImageResource(0);
