@@ -15,12 +15,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.edu.educatie.R;
 import com.edu.educatie.entities.Note;
+import com.edu.educatie.listerners.NotesListener;
 
 import java.util.List;
 
 public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHolder>{
 
     private List<Note> notes;
+    private NotesListener notesListener;
+
+    public NotesAdapter(List<Note> notes, NotesListener notesListener) {
+        this.notes = notes;
+        this.notesListener = notesListener;
+    }
 
     public NotesAdapter(List<Note> notes) {
         this.notes = notes;
@@ -37,6 +44,12 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
     @Override
     public void onBindViewHolder(@NonNull NoteViewHolder holder, int position) {
         holder.setNote(notes.get(position));
+        holder.layoutNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                notesListener.onNoteClicked(notes.get(position), position);
+            }
+        });
     }
 
     @Override
