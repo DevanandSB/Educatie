@@ -18,17 +18,22 @@ import com.edu.educatie.R;
 import com.edu.educatie.adapters.NotesAdapter;
 import com.edu.educatie.database.NotesDatabase;
 import com.edu.educatie.entities.Note;
+import com.edu.educatie.listerners.NotesListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("ALL")
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NotesListener {
 
     public static final int REQUEST_CODE_ADD_NOTE = 1;
+    public static final int REQUEST_CODE_UPDATE_NOTE = 2;
+
     private RecyclerView notesRecyclerView;
     private List<Note> noteList;
     private NotesAdapter notesAdapter;
+
+    private int noteClickedPostion = -1;
 
     @Override
     public void onBackPressed() {
@@ -57,10 +62,19 @@ public class MainActivity extends AppCompatActivity {
         );
 
         noteList = new ArrayList<>();
-        notesAdapter = new NotesAdapter(noteList);
+        notesAdapter = new NotesAdapter(noteList, this);
         notesRecyclerView.setAdapter(notesAdapter);
 
         getNotes();
+    }
+
+    @Override
+    public void onNoteClicked(Note note, int position) {
+        noteClickedPostion = position;
+        Intent intent = new Intent(getApplicationContext(), CreateNoteActivity.class);
+        intent.putExtra("isViewOrUpdate", true);
+        intent.putExtra("note", note);
+        startActivityForResult(intent, REQUEST_CODE_UPDATE_NOTE);
     }
 
     private void getNotes() {
