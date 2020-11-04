@@ -9,8 +9,8 @@ android {
         applicationId "com.edu.educatie"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 3
-        versionName "2.O"
+        versionCode 4
+        versionName "3.O.1"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
