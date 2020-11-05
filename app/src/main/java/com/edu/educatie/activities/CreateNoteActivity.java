@@ -99,7 +99,10 @@ public class CreateNoteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 saveNote();
+                FancyToast.makeText(CreateNoteActivity.this, "Note Saved Successfully", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
+                FancyToast.makeText(CreateNoteActivity.this, "Visit again to see your notes", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
             }});
+
 
         //Default Note Color
         selectedNoteColor = "#333333";
@@ -175,7 +178,6 @@ public class CreateNoteActivity extends AppCompatActivity {
 //            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
         }
 
-        Intent intent = new Intent(CreateNoteActivity.this, Home.class);
 
         final Note note = new Note();
         note.setTitle(inputNoteTitle.getText().toString());
@@ -205,7 +207,7 @@ public class CreateNoteActivity extends AppCompatActivity {
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                Intent intent = new Intent();
+                Intent intent = new Intent(CreateNoteActivity.this, Home.class);
                 setResult(RESULT_OK, intent);
                 finish();
             }
