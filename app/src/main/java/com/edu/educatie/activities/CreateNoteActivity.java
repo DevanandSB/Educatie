@@ -128,6 +128,8 @@ public class CreateNoteActivity extends AppCompatActivity {
             }
         });
 
+
+
         initMiscellaneous();
         setSubtitleIndicatorColor();
     }
