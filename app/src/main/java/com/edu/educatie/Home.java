@@ -8,6 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +34,8 @@ public class Home extends AppCompatActivity
     LinearLayout sI1, sII1, sIII1, sIV1, sV1;
     CardView MoodleE;
 
+    private long backPressedTime;
+    private Toast backToast;
     String[] urls = new String[3];
 
     @Override
@@ -96,6 +99,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sII3.setOnClickListener(view -> {
 
@@ -117,6 +121,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIII3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -137,6 +142,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIV3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -157,6 +163,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sV3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -177,6 +184,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
 
         //Second Year
@@ -199,6 +207,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sII2.setOnClickListener(view -> {
 
@@ -220,6 +229,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIII2.setOnClickListener(view -> {
 
@@ -241,6 +251,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIV2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -261,6 +272,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sV2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -281,6 +293,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
 
         //Second Year
@@ -304,6 +317,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sII1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -324,6 +338,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIII1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -344,6 +359,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sIV1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -364,6 +380,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("place", place);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
         sV1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -384,6 +401,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("department", Department);
             intent.putExtra("mail", mail);
             startActivity(intent);
+            finish();
         });
 
         MoodleE.setOnClickListener(view -> {
@@ -434,7 +452,17 @@ public class Home extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         }
         else {
-            super.onBackPressed();
+
+            if (backPressedTime + 2000 > System.currentTimeMillis()) {
+                backToast.cancel();
+                super.onBackPressed();
+                return;
+            }else {
+                backToast = FancyToast.makeText(getBaseContext(), "Press back again to exit", FancyToast.LENGTH_SHORT, FancyToast.INFO, false);
+                backToast.show();
+            }
+            backPressedTime = System.currentTimeMillis();
+
         }
     }
 

@@ -547,6 +547,8 @@ public class Subjects extends AppCompatActivity {
     }
     @Override
     public boolean onSupportNavigateUp() {
+        Intent intent = new Intent(Subjects.this, Home.class);
+        startActivity(intent);
         finish();
         return true;
     }
