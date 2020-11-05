@@ -65,8 +65,8 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:src="@drawable/certificate"/>
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:fontFamily="@font/calibri"
             android:text="Certificate"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textColor="#000"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"/>
@@ -85,7 +85,7 @@
         android:layout_below="@+id/linearLayout_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:drawableLeft="@drawable/ic_round"
         android:layout_marginLeft="30dp"
         android:textSize="15sp"
@@ -95,7 +95,7 @@
     <TextView
         android:id="@+id/certificate2"
         android:layout_below="@+id/certificat1"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
@@ -116,8 +116,8 @@
         android:layout_marginTop="20dp">
 
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:src="@drawable/ic_teacher"/>
 
         <TextView
@@ -126,7 +126,7 @@
             android:text="Interest and work"
             android:fontFamily="@font/calibri"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textColor="#000"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"/>
@@ -136,7 +136,7 @@
         android:id="@+id/profession1"
         android:layout_below="@+id/linearLayout_2"
         android:layout_width="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
         android:layout_marginLeft="30dp"
@@ -149,7 +149,7 @@
         android:id="@+id/profession2"
         android:layout_below="@+id/profession1"
         android:layout_width="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
         android:layout_marginLeft="30dp"
@@ -168,8 +168,8 @@
         android:layout_marginTop="20dp">
 
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:src="@drawable/ic_contact"/>
 
         <TextView
@@ -177,7 +177,7 @@
             android:layout_height="wrap_content"
             android:text="Contact"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:fontFamily="@font/calibri"
             android:textColor="#000"
             android:layout_marginLeft="10dp"
@@ -191,7 +191,7 @@
         android:fontFamily="@font/calibri"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
         android:textSize="15sp"
         android:textColor="#000"
@@ -203,7 +203,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_round"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
         android:fontFamily="@font/calibri"
         android:textSize="15sp"
