@@ -55,7 +55,7 @@ public class FreeCourses extends AppCompatActivity {
 //            Intent intent = new Intent(getApplicationContext(), FreeCourseWeb.class);
 //            intent.putExtra("Links",urls[1]);
 //            startActivity(intent);
-            FancyToast.makeText(FreeCourses.this, "Amazon Web Services will available soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            FancyToast.makeText(FreeCourses.this, "Amazon Web Services content is not updated yet", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         });
 
         android.setOnClickListener(view -> {
@@ -64,7 +64,7 @@ public class FreeCourses extends AppCompatActivity {
 //            Intent intent = new Intent(getApplicationContext(), FreeCourseWeb.class);
 //            intent.putExtra("Links",urls[5]);
 //            startActivity(intent);
-            FancyToast.makeText(FreeCourses.this, "Android Application Development will available soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            FancyToast.makeText(FreeCourses.this, "Android Application Development content is not updated yet", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         });
 
         python.setOnClickListener(view -> {
@@ -73,7 +73,7 @@ public class FreeCourses extends AppCompatActivity {
 //            Intent intent = new Intent(getApplicationContext(), FreeCourseWeb.class);
 //            intent.putExtra("Links",urls[3]);
 //            startActivity(intent);
-            FancyToast.makeText(FreeCourses.this, "Ethical Hacking using Python will available soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            FancyToast.makeText(FreeCourses.this, "Ethical Hacking using Python content is not updated yet", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         });
 
         linux.setOnClickListener(view -> {
@@ -82,7 +82,7 @@ public class FreeCourses extends AppCompatActivity {
 //            Intent intent = new Intent(getApplicationContext(), FreeCourseWeb.class);
 //            intent.putExtra("Links",urls[4]);
 //            startActivity(intent);
-            FancyToast.makeText(FreeCourses.this, "Linux Administration will available soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            FancyToast.makeText(FreeCourses.this, "Linux Administration content is not updated yet", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         });
 
         database.setOnClickListener(view -> {
@@ -91,7 +91,7 @@ public class FreeCourses extends AppCompatActivity {
 //            Intent intent = new Intent(getApplicationContext(), FreeCourseWeb.class);
 //            intent.putExtra("Links",urls[2]);
 //            startActivity(intent);
-            FancyToast.makeText(FreeCourses.this, "Database Management System will available soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            FancyToast.makeText(FreeCourses.this, "Database Management System content is not updated yet", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         });
     }
 
