@@ -16,8 +16,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -56,8 +56,8 @@
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
-                            android:scaleType="centerInside"
                             android:layout_marginEnd="@dimen/_5sdp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/banner_img1" />
 
                     </androidx.cardview.widget.CardView>
@@ -77,6 +77,7 @@
                             android:src="@drawable/banner_img2" />
 
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -87,11 +88,12 @@
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
-                            android:scaleType="centerInside"
                             android:layout_marginEnd="@dimen/_5sdp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/banner_img3" />
 
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -102,8 +104,8 @@
                         <ImageView
                             android:layout_width="300dp"
                             android:layout_height="150dp"
-                            android:scaleType="centerInside"
                             android:layout_marginEnd="@dimen/_5sdp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/banner_img4" />
 
                     </androidx.cardview.widget.CardView>
@@ -298,8 +300,8 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:drawableLeft="@drawable/ic_person_outline_red_24dp"
                                         android:layout_gravity="right"
+                                        android:drawableLeft="@drawable/ic_person_outline_red_24dp"
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="right"
@@ -1224,7 +1226,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_s_prabakaran"/>
+                                        android:text="@string/mr_s_prabakaran" />
 
                                 </LinearLayout>
 
@@ -1513,19 +1515,19 @@
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
                     android:text="Practical Subjects (III CS)"
-                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="16dp">
 
@@ -1570,12 +1572,13 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="16dp">
@@ -1625,10 +1628,10 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="16dp">
 
@@ -1641,8 +1644,8 @@
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="60dp"
-                        android:layout_weight="25"
                         android:layout_marginStart="10dp"
+                        android:layout_weight="25"
                         android:scaleType="centerInside"
                         android:src="@drawable/php" />
 
@@ -1690,18 +1693,18 @@
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
                     android:text="Practical Subjects (II CS)"
-                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="16dp">
@@ -1718,7 +1721,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_weight="25"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cds"/>
+                        android:src="@drawable/cds" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1765,19 +1768,19 @@
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
                     android:text="Practical Subjects (I CS)"
-                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="16dp">
 
@@ -1793,7 +1796,7 @@
                         android:layout_marginRight="8dp"
                         android:layout_weight="25"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/wdc"/>
+                        android:src="@drawable/wdc" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1822,6 +1825,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1838,18 +1842,18 @@
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
                     android:text="Top Companies Free Certification Courses"
-                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="139dp"
-                app:cardCornerRadius="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="4dp">
@@ -1870,8 +1874,9 @@
                         android:src="@drawable/dm" />
 
                     <RelativeLayout
+                        android:id="@+id/certificatelayout"
                         android:layout_width="match_parent"
-                        android:layout_height="123dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="-7dp"
                         android:layout_toEndOf="@+id/dm"
                         android:orientation="vertical">
@@ -1880,6 +1885,7 @@
                             android:id="@+id/dmt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_above="@id/certificatelayout"
                             android:layout_marginBottom="4dp"
                             android:layout_toEndOf="@+id/dm"
                             android:fontFamily="@font/calibri"
@@ -1889,13 +1895,13 @@
                             tools:ignore="NotSibling" />
 
                         <TextView
+                            android:id="@+id/google"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/dmt"
                             android:layout_alignBottom="@+id/dm"
                             android:fontFamily="@font/calibri"
                             android:text="by Google"
-                            android:id="@+id/google"
                             android:textSize="14sp"
                             tools:ignore="NotSibling" />
 
@@ -1903,11 +1909,9 @@
                             android:id="@+id/enroll1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_above="@+id/viewcertificate1"
                             android:layout_below="@+id/google"
                             android:layout_alignParentEnd="true"
                             android:layout_gravity="end"
-                            android:layout_marginTop="-9dp"
                             android:layout_marginEnd="@dimen/_10sdp"
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
@@ -1923,7 +1927,6 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentBottom="true"
-                            android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_10sdp"
                             android:layout_marginBottom="15dp"
                             android:background="@drawable/blue_rounded_solid"
@@ -1955,20 +1958,20 @@
                     android:layout_weight="100"
                     android:fontFamily="@font/calibri"
                     android:text="Activity Lounge"
-                    android:textStyle="bold"
                     android:textAlignment="textStart"
                     android:textColor="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/moodleEducatie"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="4dp">
 
@@ -2041,8 +2044,8 @@
                     android:layout_marginRight="16dp"
                     android:layout_weight="50"
                     android:fontFamily="@font/calibri"
-                    android:textAlignment="center"
                     android:text="Icons and Illustrations by Iconscout"
+                    android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />

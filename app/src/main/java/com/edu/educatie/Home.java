@@ -1,3 +1,4 @@
+
 package com.edu.educatie;
 
 import android.content.Intent;
@@ -505,7 +506,10 @@ public class Home extends AppCompatActivity
             startActivity(intent);
             finish();
         }else if (id == R.id.lounge) {
-            FancyToast.makeText(Home.this, "Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[2]);
+            startActivity(intent);
+            finish();
         }else if (id == R.id.myprofile) {
             Intent intent = new Intent(getApplicationContext(), AboutDeveloper.class);
             startActivity(intent);
