@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Home"
     android:background="#F1F2F6"
-    tools:showIn="@layout/app_bar_home">
+    tools:showIn="@layout/app_bar_main">
 
     <ScrollView
         android:layout_width="match_parent"
