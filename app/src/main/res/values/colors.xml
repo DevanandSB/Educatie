@@ -5,6 +5,9 @@
     <color name="colorAccent">#ff393a</color>
     <color name="white">#FFF</color>
     <color name="textInputLayout">#96ffffff</color>
+    <color name="color_background">@color/colorAccent</color>
+    <color name="color_desire_front">#EF7374</color>
+    <color name="color_desire_font">@color/white</color>
 
     <!-- Onboarding Color-->
     <color name="blackNavy">#10101C</color>
