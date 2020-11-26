@@ -12,19 +12,34 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+import android.widget.Toast;
+
 import com.github.ybq.android.spinkit.style.ChasingDots;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.shashank.sony.fancytoastlib.FancyToast;
 
 public class HomeWeb extends AppCompatActivity {
 
     WebView courseWebView;
-
+    private long backPressedTime;
+    private Toast backToast;
     @Override
     public void onBackPressed() {
         if (courseWebView.canGoBack()) {
             courseWebView.goBack();
         } else {
-            super.onBackPressed();
+            if (backPressedTime + 2000 > System.currentTimeMillis()) {
+                backToast.cancel();
+                super.onBackPressed();
+                Intent intent = new Intent(HomeWeb.this, Home.class);
+                startActivity(intent);
+                finish();
+                return;
+            }else {
+                backToast = FancyToast.makeText(getBaseContext(), "Press back again for Home", FancyToast.LENGTH_SHORT, FancyToast.INFO, false);
+                backToast.show();
+            }
+            backPressedTime = System.currentTimeMillis();
         }
     }
 
