@@ -48,6 +48,7 @@ public class Home extends AppCompatActivity
 
         profilEmail = findViewById(R.id.profilemail);
         profileName = findViewById(R.id.profilename);
+        viewcertificate1 = findViewById(R.id.viewcertificate1);
 
         urls[0] = "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing"; //Google Digital Marketing
         urls[1] = "http://educatie.me/certificate"; //Sample Certificate
@@ -76,8 +77,9 @@ public class Home extends AppCompatActivity
         sV1 = findViewById(R.id.sV1);
 
         enroll1 = findViewById(R.id.enroll1);
-        viewcertificate1 = findViewById(R.id.viewcertificate1);
         MoodleE = findViewById(R.id.moodleEducatie);
+
+
         //Third Year
         sI3.setOnClickListener(view -> {
 

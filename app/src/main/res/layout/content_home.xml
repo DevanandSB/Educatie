@@ -1868,7 +1868,7 @@
                     <ImageView
                         android:id="@+id/dm"
                         android:layout_width="150dp"
-                        android:layout_height="85dp"
+                        android:layout_height="128dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/dm" />
@@ -1920,19 +1920,21 @@
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/viewcertificate1"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_gravity="end"-->
-<!--                            android:layout_marginEnd="@dimen/_10sdp"-->
-<!--                            android:layout_marginBottom="10dp"-->
-<!--                            android:background="@drawable/blue_rounded_solid"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:padding="@dimen/_5sdp"-->
-<!--                            android:text="Sample Certificate >"-->
-<!--                            android:textColor="@color/white"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/viewcertificate1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:layout_gravity="end"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginBottom="30dp"
+                            android:background="@drawable/border_red"
+                            android:fontFamily="@font/calibri"
+                            android:text="  Sample Certificate >  "
+                            android:textColor="@color/colorAccent"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
