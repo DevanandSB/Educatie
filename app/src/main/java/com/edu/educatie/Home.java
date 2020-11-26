@@ -92,7 +92,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., B.Ed.,";
             String place = "Tirupattur";
             String mail = "karthikp@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("department", Department);
             intent.putExtra("department1", Department);
@@ -115,7 +115,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Com., M.C.A., M.Phil.,";
             String place = "Tirupattur";
             String mail = "sagayamala@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("department", Department);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
@@ -136,7 +136,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "serlinraj@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);
@@ -157,7 +157,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "adhiyaman@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);
@@ -178,7 +178,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.C.A., M.Phil.,";
             String place = "Tirupattur";
             String mail = "mohanraj@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("department", Department);
@@ -201,7 +201,7 @@ public class Home extends AppCompatActivity
             String Department = "Department of Tamil";
             String place = "Unknown";
             String mail = "saraladevi@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("department", Department);
@@ -223,7 +223,7 @@ public class Home extends AppCompatActivity
             String qualification = "Unknown";
             String place = "Unknown";
             String mail = "unknown@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("department", Department);
             intent.putExtra("sname1", sname1);
@@ -245,7 +245,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "anandaraj@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);
@@ -266,7 +266,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.C.A., M.Phil.,";
             String place = "Tirupattur";
             String mail = "mohanraj@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("department", Department);
@@ -287,7 +287,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "serlinraj@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);
@@ -311,7 +311,7 @@ public class Home extends AppCompatActivity
             String Department = "Department of Tamil";
             String place = "Unknown";
             String mail = "unknown@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("department", Department);
@@ -332,7 +332,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.A., M.Phil.,";
             String place = "Unknown";
             String mail = "prabhakaran@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("department", Department);
             intent.putExtra("sname1", sname1);
@@ -353,7 +353,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil.,";
             String place = "Unknown";
             String mail = "saraswathi@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);
@@ -374,7 +374,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "adhiyaman@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("department", Department);
@@ -395,7 +395,7 @@ public class Home extends AppCompatActivity
             String qualification = "M.Com., M.C.A., M.Phil.,";
             String place = "Tirupattur";
             String mail = "sagayamala@shctpt.edu";
-            Intent intent = new Intent(Home.this, MyProfile.class);
+            Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
             intent.putExtra("designation", designation);

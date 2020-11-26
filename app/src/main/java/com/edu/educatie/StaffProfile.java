@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MyProfile extends AppCompatActivity {
+public class StaffProfile extends AppCompatActivity {
     TextView sName,splace,sName1,sDesignation,sQualify,sMail,sDepartment;
     Button backpress;
 
@@ -48,7 +48,7 @@ public class MyProfile extends AppCompatActivity {
         backpress.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             backpress.startAnimation(animation);
-            Intent intent = new Intent(MyProfile.this, Home.class);
+            Intent intent = new Intent(StaffProfile.this, Home.class);
             startActivity(intent);
             finish();
         });
@@ -57,14 +57,14 @@ public class MyProfile extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(MyProfile.this, Home.class);
+        Intent intent = new Intent(StaffProfile.this, Home.class);
         startActivity(intent);
         finish();
     }
 
     @Override
     public boolean onSupportNavigateUp() {
-        Intent intent = new Intent(MyProfile.this, Home.class);
+        Intent intent = new Intent(StaffProfile.this, Home.class);
         startActivity(intent);
         finish();
         return true;

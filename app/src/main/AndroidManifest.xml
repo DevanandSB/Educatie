@@ -65,7 +65,7 @@
             android:configChanges="orientation|screenSize"
             android:label="Syllabus" />
         <activity
-            android:name=".MyProfile"
+            android:name=".StaffProfile"
             android:configChanges="orientation|screenSize"
             android:label="Staff Profile" />
         <activity
