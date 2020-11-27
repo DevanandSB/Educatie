@@ -23,7 +23,7 @@
             android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".activities.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/MyAppTheme"
+            android:theme="@style/NotesAppTheme"
             android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name=".AboutDeveloper"
