@@ -1923,7 +1923,7 @@
                         <TextView
                             android:id="@+id/viewcertificate1"
                             android:layout_width="wrap_content"
-                            android:layout_height="@dimen/_25sdp"
+                            android:layout_height="wrap_content"
                             android:padding="@dimen/_5sdp"
                             android:layout_gravity="end"
                             android:paddingStart="5dp"
