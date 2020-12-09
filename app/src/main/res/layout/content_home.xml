@@ -1991,10 +1991,10 @@
                     <ImageView
                         android:id="@+id/myCourse1"
                         android:layout_width="150dp"
-                        android:layout_height="128dp"
+                        android:layout_height="140dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/mycourse1" />
+                        android:src="@drawable/linux" />
 
                     <LinearLayout
                         android:id="@+id/MyCourseCertificateLayout1"
@@ -2025,6 +2025,17 @@
                             android:layout_alignBottom="@+id/myCourse1"
                             android:fontFamily="@font/calibri"
                             android:text="by Devanand S B"
+                            android:textSize="14sp"
+                            tools:ignore="NotSibling" />
+
+                        <TextView
+                            android:id="@+id/myCoupon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/myCourse1Text"
+                            android:layout_alignBottom="@+id/myCourse1"
+                            android:fontFamily="@font/calibri"
+                            android:text="Coupon Code: Month@Year (March@2021)"
                             android:textSize="14sp"
                             tools:ignore="NotSibling" />
 
@@ -2084,7 +2095,7 @@
                     <ImageView
                         android:id="@+id/myCourse2"
                         android:layout_width="150dp"
-                        android:layout_height="128dp"
+                        android:layout_height="140dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/mycourse2" />
@@ -2118,6 +2129,17 @@
                             android:layout_alignBottom="@+id/myCourse2"
                             android:fontFamily="@font/calibri"
                             android:text="by Devanand S B"
+                            android:textSize="14sp"
+                            tools:ignore="NotSibling" />
+
+                        <TextView
+                            android:id="@+id/myCoupon2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/myCourse1Text"
+                            android:layout_alignBottom="@+id/myCourse1"
+                            android:fontFamily="@font/calibri"
+                            android:text="Coupon Code: Month@Year (March@2021)"
                             android:textSize="14sp"
                             tools:ignore="NotSibling" />
 
