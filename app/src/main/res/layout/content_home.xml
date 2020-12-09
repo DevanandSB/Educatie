@@ -2154,9 +2154,10 @@
 
                     <ImageView
                         android:id="@+id/myCourse1"
-                        android:layout_width="150dp"
-                        android:layout_height="140dp"
+                        android:layout_width="120dp"
+                        android:layout_height="93dp"
                         android:layout_marginEnd="8dp"
+                        android:layout_marginTop="20dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/linux" />
 
@@ -2212,6 +2213,7 @@
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
                             android:gravity="center"
+                            android:layout_marginTop="10dp"
                             android:padding="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:text="  Enroll >  "
@@ -2258,9 +2260,10 @@
 
                     <ImageView
                         android:id="@+id/myCourse2"
-                        android:layout_width="150dp"
-                        android:layout_height="140dp"
+                        android:layout_width="120dp"
+                        android:layout_height="93dp"
                         android:layout_marginEnd="8dp"
+                        android:layout_marginTop="20dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/mycourse2" />
 
@@ -2316,6 +2319,7 @@
                             android:background="@drawable/blue_rounded_solid"
                             android:fontFamily="@font/calibri"
                             android:gravity="center"
+                            android:layout_marginTop="10dp"
                             android:padding="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:text="  Enroll >  "
