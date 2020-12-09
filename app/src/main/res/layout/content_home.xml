@@ -2265,7 +2265,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginTop="20dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/mycourse2" />
+                        android:src="@drawable/python" />
 
                     <LinearLayout
                         android:id="@+id/MyCourseCertificateLayout2"
