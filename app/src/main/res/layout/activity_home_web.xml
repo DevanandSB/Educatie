@@ -15,13 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.github.ybq.android.spinkit.SpinKitView
-        android:id="@+id/webProgress"
-        app:SpinKit_Color="@color/colorPrimary"
-        style="@style/SpinKitView.ChasingDots"
-        android:layout_width="@dimen/_50sdp"
-        android:layout_height="@dimen/_50sdp"
-        android:layout_centerInParent="true"/>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

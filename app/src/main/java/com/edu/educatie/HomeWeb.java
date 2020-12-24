@@ -53,7 +53,7 @@ public class HomeWeb extends AppCompatActivity {
         ProgressBar webprogress = findViewById(R.id.webProgress);
         ChasingDots wave = new ChasingDots();
 
-        webprogress.setIndeterminateDrawable(wave);
+//        webprogress.setIndeterminateDrawable(wave);
 
         Intent intent = getIntent();
         String webSite = intent.getStringExtra("Links");
@@ -71,14 +71,14 @@ public class HomeWeb extends AppCompatActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                webprogress.setVisibility(View.VISIBLE);
+                showProgressDialog();
                 setTitle("Loading...");
             }
 
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                webprogress.setVisibility(View.GONE);
+                DisableProgressDialog();
                 setTitle(view.getTitle());
             }
         });
@@ -86,5 +86,13 @@ public class HomeWeb extends AppCompatActivity {
 
         WebSettings webSettings = courseWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+    }
+    private void showProgressDialog(){
+        new LottieDialogFragment().newInstance().
+                show(getSupportFragmentManager(),"");
+    }
+    private void DisableProgressDialog(){
+        new LottieDialogFragment().newInstance().dismiss();
     }
 }
