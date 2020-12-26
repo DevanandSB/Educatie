@@ -93,6 +93,6 @@ public class HomeWeb extends AppCompatActivity {
                 show(getSupportFragmentManager(),"");
     }
     private void DisableProgressDialog(){
-        new LottieDialogFragment().newInstance().dismiss();
+        new LottieDialogFragment().newInstance().isVisible();
     }
 }
