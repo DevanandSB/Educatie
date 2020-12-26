@@ -461,29 +461,21 @@ public class Subjects extends AppCompatActivity {
         I3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             I3.startAnimation(animation);
-            String SubName = "Allied Mathematics I";
+            String SubName = "Allied Mathematics II";
             String AuthorName = "Author: Kenneth H. Rosen";
             String BookName = "Book Name: Discrete Mathematics and it's Applications, Tata Mc Graw Hill Pub. Co. Ltd., New York, Tenth reprint 2006.";
 
-            String Unit1 = "Unit 1: Logic and Proofs";
-            String Unit2 = "Unit 2: Mathematical Reasoning, Induction and Recursion";
-            String Unit3 = "Unit 3: Combinatorics";
-            String Unit4 = "Unit 4: Graphs";
-            String Unit5 = "Unit 5: Modelling Computation";
+            String Unit1 = "Unit 1: Algebric and Transcedental equations";
+            String Unit2 = "Unit 2: Interpolation & Numerical Differentiation Integration";
+            String Unit3 = "Unit 3: Ordinary Differential Equations";
+            String Unit4 = "Unit 4: Probability";
+            String Unit5 = "Unit 5: Correlation & Curve Fitting";
 
-            String Content1 = "Logic - Propositional Equivalences - Predicates and Quantifiers - Nested Quantifiers - Methods of Proof. \n" +
-                    "\nChapter I: Sections 1.1 to 1.5";
-            String Content2 = "Proof Strategy - Sequences and Summations - Mathematical Induction - Recursive Definitions and Structural Induction. \n" +
-                    "\nChapter III: 3.1 to 3.4";
-            String Content3 = "The Basics of Counting - The Pigeonhole Principle - Permutations and Combinations - Binomial Coefficients - Generalised " +
-                    "Permutations and Combinations - Generating Permutations and Combinations. \n" +
-                    "\nChapter IV: Section 4.1 to 4.6";
-            String Content4 = "Introduction to Graphs - Graph Terminology - Representing Graphs and Graph Isomorphism - Connectivity - Euler and Hamilnton Paths" +
-                    "Shortest Path Problems - Trees \n" +
-                    "\nChapter VIII: Sections 8.1 to 8.6 \n" +
-                    "Chapter IX: Sections 9.1, 9.3, 9.4";
-            String Content5 = "Languages and Grammars - Finite State Machines with Output - Finite State Machines with no output - Languages Recognition. \n" +
-                    "\nChapter XI: Sections: 11.1 to 11.4";
+            String Content1 = "Solving algebraic and transcendental equations - Bisection - False position and Newton-Raphson method Solving simultaneous equations - Introduction- Gauss elimination - Finding inverse of a matrix using Gauss elimination methods - Iterative methods - Gauss-Jacobi and Gauss-Seidal methods (Problems only). (Book I, Chapter II: Sec 2: pages 82 to 85, Sec 4, 5: pages 91 to 106; Chapter IV: Sec 1,2,3: pages 113 to 126. Sec 6: pages 140 to 146).";
+            String Content2 = "Introduction - Linear Interpolation Newton Gregory forward and backward interpolation formula - Lagrange's interpolation formula - Numerical integration - Trapezoidal rule and Simpson's 1/3 rule (Problems only). (Book 1, Chapter VI: Sec 1- 4: pages 193 to 206: Chapter VIII: Sec 4: pages 253 to 262: Chapter IX: Sec 7,8: pages 280 to 284, See 10, pages 285 to 295).";
+            String Content3 = "Solving differential equations (First order differential equation only) - Solutions by Taylor's series - Euler's method - Runge-Kutta 2nd and 4th order method - Milne's predictor correct method (Problems only). (Book 1, Chapter XI: Sec 6,7: pages 336 to 341, Sec 10-15, pages 350 to 365, Sec 20, pages 371 to 380).";
+            String Content4 = "Probability - Conditional probability - Baye's theorem - Applications of Binomial, Poisson, Normal distributions (Problems only). (Book 2, Chapter 18: pages 737 to 759: Chapter 19: pages 769 to 809).";
+            String Content5 = "Correlation coefficient Rank correlation (Problems only). (Book2, Chapter 12: pages 396 to 443) Curve fitting by least square methods - Fitting a straight line, parabola, power curve and exponential curves. (No derivation, Numerical problems only) (Book I, Chapter 1: Sec 1.6-1.9, pages 24 to 44).";
 
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
@@ -510,7 +502,7 @@ public class Subjects extends AppCompatActivity {
         I4.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             I4.startAnimation(animation);
-            String SubName = "Digital Computer Fundamentals";
+            String SubName = "Computer Organisation and Architecture";
             String AuthorName = "Author: Morris M Mano - For both books";
             String BookName = "Book 1: Computer System Architecture, Prentice Hall of India Pvt.Lmt., New Delhi, 1991 \n" +
                     "Book 2: Digital Logic and Computer Design, Prentice Hall of India Pvt.Lmt., New Delhi, 2001";
