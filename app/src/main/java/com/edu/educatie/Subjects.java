@@ -20,7 +20,7 @@ public class Subjects extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_courses);
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+//        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         TextView Book, Author1;
         CardView III1, III2, III3, III4, III5;
@@ -51,7 +51,45 @@ public class Subjects extends AppCompatActivity {
 
         II1.setOnClickListener(view -> FancyToast.makeText(Subjects.this, "Feature is not Available for this Subject", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show());
 
-        II2.setOnClickListener(view -> FancyToast.makeText(Subjects.this, "Feature is not Available for this Subject", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show());
+        II2.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            II2.startAnimation(animation);
+            Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
+
+            String SubName = "English for Business Communication";
+            String Unit1 = "Unit 1";
+            String Unit2 = "Unit 2";
+            String Unit3 = "Unit 3";
+            String Unit4 = "Unit 4";
+            String Unit5 = "Unit 5";
+
+            String Content1 = "Speaking:\nFacing an interview, Tele-interviews\n\nWriting:\nApplying for Jobs, Preparing Resumes, Standard Business Letters\nProse: The Four Brothers' by Walter De La Mare Poem: The Daffodils' by William Wordsworth\nPhrasal Verbs: Starting with P, Q and R";
+
+            String Content2 = "Speaking:\nTelephone manners. Asking for information and giving information. Making Appointment, canceling and rescheduling Appointments\n\nWriting:\nWriting minutes of a meeting, writing short reports\nShort Story: A Telephonic Conversation by Samuel\nPoem: Telephone Conversation by Wole Soyinka\nVerbs: Starting with S, T and U.";
+
+            String Content3 = "Speaking:\nHandling customers/clients, receiving visitors\n\nWriting:\nThanking letters, congratulatory letters, letters, condolence letters Prose: Two Gentlemen of Verona by A.J. Cronin\nPoem: Night of the Scorpion by Nissim Ezekiel Phrasal Verbs: Starting with V, W, X, Y and Z";
+
+            String Content4 = "Speaking:\nMaking presentations\n\nWriting:\nA Project - Preparing a Project Presentation Effective Communication in Business Contexts - some principles and samples and preparing presentations\nProse: X = X + 1 Syndrome by R. K. Narayan\nPoem: All the world's a stage by William Shakespeare\nIdioms: Spirituality related";
+
+            String Content5 = "Speaking:\nNegotiating Group Discussion\n\nWriting:\nA Case study - involving group discussion and submitting a written report\nPlay: The Trial of Billy Scott' by Mazie Hall\nIdioms: Love related";
+
+
+            intent.putExtra("SubName", SubName);
+
+            intent.putExtra("Content1", Content1);
+            intent.putExtra("Content2", Content2);
+            intent.putExtra("Content3", Content3);
+            intent.putExtra("Content4", Content4);
+            intent.putExtra("Content5", Content5);
+
+            intent.putExtra("Unit1", Unit1);
+            intent.putExtra("Unit2", Unit2);
+            intent.putExtra("Unit3", Unit3);
+            intent.putExtra("Unit4", Unit4);
+            intent.putExtra("Unit5", Unit5);
+
+            startActivity(intent);
+        });
 
         II3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
@@ -59,41 +97,21 @@ public class Subjects extends AppCompatActivity {
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
             String SubName = "Allied Physics for Computer Science - I";
-            String Unit1 = "Unit 1: Active Devices";
-            String Unit2 = "Unit 2: Passive Devices";
-            String Unit3 = "Unit 3: Series and Parallel Circuits";
-            String Unit4 = "Unit 4: LASER";
-            String Unit5 = "Unit 5: Fiber Optics and Opto-Electronic Devices";
+            String Unit1 = "Unit 1: Semiconductor Devices and Applications";
+            String Unit2 = "Unit 2: Operational Amplifier and Applications";
+            String Unit3 = "Unit 3: Switching and Wave Shaping Circuits";
+            String Unit4 = "Unit 4: Communication System";
+            String Unit5 = "Unit 5: Digital Electronics";
 
-            String Content1 = "Semiconductor - Types of Semiconductor - PN junction diode - V-I Characteristics of junction diode - Zener diode" +
-                    "Zener diode - V-I characteristics of Zener diode - Bipolar Junction Transister(BJT): Types of PNP and NPN Transistor - Working of " +
-                    "NPN Tranistor - CB, CE, CC modes - Characteristics of CE mode - JFET - Construction and working of n-channel FET -  Characteristics" +
-                    "- Parameters of JFET - Advantages of JFET over BJT.";
+            String Content1 = "Diode as a rectifier: Half wave, full wave and bridge rectifiers - efficiency - ripple factor - filter circuits: capacitor filters - a filters - Zener diode as a voltage regulator - Clipping Circuit and Clamping circuits using diodes - single stage CE transistor amplifier - band width and cut off frequencies.";
 
-            String Content2 = "Resistor: \n" +
-                    "        Color coding Scheme- Types of resistors - Factors affecting resistance of a material - Specific Resistance.\n\n " +
-                    "Capacitor: \n" +
-                    "        Principle - Capacitance - Factors affecting capacitance of the capacitor- Types of Capacitor - Capacitor Coding - Series and Parallel Connection of Capacitors \n\n" +
-                    "Integrated Circuits: \n " +
-                    "        Advantages and Disadvantages - IC Classification - Fabrication of Components resistor and Capacitor on Monolithic IC's";
+            String Content2 = "Operational amplifiers - characteristics of ideal operational amplifier - CMRR - voltage gain of op amp in inverting and non-inverting modes - applications of OPAMP: Voltage Follower - Sign and Scale changer - adder - subtractor and average - Integrator and differentiator - Instrumentation amplifier";
 
-            String Content3 = "Series Circuit: \n" +
-                    "        Total resistance in a Circuit - Polarity of Voltage drop - Resistors in series and Voltage Division technique - Short Circuits - Effects of Short Circuits - " +
-                    "Detecting short circuits - Opening Circuits in series connection - Detecting Open Circuits.\n\n" +
-                    "Parallel Circuits: \n" +
-                    "        Total resistance in a parallel circuit - Polarity of Voltage drop - Resistiors in series and voltage division technique - " +
-                    "Shorts in parallel Circuits - Opens in Parallel Circuits - Applications of parallel Circuits - Fuse and Circuit breaker.\n\n" +
-                    "Series and Parallel Circuits: \n " +
-                    "        Kirchoff's law - Current  and Voltage law.";
+            String Content3 = "Operational amplifiers - characteristics of ideal operational amplifier - CMRR - voltage gain of op amp in inverting and non-inverting modes - applications of OPAMP: Voltage Follower - Sign and Scale changer - adder - subtractor and average - Integrator and differentiator - Instrumentation amplifier.";
 
-            String Content4 = "LASER - Characteristics - Stimulated absorption - Spontaneous emmsion - Stimulated emmsion - Population inversion - Einstein Coefficients for three level" +
-                    "system - Types of pumping - Principles of laser - Conditions to achive laser action - Carbondioxide laser, Helium - Neon laser, Nd:YAG laser - Semiconductor laser" +
-                    " - Applications of Lasers in industry, computer and communication fields.";
+            String Content4 = "Modulation - need for modulation - types of modulation - amplitude modulation - modulation factor - equation of an amplitude modulated wave -- frequency spectrum - bandwidth - total power of AM wave - fraction of total power carried by side bands advantages of AM - limitations of AM - frequency modulation - advantages of FM over AM - demodulation - AM diode detector AM transmitter - FM transmitter - Super heterodyne AM receiver Super heterodyne FM receiver - Multiplexing - demultiplexing.";
 
-            String Content5 = "Construction - Working principle - Light propagation in optical fibers - Acceptance angle and Numerical aperture - Classification of fibers based on Fiber Optic " +
-                    " based on materials, refractive index profile and modes - Loses in optical fibers - Application communication over conventional Communication Systems. \n" +
-                    "Light emitting diodes (LEDs) - Applications - Seven segment display - Liquid crystal display construction -  working - photo resistor - Photo diode - Photo transistor - " +
-                    "Solar cells - V-I Charcteristics.";
+            String Content5 = "Binary concept- logic gates AND, OR gates using diodes - logic gates AND, OR and NOT gates using Transistors - truth tables - NAND and NOR as Universal gates - Boolean algebra Simplification of Boolean expression and its implementation using logic gates - De Morgan's laws and their circuit implications Arithmetic circuits: types - RS flip flop - D flip flop - level Half adder Full adder- Flip Flops checking and edge triggering - J-K flip flop.";
 
 
             intent.putExtra("SubName", SubName);
@@ -118,21 +136,21 @@ public class Subjects extends AppCompatActivity {
             II4.startAnimation(animation);
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
-            String SubName = "Object Oriented Programming with C++";
-            String AuthorName = "Author: E Balagurusamy";
-            String BookName = "Book Name: Object Oriented Programming with C++, 5th Edition, McGraw Hill Education India Pvt Ltd. 2012";
+            String SubName = "Computer Graphics";
+            String AuthorName = "Author: Donald Hearn and Pauline Baker M.";
+            String BookName = "Book Name: Computer Graphics C, version 2nd Edition, Prentice Hall, 2011(Reprint)";
 
-            String Unit1 = "Unit 1: Basic Concepts";
-            String Unit2 = "Unit 2: Functions";
-            String Unit3 = "Unit 3: Classes and Objects";
-            String Unit4 = "Unit 4: Inheritance and Polymorphism";
-            String Unit5 = "Unit 5: Exception Handling and Files";
+            String Unit1 = "Unit 1: Overview of Graphics System";
+            String Unit2 = "Unit 2: 2D Transformations";
+            String Unit3 = "Unit 3: 2D Viewing and Clipping";
+            String Unit4 = "Unit 4: Graphical User Interfaces and 3D Transformations";
+            String Unit5 = "Unit 5: Visible Surface Detection Methods";
 
-            String Content1 = "Chapter 1.3 - 1.7 \nChapter 2.3, 2.6 \nChapter 3.2 - 3.6, 3.15, 3.18, 3.20, 3.25";
-            String Content2 = "Chapter 4.1 - 4.11 \nChapter 9.1 - 9.5";
-            String Content3 = "Chapter 5.4, 5.8, 5.11 - 5.15 \nChapter 6.1 - 6.11";
-            String Content4 = "Chapter 7.1 - 7.9\nChapter 8.3, 8.5 - 8.7, 8.9 & 8.10\nChapter 9.6";
-            String Content5 = "Chapter 11.1 - 11.7 \nChapter 13.1 - 13.9";
+            String Content1 = "Raster scans display - Random scan display - Graphics software - Output Primitives: Points and Lines - Line drawing algorithms: DDA Algorithm - Bresenham's Line Algorithm - Circle generating algorithm: Properties of Circles - Mid Point Circle Generation Algorithm.";
+            String Content2 = "Two Dimensioanal Transformation: Transistion - Scaling - Rotation - Homogeneous Representation - Inverse Transformation - Composite Transformation: Pivot point Rotation - fixed point scaling - Other Transformation: Reflection - Shear.";
+            String Content3 = "The Viewing pipeline - Window to Viewport coordinate Transformstion - Clipping operation - Point Clipping - line clipping: Cohen Sutherland line clipping - Polygon clipping: Sutherland Hodegeman polygon clipping.";
+            String Content4 = "he User Dialogue - Input of Graphical Data: Locator, Stroke, String, Valuator, And Choice, Pick devices - Interactive picture construction techniques - Three Dimensional Display methods: 3D Transformation.";
+            String Content5 = "Visible Surface Detection: Back Face Detection - Depth Buffer Method - A Buffer Method - Scan Line Method - Depth Sorting Method - Area Subdivision Method.";
 
             intent.putExtra("SubName", SubName);
             intent.putExtra("AuthorName", AuthorName);
@@ -158,21 +176,21 @@ public class Subjects extends AppCompatActivity {
             II5.startAnimation(animation);
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
-            String SubName = "Data Structure and Algorithms";
-            String AuthorName = "Author: Ashok N.Kamthne";
-            String BookName = "Book Name: Introduction to Data Structure in C, Pearson Education:2005 (Singapore)";
+            String SubName = "Relational Database Management System";
+            String AuthorName = "Author: Rajesh Narang";
+            String BookName = "Book Name: Database Management System, PHI Learning Private Limited, New Delhi, Fifth Printing, 2010";
 
-            String Unit1 = "Unit 1: Arrays and Linked List";
-            String Unit2 = "Unit 2: Stack and Queue";
-            String Unit3 = "Unit 3: Trees";
-            String Unit4 = "Unit 4: Searching and Sorting";
-            String Unit5 = "Unit 5: Graph";
+            String Unit1 = "Unit 1: Introduction to Database Concepts";
+            String Unit2 = "Unit 2: Storage and Relational Data Structures";
+            String Unit3 = "Unit 3: Normalization";
+            String Unit4 = "Unit 4: Structured Query Language (SQL)";
+            String Unit5 = "Unit 5: Procedural Language (PL/SQL)";
 
-            String Content1 = "Chapter 2.1 - 2.5, 2.10, 2.11 - 2.16 \nChapter 6.1, 6.4, 6.6, 6.14 - 6.24, 6.26, 6.27";
-            String Content2 = "Chapter 4.1 - 4.10 \nChapter 5.1 - 5.9";
-            String Content3 = "Chapter 8.1 - 8.3, 8.7 - 8.12";
-            String Content4 = "Chapter 11.1 - 11.4\nChapter 10.1 - 10.6";
-            String Content5 = "Chapter 9.1 - 9.6";
+            String Content1 = "Introduction : Flat File - Database System Database Advantages Architecture Database Management System as Implemented in Modern Database Packages - System Databases.\n\nThe Entity Relationship Model : Introduction - The Entity Relationship Model – Entities - Entity Sets - Relationships - Relationship Sets - Mapping Cardinalities Mapping Constraints - Keys - Roles in E-R Diagram Weak Entity Sets in E-R Diagrams - Non Binary Relationships - Combining Two E-R Diagrams - Representation of Strong and Weak Entity Sets - Linking a Weak to a Strong Entity - Breaking Higher Cardinalities into Lower Cardinalities -- Use of Entity or Relationship Sets - Generalization - Aggregation.\n\nData Models: Introduction - Relational Approach - Relational Rules The Hierarchical Approach - Hierarchical Model - The Network Approach Higher Level Operations.";
+            String Content2 = "Storage Structure : File Organization and Addressing Schemes - Sequential and Indexed Sequential Organizations - Direct Organization of File - Interface Indexing - Hashing Scheme of File Organization - Dynamic Hashing Technique - Insertion Scheme in Dynamic Hashing - B-Trees - Indexing Methods -Clustering\n\nRelational Data Structure: Introduction - Relations - Domains.";
+            String Content3 = "Normalization: Introduction - Purpose of Normalization - Normalization Definition of Functional Dependence (FD) - Normal Forms: INF, 2NF, 3NF and BCNF.";
+            String Content4 = "Creating, Dropping and Altering Tables - create table - drop table - alter table -- Inserting Rows -- Querying the Database - Simple select Statement Sub-Selects -- Aggregate Functions - String, Number and Date Functions - SET Operations - Views - create view - drop view -- Modifying the Database -- insert - update - delete Statements.";
+            String Content5 = "Data Types and Variables - Program Control Statements - null Statement - Assignment Statement - Conditional Statements -- Loops - Program Structure - Anonymous Blocks - Procedures and Functions - Stored Procedures and Functions - Packages - Triggers - Database Access using Cursors";
 
             intent.putExtra("SubName", SubName);
             intent.putExtra("AuthorName", AuthorName);
@@ -199,21 +217,21 @@ public class Subjects extends AppCompatActivity {
             III1.startAnimation(animation);
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
-            String SubName = "Programming With Java";
-            String AuthorName = "Author: S. Sagayaraj, R. Denis, P. Karthik & D. GajaLakshmi";
-            String BookName = "Book Name: Java Programming, Universities Press, 2017";
+            String SubName = "Microprocessor and its Applications";
+            String AuthorName = "Author: Triebel. et al.";
+            String BookName = "Book Name: The 8088 and 8086 Microprocessors Programming, Interfacing Software, Hardware and Applications. 4th Editions. New Delhi: Prentince Hall of the India, 2011";
 
-            String Unit1 = "Unit 1: Basics, Essentials, Control Statements And Classes & Object";
-            String Unit2 = "Unit 2: Arrays, Inheritance, Interfaces and Packages";
-            String Unit3 = "Unit 3: String & Exception Handling And Multithreading";
-            String Unit4 = "Unit 4: I/O & File Handling, Applet and GUI - I";
-            String Unit5 = "Unit 5: GUI - II And Java Database Connectivity";
+            String Unit1 = "Unit 1: Software Architecture and Machine Coding";
+            String Unit2 = "Unit 2: Microprocessor Programming - I";
+            String Unit3 = "Unit 3: Microprocessor Programming - II";
+            String Unit4 = "Unit 4: I/O Interface of the 8086 Microprocessor";
+            String Unit5 = "Unit 5: Interrupt Interface of the 8086";
 
-            String Content1 = "Chapter 1.1 - 1.8 \nChapter 2.1 - 2.12 \nChapter 3.1 - 3.16 \nChapter 4.1 - 4.15";
-            String Content2 = "Chapter 5.1 - 5.11 \nChapter 7.1 - 7.7 \nChapter 8.1 - 8.8";
-            String Content3 = "Chapter 6.1 - 6.10 \nChapter 9.1 - 9.10 \nChapter 10.1 - 10.11";
-            String Content4 = "Chapter 11.1 - 11.16 \nChapter 12.1 - 12.6 \nChapter 13.1 - 13.6";
-            String Content5 = "Chapter 14.1 - 14.4 \nChapter 16.1 - 16.6";
+            String Content1 = "Microcomputer : PC – Architecture – Microprocessor Evolution – micro architecture of the 8088/8086 - Software Model - Memory Address Space And Data Organization - Data Type - Segment Registers And Memory Segmentation - Dedicated And General Use Of Memory - Instruction Pointer - Data Registers - Pointer And Index Registers - Status Register - Generating A Memory Address - The Stack - I/O Address Space - Addressing Modes.";
+            String Content2 = "The Instruction Set Of 8086 - Data Transfer Instructions - Arithmetic Instructions - Logic Instructions - Shift Instructions - Rotate Instructions.";
+            String Content3 = "Flag Control Instructions - Compare Instructions - Control Flow and the Jump Instructions - Subroutines and Subroutine - Handling Instructions - The Loop and The Loop Handling Instructions - Strings And String - Handling Instructions.";
+            String Content4 = "8088 and 8086 Microprocessors – Minimum mode and Maximum mode systems – Minimum mode Interface Signals – Maximum mode Interface Signals –Memory Control Signals – Read and Write cycles.";
+            String Content5 = "Interrupt Mechanism, Types, and Priority – Interrupt Vector Table - Interrupts Instructions - Enabling/Disabling Of Interrupts - External Hardware Interrupt Interface -External Hardware Interrupt Sequence - 8259A Programmable Interrupt Controller -Software Interrupt - Non- Maskable Interrupt – Reset - Internal Interrupt Functions - DMA.";
 
 
             intent.putExtra("SubName", SubName);
@@ -405,7 +423,45 @@ public class Subjects extends AppCompatActivity {
 
         I1.setOnClickListener(view -> FancyToast.makeText(Subjects.this, "Feature is not Available for this Subject", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show());
 
-        I2.setOnClickListener(view -> FancyToast.makeText(Subjects.this, "Feature is not Available for this Subject", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show());
+        I2.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            I2.startAnimation(animation);
+            Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
+
+            String SubName = "English for Basic Communication";
+            String Unit1 = "Unit 1";
+            String Unit2 = "Unit 2";
+            String Unit3 = "Unit 3";
+            String Unit4 = "Unit 4";
+            String Unit5 = "Unit 5";
+
+            String Content1 = "Speaking:\nRemembering someone, persuading someone - Dialogues in the hospital\n\nWriting:\nVocabulary: Nouns - Sickness/Disease Verbs: Verbs used in Hospital.\nIdioms: of sickness and health\nGrammar: Subject Verb Agreement, Punctuation\nWriting: Using Subject Verb Agreement and Punctuation taught in the Unit.\nProse: Mohandas Gandhi by Salman Rushdie";
+
+            String Content2 = "Speaking:\nComplimenting and Congratulating, Expressing Sympathy, Dialogues at work\n\nWriting:\nVocabulary: Nouns - Various Trees and Plants Verbs: Gardening and Farming\nIdioms: of trees, plants and fruits\nGrammar: Direct and Indirect Speech. Verb Complements\nWriting: Using Direct and Indirect Speech, Verb Complements taught in the Unit\nProse: Manners and Etiquettes";
+
+            String Content3 = "Speaking: Complaining, Apologizing - Dialogues related to Transportation, Professions\n\nWriting:\nVocabulary: Nouns - Vehicles and their parts, Professions: Verbs: Related to Transportation and Professions\nIdioms: Job/Profession related\nGrammar: Conditional Statements\nWriting: Using Conditional statements taught\nShort Story: The Mountain Trail by Anil Chandra";
+
+            String Content4 = "Speaking: Making suggestions, Warning someone, Dialogues related to weather, season, etc.\n\nWriting:\nVocabulary: Nouns - Earth, Weather, Climate, Seasons and Natural Calamities\nVerbs: related to the above nouns\nIdioms: of earth, weather, climate and seasons\nGrammar: Questions, Negation, Command and Request\nWriting: Using the Questions, Negation, Command and Request taught in the Unit.\nPoem: The Road Not Taken by Robert Frost & On His Blindness by John Milton.";
+
+            String Content5 = "Speaking: Asking about possibility, asking if someone is sure and Related Dialogues on Universe, roads and traffic signals\n\nWriting:\nVocabulary: Nouns - Universe, Roads and Traffic Signals;\nVerbs: Related verbs and 1000 most frequently used verbs.\nIdioms: Universe, roads and transportation\nGrammar: Active and Passive Voice, Run-on Sentences Using Active and Passive Voice, avoiding Run-on Sentences\nDrama: Merchant of Venice by William Shakespeare - The Trial Scene.";
+
+
+            intent.putExtra("SubName", SubName);
+
+            intent.putExtra("Content1", Content1);
+            intent.putExtra("Content2", Content2);
+            intent.putExtra("Content3", Content3);
+            intent.putExtra("Content4", Content4);
+            intent.putExtra("Content5", Content5);
+
+            intent.putExtra("Unit1", Unit1);
+            intent.putExtra("Unit2", Unit2);
+            intent.putExtra("Unit3", Unit3);
+            intent.putExtra("Unit4", Unit4);
+            intent.putExtra("Unit5", Unit5);
+
+            startActivity(intent);
+        });
 
         I3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
