@@ -53,7 +53,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
                             android:fontFamily="@font/calibri"
-                            android:text="@string/programming_with_java"
+                            android:text="@string/microprocessor_and_its_applications"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -62,7 +62,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/calibri"
-                            android:text="@string/programming_paper"
+                            android:text="@string/theory_programming_paper"
                             android:textSize="14sp" />
 
                         <LinearLayout
@@ -88,7 +88,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/p_karthik"
+                                android:text="Staff Name Here"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -125,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Operating System"
+                            android:text="Web Development using XML"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -134,7 +134,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Theory Paper"
+                            android:text="@string/programming_paper"
                             android:textSize="14sp" />
 
                         <LinearLayout
@@ -147,9 +147,20 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="A. Joesphine Sagaya Mala"
+                                android:text="@string/practical"
+                                android:textAlignment="textStart"
+                                android:textColor="#1F2C77"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="50"
+                                android:fontFamily="@font/calibri"
+                                android:text="Staff Name Here"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -195,7 +206,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Software Engineering"
+                            android:text="Mobile Apps - Android Development"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -204,7 +215,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Theory Paper"
+                            android:text="@string/programming_paper"
                             android:textSize="14sp" />
 
                         <LinearLayout
@@ -256,7 +267,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Linux and Shell Programming"
+                            android:text="Programming with Python"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -265,7 +276,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming + Theory"
+                            android:text="@string/programming_paper"
                             android:textSize="14sp" />
 
                         <LinearLayout
@@ -291,7 +302,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="D. Adhiyaman"
+                                android:text="Staff Name Here"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -343,7 +354,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with PHP"
+                            android:text="Computer Networks"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -352,7 +363,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming Paper"
+                            android:text="@string/theory_paper"
                             android:textSize="14sp" />
 
                         <LinearLayout
@@ -365,22 +376,11 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="4dp"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="Practical"
-                                android:textAlignment="textStart"
-                                android:textColor="#1F2C77"
-                                android:textSize="14sp" />
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="50"
-                                android:fontFamily="@font/calibri"
-                                android:text="S. Mohanraj"
+                                android:text="@string/hod"
                                 android:textAlignment="textEnd"
-                                android:textSize="14sp" />
+                                android:textSize="13.5sp" />
 
 
                         </LinearLayout>
@@ -449,7 +449,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="பொது தமிழ் - III"
+                                android:text="பொது தமிழ் - IV"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -473,7 +473,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="M. Sarala Devi"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -510,7 +510,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="English for public communication"
+                                android:text="English for Business Communication"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -545,7 +545,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Unknown"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -591,7 +591,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Allied Physics for Computer Science I"
+                                android:text="Allied Physics for Computer Science - II"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -610,16 +610,16 @@
                                 android:layout_weight="100"
                                 android:orientation="horizontal">
 
-                                <!--                            <TextView-->
-                                <!--                                android:layout_width="0dp"-->
-                                <!--                                android:layout_height="wrap_content"-->
-                                <!--                                android:layout_marginBottom="4dp"-->
-                                <!--                                android:layout_weight="50"-->
-                                <!--                                android:fontFamily="@font/calibri"-->
-                                <!--                                android:text="2 Test"-->
-                                <!--                                android:textAlignment="textStart"-->
-                                <!--                                android:textColor="#1F2C77"-->
-                                <!--                                android:textSize="14sp" />-->
+                                                            <TextView
+                                                                android:layout_width="0dp"
+                                                                android:layout_height="wrap_content"
+                                                                android:layout_marginBottom="4dp"
+                                                                android:layout_weight="50"
+                                                                android:fontFamily="@font/calibri"
+                                                                android:text="practical"
+                                                                android:textAlignment="textStart"
+                                                                android:textColor="#1F2C77"
+                                                                android:textSize="14sp" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -663,7 +663,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Object Oriented Programming with C++"
+                                android:text="Computer Organisation and Architecture"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -672,7 +672,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="8dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Programming Paper"
+                                android:text="@string/theory_paper"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -680,7 +680,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="S. Mohanraj"
+                                android:text="Staff Name Here"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -729,7 +729,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Data Structure and Algorithms in C"
+                                android:text="Relational Database Management System"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -764,7 +764,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="M. Serlinraj"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -836,7 +836,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="பொது தமிழ் - I"
+                                android:text="பொது தமிழ் - II"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -860,7 +860,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Unknown"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -897,7 +897,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="English for public communication"
+                                android:text="English for Basic Communication"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -932,7 +932,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Unknown person"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -978,7 +978,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Allied Mathematics"
+                                android:text="Allied Mathematics - II"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -997,23 +997,12 @@
                                 android:layout_weight="100"
                                 android:orientation="horizontal">
 
-                                <!--                            <TextView-->
-                                <!--                                android:layout_width="0dp"-->
-                                <!--                                android:layout_height="wrap_content"-->
-                                <!--                                android:layout_marginBottom="4dp"-->
-                                <!--                                android:layout_weight="50"-->
-                                <!--                                android:fontFamily="@font/calibri"-->
-                                <!--                                android:text="2 Test"-->
-                                <!--                                android:textAlignment="textStart"-->
-                                <!--                                android:textColor="#1F2C77"-->
-                                <!--                                android:textSize="14sp" />-->
-
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Unknown"
+                                    android:text="Staff Name Here"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
@@ -1050,7 +1039,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Digital Computer Fundamentals"
+                                android:text="Computer Organisation and Architecture"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -1067,7 +1056,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Unknown"
+                                android:text="Staff Name Here"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -1116,7 +1105,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Web Designing Concepts"
+                                android:text="Programming in C"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -1151,7 +1140,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Unknown"
+                                    android:text="@string/hod"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
