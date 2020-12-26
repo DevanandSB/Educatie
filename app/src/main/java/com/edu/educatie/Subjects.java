@@ -256,26 +256,21 @@ public class Subjects extends AppCompatActivity {
         III2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             III2.startAnimation(animation);
-            String SubName = "Operating System";
-            String AuthorName = "Author: William Stallings";
-            String BookName = "Book Name: Operating System: Internals and Design Principles, 7th Edition, Pearson Education Inc., Fourth Impression 2016";
+            String SubName = "Web Development using XML";
+            String AuthorName = "Author: Ron schmelzer. et al.";
+            String BookName = "Book Name: XML and Web Services Unleashed, Sams Publishing, 2002";
 
-            String Unit1 = "Unit 1: Operating System Overview & Process Description";
-            String Unit2 = "Unit 2: Uniprocessor, MultiProcessor and Real-Time Scheduling";
-            String Unit3 = "Unit 3: Mutual Exclusion, Synchronization & Deadlock";
-            String Unit4 = "Unit 4: Memory Management and Virtual Memory";
-            String Unit5 = "Unit 5: I/O Management, Disk Scheduling and File Management";
+            String Unit1 = "Unit 1: Fundamentals of XML";
+            String Unit2 = "Unit 2: Validating XML with the DTD";
+            String Unit3 = "Unit 3: XML Schema";
+            String Unit4 = "Unit 4: X-path, X-link and XML for the Web";
+            String Unit5 = "Unit 5: XML DOM";
 
-            String Content1 = "Operating System Objectives and Functions - The Evolution of Operating Systems - Developments leading to Modern Operating System" +
-                    "- Process Description and Control: Control of Process - Process States - Process Description - Process Control and Security Issues";
-            String Content2 = "Type of Processor Scheduling - Scheduling Algorithms - Multiprocessor Scheduling - Real-Time Scheduling.";
-            String Content3 = "Mutual Exclusion: Hardware Support - Semaphores: Message Passing - Readers / Writers Problem - Principles of Deadlock -\" +\n" +
-                    "Deadlock Prevention - Deadlock Avoidance - Deadlock Detection";
-            String Content4 = "Memory Management Requirements - Memory Partioning - Paging - Segmentation - Security Issues - \" +\n" +
-                    "Virtual Memory: Hardware and Conrol Structures - Operating System Software";
-            String Content5 = "I/O Devices - Organisation of the I/O Function  - I/O Buffering - Disk Scheduling - File Management:\" +\n" +
-                    "Overview - File Organisation and Access - File Directories - File Sharing - Recording Blocking - Secondary Storage Management\" +\n" +
-                    " - File System Security.";
+            String Content1 = "SGML - The Beginnings of XML - Benefits of XML - Advantages of XML over SGML, HTML, Databases and Flat Files - Drawbacks of XML. XML Syntax - Document Structure - Declaration - Markup and Conetent - Elements - Attributes - Entities - Comments - Processing Instructions - Rules of XML Structure - Well Formed Valid Documents - Applying CSS Style to XML.";
+            String Content2 = "Document Type Definitions - Some Simple DTD Examples - Structure of a Document - Type Definition - DTD Attributes - DTD Entities - DTD Directives - DTD Drawbacks and Alternatives.";
+            String Content3 = "Schema Recommendation - Document - Schema for XML Document - Creating XML Schemas - Declaring Attributes - Declaring Elements - Declaring Complex Elements - Declaring Simple Types - Refining Simple Types Using Facets - Anonymous Type Declarations - Specifying Mixed Content for Elements - Annotating Schemas - Model Groups - Attribute Groups - Targeting Namespaces - \"Inheriting\" from Other Schemas.";
+            String Content4 = "XPath - Operators and Special Characters - XPath Syntax - Axes - Predicate - XPath Function. XPointer Points - Ranges - Abbreviating XPointer Notation XLink - Simple Links - Extended Links. JSON: JSON Introduction - JSON Syntax - JSON Data types - JSON Objects - JSON Schemas - JSON Comparison with XML.";
+            String Content5 = "Concept of DOM - Features of DOM - Disadvantages of Using DOM - DOM Levels - DOM Core: Parents, Children, and Siblings - DOM Interfaces - Java Bindings - Walking Through an XML Document - Creating an XML Document - DOM Traversal and Range: Traversal - Range.";
 
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
@@ -304,21 +299,21 @@ public class Subjects extends AppCompatActivity {
             III3.startAnimation(animation);
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
-            String SubName = "Software Engineering";
-            String AuthorName = "Author: Pressman, Roger S.";
-            String BookName = "Book Name: Software Engineering a Practitioner's Approach , 7th Edition , New York: McGraw Hill International Edition, 2010.";
+            String SubName = "Mobile Apps - Android Development";
+            String AuthorName = "Book 1: W. Frank Ableson, Robi Sen, Chris King, C. Enrique Ortiz, 'Android in Action', Third Edition 2012";
+            String BookName = "Book 2: Dave Maclean, Satya Komatineni, Grant Allen, 'Pro Android 5' Apress Edition 2015.";
 
-            String Unit1 = "Unit 1: Software Process";
-            String Unit2 = "Unit 2: Modeling I";
-            String Unit3 = "Unit 3: Modelling II";
-            String Unit4 = "Unit 4: Quality Management";
-            String Unit5 = "Unit 5: Managing Software Projects";
+            String Unit1 = "Unit 1: Introducing Android";
+            String Unit2 = "Unit 2: Building Basic User Interfaces and Using Controls";
+            String Unit3 = "Unit 3: Android Applications";
+            String Unit4 = "Unit 4: The Maturing Platform";
+            String Unit5 = "Unit 5: Database Operations";
 
-            String Content1 = "Chapter 1.1 - 1.6 \nChapter 2.1 - 2.6 \nChapter 3.1 - 3.4";
-            String Content2 = "Chapter 5, 6, 7 \nChapter 8.2 - 8.4";
-            String Content3 = "Chapter 9 \nChapter 10.1 - 10.3 \nChapter 10.5 - 10.7 \nChapter 11.1 - 11.4";
-            String Content4 = "Chapter 14\nChapter 16.1 - 16.3 & 16.6\nChapter 17.1 - 17.3 & 17.6 - 17.8 \nChapter 18.1 - 18.7";
-            String Content5 = "Chapter 24, 27, 28";
+            String Content1 = "Introduction - History - Versions - Features - Understanding the Android market - Android software stack - Life cycle of an Android - The layers of Android The Intent of Android development - Four kinds of Android components Understanding the AndroidManifest.xml file - Mapping applications to processes - Android development environment - Introducing the Android SDK - Exploring the development environment - Building an Android application in Eclipse Creating an Android Hello World Application - Using the Android emulator Debugging your application,";
+            String Content2 = "User Interfaces - Understanding Android's Common Controls - Adapters and List Controls -- Understanding Layout Managers - Working with Menus and Action Bars - Working with views - Intents and Services - Toast.";
+            String Content3 = "Telephony - Exploring telephony background and terms - Accessing telephony information - Interacting with the phone - Working with messaging: SMS - Notifications and alarms - Introducing Toast - Placing your Toast message - Making custom Toast view - Introducing notifications - Making a custom notification view - Introducing alarms - Graphics and animation - Drawing graphics in Android Creating animations with Android's Graphics API - Multimedia - Introducing to Multimedia and Stagefright - Playing audio - Playing video - Capturing media.";
+            String Content4 = "Location - Simulating your location within the emulator - Using Location Manager and Location Provider – Working with Maps - Converting places and addresses with Geocoder - Bluetooth and sensors - Exploring Android's Bluetooth capabilities - App Widgets – Drag and Drop Interacting with the SensorManager The drag-and-drop classes - Drag-and-drop operations - The shadow builder Drag events Starting drag operations - Listening for drag-and-drop events - Responding to drag-start operations Handling drop operations.";
+            String Content5 = "Storing and retrieving data - Creating a SQLite Database - Migrating a Database - SQLite DB: CRUD Operations. Publishing Android Application: Export android application - Google play store registration.";
 
 
             intent.putExtra("SubName", SubName);
@@ -343,21 +338,21 @@ public class Subjects extends AppCompatActivity {
         III4.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             III4.startAnimation(animation);
-            String SubName = "Linux and Shell Programming";
-            String AuthorName = "Yashavant Kanetkar.";
-            String BookName = "Unix and Shell Programming, New Dehli BPB Publisher, 1996";
+            String SubName = "Programming With Python";
+            String AuthorName = "Author Name: Chun, J Wesley.";
+            String BookName = "Core Python Programming, Third Edition, Pearson, 2012";
 
-            String Unit1 = "Unit 1: Organization";
-            String Unit2 = "Unit 2: Linux Commands";
-            String Unit3 = "Unit 3: SHELL Programming - I";
-            String Unit4 = "Unit 4: SHELL Programming - II";
-            String Unit5 = "Unit 5: System Calls";
+            String Unit1 = "Unit 1: Introduction and Overview";
+            String Unit2 = "Unit 2: Python Objects, Numbers and Strings";
+            String Unit3 = "Unit 3: Lists and Conditional Loops";
+            String Unit4 = "Unit 4: Files and Input/Output";
+            String Unit5 = "Unit 5: Errors and Exceptions";
 
-            String Content1 = "Chapter 1, 2, 3";
-            String Content2 = "Chapter 4,5,6,7,8";
-            String Content3 = "Chapter 9, 10";
-            String Content4 = "Chapter 11";
-            String Content5 = "Chapter 7.1, 7.2.1 to 7.2.6, 7.3 to 7.5, 7.8";
+            String Content1 = "Introduction, What is Python, Origin, Comparison, Comments, Operators. Variables and Assignment, Numbers, Strings, Lists and Tuples, Dictionaries, if Statement, while Loop, for Loop and the range()Built-in Function, Files and the open()-Built-in Function. Errors and Exceptions, Functions, Classes, Modules Syntax and Style Statements and Syntax, Variable Assignment, Identifiers, Basic Style Guidelines, Memory Management, Python Application Examples";
+            String Content2 = "Python Objects, Standard Types, Other Built-in Types, Internal Types Standard Type Operators. Standard Type Built-in Functions. Categorizing the Standard Types, Unsupported Types. Numbers and Strings. Introduction to Numbers, Integers, Floating Point Real Numbers, Complex Numbers. Operators, Built-in Functions. Sequences: Strings Lists, and Tuples, Sequences, Strings, Strings and Operators, String-only Operators, Built-in Functions, String Built-in Methods. Special Features of Strings";
+            String Content3 = "Operators, Built-in Functions, List Type Built-in Methods. Special Features of Lists, Tuples. Tuple Operators and Built-in Functions, Special Features of Tuples. Dictionaries : Introduction to Dictionaries, Operators, Built-in Functions, Built-in Methods, Dictionary Keys, Conditionals and Loops: if statement, else Statement, elif Statement, while Statement, for Statement. break Statement, continue Statement, pass Statement, else Statement.";
+            String Content4 = "File Objects, File Built-in Function, File Built-in Methods, File Built-in Attributes, Standard Files, Command-line Arguments, File System, File Execution, Persistent Storage Modules Regular Expressions Introduction/Motivation, Special Symbols and Characters for RES, RES and Python";
+            String Content5 = "What Are Exceptions? Exceptions in Python, Detecting and Handling Exceptions, Exceptions as Strings, Raising Exceptions, Assertions, Standard Exceptions. ProgrammingExercise: CheckfordataerrorinCSVfiles:NumericCheck, A Iphanumeric Check, Email Check, and Date Check.";
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
@@ -383,21 +378,21 @@ public class Subjects extends AppCompatActivity {
         III5.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             III5.startAnimation(animation);
-            String SubName = "Programming With PHP";
-            String AuthorName = "Julie C.Meloni, Sams.";
-            String BookName = "Teach yourself PHP, MySQL, and Apache, 4th Edition, 2008 by Sams Publishing.";
+            String SubName = "Computer Networks";
+            String AuthorName = "Behrouz A Forouzan";
+            String BookName = "Data Communication and Networking, 4th Edition, Tata McGraw-Hill Publishing Company Limited, New Delhi: 2003";
 
-            String Unit1 = "Unit 1: Fundamentals of PHP";
-            String Unit2 = "Unit 2: PHP Form";
-            String Unit3 = "Unit 3: PHP Advanced";
-            String Unit4 = "Unit 4: PHP with MySQL Database";
-            String Unit5 = "Unit 5: PHP - XML";
+            String Unit1 = "Unit 1: Data Communication";
+            String Unit2 = "Unit 2: Data Link Layer";
+            String Unit3 = "Unit 3: Network Layer";
+            String Unit4 = "Unit 4: Transport Layer";
+            String Unit5 = "Unit 5: Application Layer";
 
-            String Content1 = "Chapter 3 to 8 , 10";
-            String Content2 = "Chapter 11";
-            String Content3 = "Chapter 12, 13";
-            String Content4 = "Chapter 16";
-            String Content5 = "Chapter 28";
+            String Content1 = "Introduction: Data Communications - Networks - Network Models: Layers in the OSI Model - Addressing. Transmission Media: Guided Media - Unguided Media";
+            String Content2 = "Error Detection and Correction. Introduction - Block Coding - Linear Block Codes - Cyclic Codes: Cyclic Redundancy Check - Checksum Data Link Control: Framing - Flow and Error Control - Protocols - Noiseless Channels - Noisy Channels";
+            String Content3 = "Internet Protocol: Internetworking -- IPv4 - IPv6 - Transition from IPv4 to IPv6 - Delivery, Forwarding and Routing: Delivery- Forwarding.";
+            String Content4 = "Process-to-Process Delivery: User Datagram Protocol - TCP. Quality of service: Data Traffic - Congestion - Congestion Control - Quality of Service.";
+            String Content5 = "Domain Name System: Name Space - Domain Name Space - Distribution of Name Space - DNS in the internet - Resolution - DNS Messages Types of Records - Registrars -Dynamic Domain Name System - Encapsulation. Remote Logging - Electronic Mail - File Transfer.";
 
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
