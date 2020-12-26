@@ -48,7 +48,8 @@
     <string name="amazon_web_services">Amazon Web Services</string>
     <string name="database_management_system">Database Management System</string>
     <string name="ethical_hacking_with_python">Ethical Hacking With Python</string>
-    <string name="tamiliii">பொது தமிழ் - III</string>
+    <string name="tamilii">பொது தமிழ் - II</string>
+    <string name="tamiliv">பொது தமிழ் - IV</string>
     <string name="tamili">பொது தமிழ் - I</string>
     <string name="hod">Mrs. A. Josephine Sagaya Mala</string>
     <string name="theory_paper">Theory Paper</string>
@@ -70,11 +71,11 @@
     <string name="mr_p_karthik">Mr. P. Karthik</string>
     <string name="software_engineering">Software Engineering</string>
     <string name="english_for_basic_communication">English for Basic Communication</string>
-    <string name="allied_physics_for_computer_science_i">Allied Physics for Computer Science - I</string>
+    <string name="allied_physics_for_computer_science_ii">Allied Physics for Computer Science - II</string>
     <string name="object_oriented_programming_with_c">Object Oriented Programming with C++</string>
     <string name="data_structures_and_algorithm_in_c">Data Structures and Algorithm in C</string>
     <string name="english_for_public_communication">English for public Communication</string>
-    <string name="allied_mathematics_i">Allied Mathematics - I</string>
+    <string name="allied_mathematics_ii">Allied Mathematics - II</string>
     <string name="digital_computer_fundamentals">Digital Computer Fundamentals</string>
     <string name="web_design_concepts">Web Design Concepts</string>
     <string name="miss_d_saraswathi">Miss. D. Saraswathi</string>
@@ -97,4 +98,5 @@
     <string name="delete_note">Delete Note</string>
     <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note?</string>
     <string name="cancel">CANCEL</string>
+    <string name="microprocessor_and_its_applications">Microprocessor and its Applications</string>
 </resources>

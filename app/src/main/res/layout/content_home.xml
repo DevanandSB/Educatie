@@ -165,7 +165,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Programming with Java"
+                                android:text="Microprocessor and its Applications"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -173,7 +173,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="Programming Paper"
+                                android:text="Theory + Programming Paper"
                                 android:textColor="#000000" />
 
                             <View
@@ -202,7 +202,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="4 Hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -220,7 +220,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Mr. P. Karthik" />
+                                        android:text="Staff Name Here" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -249,7 +249,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Operating System"
+                                android:text="Web Development using XML"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -257,7 +257,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/theory_paper"
+                                android:text="@string/programming_paper"
                                 android:textColor="#000000" />
 
                             <View
@@ -287,7 +287,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -305,7 +305,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="right"
-                                        android:text="@string/hod" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -336,7 +336,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/software_engineering"
+                                android:text="Mobile Apps - Android Development"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -344,7 +344,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/theory_paper"
+                                android:text="@string/programming_paper"
                                 android:textColor="#000000" />
 
                             <View
@@ -373,7 +373,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -391,7 +391,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Mr. P. Karthik" />
+                                        android:text="Staff Name Here" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -420,93 +420,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Linux and Shell Programming"
-                                android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
-                                android:text="@string/theory_programming_paper"
-                                android:textColor="#000000" />
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginBottom="8dp"
-                                android:background="#80D1D1D1" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="100"
-                                android:orientation="horizontal">
-
-                                <LinearLayout
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="50"
-                                    android:orientation="vertical">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginBottom="4dp"
-                                        android:drawableLeft="@drawable/ic_access_time_red_24dp"
-                                        android:drawablePadding="8dp"
-                                        android:fontFamily="@font/calibri"
-                                        android:gravity="center"
-                                        android:text="@string/_3_hours" />
-
-                                </LinearLayout>
-
-                                <LinearLayout
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="50"
-                                    android:orientation="vertical">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:drawableLeft="@drawable/ic_person_outline_red_24dp"
-                                        android:drawablePadding="8dp"
-                                        android:fontFamily="@font/calibri"
-                                        android:gravity="center"
-                                        android:text="@string/mr_d_adhiyaman" />
-
-                                </LinearLayout>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-
-                    </androidx.cardview.widget.CardView>
-
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="320dp"
-                        android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="4dp"
-                        app:cardUseCompatPadding="true"
-                        app:contentPadding="8dp">
-
-                        <LinearLayout
-                            android:id="@+id/sV3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
-                                android:text="Programming With PHP"
+                                android:text="Programming with Python"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -544,7 +458,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_2_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -561,7 +475,93 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_m_sarlinraj" />
+                                        android:text="Staff Name Here" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="4dp"
+                        app:cardUseCompatPadding="true"
+                        app:contentPadding="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/sV3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:fontFamily="@font/calibri"
+                                android:text="Computer Networks"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/calibri"
+                                android:text="@string/theory_paper"
+                                android:textColor="#000000" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:background="#80D1D1D1" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="100"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="4dp"
+                                        android:drawablePadding="8dp"
+                                        android:fontFamily="@font/calibri"
+                                        android:gravity="center"
+                                        android:text="@string/_2_hours"
+                                        app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/ic_person_outline_red_24dp"
+                                        android:drawablePadding="8dp"
+                                        android:fontFamily="@font/calibri"
+                                        android:gravity="center"
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -625,7 +625,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/tamiliii"
+                                android:text="@string/tamiliv"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -662,7 +662,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -680,7 +680,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/dr_m_sarala_devi" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -710,7 +710,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="English for public Communication"
+                                android:text="English for Business Communication"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -748,7 +748,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -765,7 +765,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Mr. M L" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -796,7 +796,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/allied_physics_for_computer_science_i"
+                                android:text="@string/allied_physics_for_computer_science_ii"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -833,7 +833,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -880,7 +880,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Object Oriented Programming with C++"
+                                android:text="Computer Graphics"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -888,7 +888,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/theory_programming_paper"
+                                android:text="@string/theory_paper"
                                 android:textColor="#000000" />
 
                             <View
@@ -918,7 +918,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_2_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -934,7 +934,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_s_mohanraj"
+                                        android:text="Staff Name Here"
                                         app:drawableLeftCompat="@drawable/ic_person_outline_red_24dp" />
 
                                 </LinearLayout>
@@ -966,7 +966,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Data Structure and Algorithms in C"
+                                android:text="Relational Database Management System"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -1004,7 +1004,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -1021,7 +1021,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_m_sarlinraj" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -1086,7 +1086,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/tamili"
+                                android:text="@string/tamilii"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -1123,7 +1123,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -1141,7 +1141,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Mr B M" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -1209,7 +1209,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -1226,7 +1226,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_s_prabakaran" />
+                                        android:text="Staff Name Here" />
 
                                 </LinearLayout>
 
@@ -1257,7 +1257,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="@string/allied_mathematics_i"
+                                android:text="@string/allied_mathematics_ii"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -1294,7 +1294,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours"
+                                        android:text="__ Hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -1341,7 +1341,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Digital Computer Fundamentals"
+                                android:text="Computer Organisation and Architecture"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -1379,7 +1379,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_2_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -1395,7 +1395,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/mr_s_mohanraj"
+                                        android:text="Staff Name Here"
                                         app:drawableLeftCompat="@drawable/ic_person_outline_red_24dp" />
 
                                 </LinearLayout>
@@ -1427,7 +1427,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Web Designing Concepts"
+                                android:text="Programming with C"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="16sp" />
 
@@ -1465,7 +1465,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_3_hours" />
+                                        android:text="__ Hours" />
 
                                 </LinearLayout>
 
@@ -1552,7 +1552,7 @@
                         android:layout_height="60dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/java" />
+                        android:src="@drawable/processor" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -1565,7 +1565,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with Java"
+                            android:text="@string/microprocessor_and_its_applications"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1573,7 +1573,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. P. Karthik"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1599,7 +1599,7 @@
                         android:layout_height="60dp"
                         android:layout_marginRight="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/linux" />
+                        android:src="@drawable/xml" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1613,7 +1613,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Linux and Shell Programming"
+                            android:text="Web Development using XML"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1621,7 +1621,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. D. Adhiyaman"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1649,7 +1649,7 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/php" />
+                        android:src="@drawable/python" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1663,7 +1663,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with PHP"
+                            android:text="Programming with Python"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1671,7 +1671,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. S. Mohanraj"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1734,7 +1734,7 @@
                         android:layout_height="60dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/java" />
+                        android:src="@drawable/rdbms" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -1747,7 +1747,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with Java"
+                            android:text="Relational Database Management System"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1755,7 +1755,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. P. Karthik"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1781,7 +1781,7 @@
                         android:layout_height="60dp"
                         android:layout_marginRight="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/linux" />
+                        android:src="@drawable/physics" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1795,7 +1795,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Linux and Shell Programming"
+                            android:text="Allied Physics"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1803,7 +1803,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. D. Adhiyaman"
+                            android:text="Mr. L. Anandaraj"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1831,7 +1831,7 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="10dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/php" />
+                        android:src="@drawable/english" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1845,7 +1845,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with PHP"
+                            android:text="English for Business Communication"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1853,7 +1853,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. S. Mohanraj"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1916,7 +1916,7 @@
                         android:layout_height="60dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/java" />
+                        android:src="@drawable/c" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -1929,7 +1929,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Programming with Java"
+                            android:text="Programming with C"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1937,7 +1937,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. P. Karthik"
+                            android:text="@string/hod"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1963,7 +1963,7 @@
                         android:layout_height="60dp"
                         android:layout_marginRight="8dp"
                         android:scaleType="centerInside"
-                        android:src="@drawable/linux" />
+                        android:src="@drawable/english" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -1977,7 +1977,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Linux and Shell Programming"
+                            android:text="English for Basic Communication"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
@@ -1985,7 +1985,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="Mr. D. Adhiyaman"
+                            android:text="Staff Name Here"
                             android:textSize="14sp" />
                     </LinearLayout>
 
