@@ -1795,7 +1795,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Allied Physics"
+                            android:text="Allied Physics for Computer Science"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 

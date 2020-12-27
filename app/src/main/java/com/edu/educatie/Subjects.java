@@ -503,27 +503,20 @@ public class Subjects extends AppCompatActivity {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             I4.startAnimation(animation);
             String SubName = "Computer Organisation and Architecture";
-            String AuthorName = "Author: Morris M Mano - For both books";
-            String BookName = "Book 1: Computer System Architecture, Prentice Hall of India Pvt.Lmt., New Delhi, 1991 \n" +
-                    "Book 2: Digital Logic and Computer Design, Prentice Hall of India Pvt.Lmt., New Delhi, 2001";
+            String AuthorName = "Author: Morris Mano M";
+            String BookName = "Computer System Architecture, New Delhi: Prentice Hall of India Private Limited, 2011";
 
-            String Unit1 = "Unit 1: Number System and Binary Arithmetic's";
-            String Unit2 = "Unit 2: Logic Gates and Boolean Algebra";
-            String Unit3 = "Unit 3: Map Simplification";
-            String Unit4 = "Unit 4: Combinational Circuits";
-            String Unit5 = "Unit 5: Flip Flops and Sequential Circuits";
+            String Unit1 = "Unit 1: Computer Organisation and Design";
+            String Unit2 = "Unit 2: Micro Program Control";
+            String Unit3 = "Unit 3: Central Processor Unit";
+            String Unit4 = "Unit 4: Input/Output Organisation";
+            String Unit5 = "Unit 5: Memory Organisation";
 
-            String Content1 = "Digital Computer and Digital System - Number System: Number Systems - Binary, Octal, Decimal and Hexadecimal" +
-                    " - Conversion from one to another. Characters and Codes: BCD, ASCII, 2421 Code, Excess 3 code, Gray Code. Binary Arithmetic's: " +
-                    "Binary Addition, Subtraction, Multiplication, Division. Complements: n's and n-1's Complements.";
-            String Content2 = "Logic Gates: AND, OR, NOT, NOR, NAND, XOR, XNOR Gates - Logic Circuits and Boolean Algebra and Boolean Laws and Theorems " +
-                    "De Morgan's Theorems - Duality Theorem.";
-            String Content3 = "Simplification of Sum of Product and Product of Sum of Expressions - Karnaugh Map and Simplifications: " +
-                    "Three Variable Maps, Four Variable Maps - Don't Care Condition.";
-            String Content4 = "Combinational Circuits: Half and Full Adders - Half Subtractor and Full Subtractor - Encoders and Decoders - Multiplexers " +
-                    "- Demultiplexers.";
-            String Content5 = "Sequential Logic Design: Flip Flops - SR, JK, D and T Flip-Flops - Edge Triggered Flip-Flop - Master-Slave Flip-Flop - Shift " +
-                    "Registers - Counters";
+            String Content1 = "Instruction Codes - Computer Registers - Computer Instructions - Timing and Control -- Instruction Cycle - Memory Reference Instructions - Input-Output and Interrupts.";
+            String Content2 = "Control Memory - Address Sequencing - Micro program Examples -- Design of Control Unit.";
+            String Content3 = "Introduction - General Register Organization - Stack Prganization - Instruction Formats - Addressing Modes.";
+            String Content4 = "Peripheral Devices - I/O interface - Asynchronous Data Transfer Modes of Transfer - Direct Memory Access - Input Output.";
+            String Content5 = "Memory Hierarchy - Main Memory - Auxiliary Memory Associative Memory - Cache Memory - Virtual Memory.";
 
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
@@ -550,21 +543,21 @@ public class Subjects extends AppCompatActivity {
         I5.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             I5.startAnimation(animation);
-            String SubName = "Web Design Concepts";
-            String AuthorName = "Author: Jon Ducktt.";
-            String BookName = "Book Name: Web Programming with HTML, CSS and JAVASCRIPT, Wiley Publishing, 2005.";
+            String SubName = "Programming With C";
+            String AuthorName = "Author: E. Balagurusamy";
+            String BookName = "Book Name: Programming in ANSI C, Seventh Edition, McGraw Hill Education Private Limited, New Delhi:2017";
 
-            String Unit1 = "Unit 1: HTML Basics, Formatting Tags and Lists";
-            String Unit2 = "Unit 2: Links, Images and Tables";
-            String Unit3 = "Unit 3: Frames and Forms";
-            String Unit4 = "Unit 4: Cascading Style Sheet - I";
-            String Unit5 = "Unit 5: Cascading Style Sheet - II";
+            String Unit1 = "Unit 1: Data types, Operators and Structures";
+            String Unit2 = "Unit 2: Arrays and Function";
+            String Unit3 = "Unit 3: Pointers";
+            String Unit4 = "Unit 4: Storage Classes, Structures and Unions";
+            String Unit5 = "Unit 5: File Management in C";
 
-            String Content1 = "Chapter 1";
-            String Content2 = "Chapter 2, 3 & 4";
-            String Content3 = "Chapter 5, 6";
-            String Content4 = "Chapter 7";
-            String Content5 = "Chapter 8";
+            String Content1 = "Structure of a C program – Basic data types (int, float, char, double, void) – constants and variables (variable declaration, integer, real,float, character, variables) – operators and expressions (arithmetic operators, relational operators, logical operators, bitwise operators, type casting, type conversion, enumerated data type, typedef) – Control Constructs (if, switch, while, do…while, for, break and continue, exit() function, goto and label).";
+            String Content2 = "Arrays (declaration, one and two dimensional arrays) - Character Arrays and Strings. Function Fundamentals (General form, Function Definition, Function arguments, return value) – Parameter passing: call-by-value and call-by-reference – Recursion – Passing Arrays to Function – Passing Strings to Function.";
+            String Content3 = "Understanding Pointers – Accessing the Address of a Variable – Declaring the Pointer Variables – Initialization of Pointer Variables – Accessing a Variable through its Pointer – Pointer Expressions – Pointers and Arrays – Pointers and Character Strings – Array of Pointers – Pointers as Function Arguments – Functions returning Pointers – Pointers to Functions..";
+            String Content4 = "Scope rules (Local variables and global variables, scope rules of functions) -Type modifiers and storage class specifiers.\n\nStructures – Basics of Structure – Declaring of Structure – Referencing Structure elements - Array of Structures – Nesting of Structures - Passing Structures to function – Pointers and Structures - Unions";
+            String Content5 = "Introduction – Defining and Opening a File – Closing a File – Input / Output - Operations on Files – Command Line Arguments";
 
 
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
