@@ -1,4 +1,3 @@
-
 package com.edu.educatie;
 
 import android.content.Intent;
