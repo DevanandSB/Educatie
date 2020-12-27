@@ -34,10 +34,11 @@ public class Home extends AppCompatActivity
     LinearLayout sI2, sII2, sIII2, sIV2, sV2;
     LinearLayout sI1, sII1, sIII1, sIV1, sV1;
     CardView MoodleE;
+    TextView enrollLinux, enrollPython, certiLinux, certiPython;
 
     private long backPressedTime;
     private Toast backToast;
-    String[] urls = new String[3];
+    String[] urls = new String[7];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,8 +52,12 @@ public class Home extends AppCompatActivity
         viewcertificate1 = findViewById(R.id.viewcertificate1);
 
         urls[0] = "https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing"; //Google Digital Marketing
-        urls[1] = "http://educatie.me/certificate"; //Sample Certificate
-        urls[2] = "http://educatie.me/CS/login/index.php"; //Moodle
+        urls[1] = "https://educatie.me/certificate"; //Sample Certificate
+        urls[2] = "https://educatie.me/CS/login/index.php"; //Moodle
+        urls[3] = "https://educatie.me/linuxCerti"; //Linux Udemy Certificate
+        urls[4] = "https://educatie.me/pythonCerti"; //Python Udemy Certificate
+        urls[5] = "https://www.udemy.com/course/linux-operating-system-for-beginners-in-tamil/"; //Linux Udemy Certificate
+        urls[6] = "https://www.udemy.com/course/python-programming-with-real-life-example/";
         FloatingActionButton fab = findViewById(R.id.fab);
 
         //Third Year
@@ -78,6 +83,11 @@ public class Home extends AppCompatActivity
 
         enroll1 = findViewById(R.id.enroll1);
         MoodleE = findViewById(R.id.moodleEducatie);
+
+        enrollLinux = findViewById(R.id.myeCourseEnroll1);
+        certiLinux = findViewById(R.id.myCourseViewCertificate1);
+        enrollPython = findViewById(R.id.myeCourseEnroll2);
+        certiPython = findViewById(R.id.myCourseViewCertificate2);
 
 
         //Third Year
@@ -407,6 +417,8 @@ public class Home extends AppCompatActivity
             finish();
         });
 
+
+
         MoodleE.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             MoodleE.startAnimation(animation);
@@ -416,6 +428,42 @@ public class Home extends AppCompatActivity
             finish();
         });
 
+
+        enrollLinux.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            enrollLinux.startAnimation(animation);
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[5]);
+            startActivity(intent);
+            finish();
+        });
+
+        certiLinux.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            certiLinux.startAnimation(animation);
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[3]);
+            startActivity(intent);
+            finish();
+        });
+
+        enrollPython.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            enrollPython.startAnimation(animation);
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[6]);
+            startActivity(intent);
+            finish();
+        });
+
+        certiPython.setOnClickListener(view -> {
+            Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
+            certiPython.startAnimation(animation);
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[4]);
+            startActivity(intent);
+            finish();
+        });
 
         enroll1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);

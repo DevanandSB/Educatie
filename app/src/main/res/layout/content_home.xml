@@ -1582,7 +1582,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
@@ -1630,7 +1630,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
@@ -1764,7 +1764,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
@@ -1812,7 +1812,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
@@ -1946,7 +1946,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
@@ -2426,7 +2426,7 @@
                             android:layout_below="@id/lmsd"
                             android:fontFamily="@font/calibri"
                             android:paddingBottom="@dimen/_4sdp"
-                            android:text="Site name: educatie.me/lms"
+                            android:text="Site name: educatie.me/CS or shccs.me"
                             android:textColor="@color/colorAccent"
                             android:textSize="14sp" />
 
