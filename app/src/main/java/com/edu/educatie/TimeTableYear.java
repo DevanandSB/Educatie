@@ -26,7 +26,7 @@ public class TimeTableYear extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timetable_year);
         //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+//        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         Iyear = findViewById(R.id.Iexam);
         IIyear = findViewById(R.id.IIexam);

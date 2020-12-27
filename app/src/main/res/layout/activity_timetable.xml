@@ -190,102 +190,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4I"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4I"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4I"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4I"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5I"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5I"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5I"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5I"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
 
@@ -448,102 +448,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4II"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4II"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4II"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4II"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5II"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5II"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5II"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5II"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
             <LinearLayout
@@ -705,102 +705,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4III"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4III"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4III"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4III"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5III"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5III"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5III"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5III"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
             <LinearLayout
@@ -962,102 +962,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4IV"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4IV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4IV"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4IV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5IV"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5IV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5IV"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5IV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
             <LinearLayout
@@ -1219,102 +1219,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4V"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4V"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4V"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4V"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5V"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5V"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5V"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5V"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
             <LinearLayout
@@ -1476,102 +1476,102 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject4VI"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Linux and Shell Programming"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject4VI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Linux and Shell Programming"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher4VI"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. P. Karthik"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher4VI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. P. Karthik"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="4.10PM to 5.00PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="4.10PM to 5.00PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:cardCornerRadius="4dp"-->
-<!--                app:cardElevation="4dp"-->
-<!--                app:cardUseCompatPadding="true"-->
-<!--                app:contentPadding="16dp">-->
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-<!--                    <LinearLayout-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginLeft="8dp"-->
-<!--                        android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="vertical">
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/subject5VI"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="4dp"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Programming with PHP"-->
-<!--                            android:textColor="#000000"-->
-<!--                            android:textSize="16sp" />-->
+                        <TextView
+                            android:id="@+id/subject5VI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/calibri"
+                            android:text="Programming with PHP"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/teacher5VI"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="Mr. S. Mohanraj"-->
-<!--                            android:textSize="14sp" />-->
+                        <TextView
+                            android:id="@+id/teacher5VI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="Mr. S. Mohanraj"
+                            android:textSize="14sp" />
 
-<!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:fontFamily="@font/calibri"-->
-<!--                            android:text="5.00PM to 5.45PM"-->
-<!--                            android:textSize="14sp" />-->
-<!--                    </LinearLayout>-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:text="5.00PM to 5.45PM"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-<!--                </LinearLayout>-->
+                </LinearLayout>
 
-<!--            </androidx.cardview.widget.CardView>-->
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>

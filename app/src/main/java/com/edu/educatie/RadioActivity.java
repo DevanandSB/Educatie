@@ -30,26 +30,26 @@ public class RadioActivity extends AppCompatActivity {
         show.setOnClickListener(view -> {
             if(I.isChecked())
             {
-                String CAI1s = "பொது தமிழ் - I";
+                String CAI1s = "பொது தமிழ் - II";
                 String CAI1t = "Mr. Unknown";
-                String CAI2s = "English for General Communication";
+                String CAI2s = "English for Basic Communication";
                 String CAI2t = "Mr. Unknown";
-                String CAI3s = "Allied Mathematics - I";
+                String CAI3s = "Allied Mathematics - II";
                 String CAI3t = "Mr. Unknown";
-                String CAI4s = "Digital Computer Fundamentals";
+                String CAI4s = "Computer Organisation and Architecture";
                 String CAI4t = "Mr. Unknown";
-                String CAI5s = "Web Design Concepts";
+                String CAI5s = "Programming With C";
                 String CAI5t = "Mr. Unknown";
 
-                String CAII1s = "பொது தமிழ் - I";
+                String CAII1s = "பொது தமிழ் - II";
                 String CAII1t = "Mr. Unknown";
-                String CAII2s = "English for General Communication";
+                String CAII2s = "English for Basic Communication";
                 String CAII2t = "Mr. Unknown";
-                String CAII3s = "Allied Mathematics - I";
+                String CAII3s = "Allied Mathematics - II";
                 String CAII3t = "Mr. Unknown";
-                String CAII4s = "Digital Computer Fundamentals";
+                String CAII4s = "Computer Organisation and Architecture";
                 String CAII4t = "Mr. Unknown";
-                String CAII5s = "Web Design Concepts";
+                String CAII5s = "Programming with C";
                 String CAII5t = "Mr. Unknown";
 
                 Intent intent = new Intent(getApplicationContext(), Exams.class);
@@ -80,27 +80,27 @@ public class RadioActivity extends AppCompatActivity {
             }
             if(II.isChecked())
             {
-                String CAI1s = "பொது தமிழ் - III";
+                String CAI1s = "பொது தமிழ் - IV";
                 String CAI1t = "Dr. M. Sarala Devi";
-                String CAI2s = "English for Public Communication";
+                String CAI2s = "English for Business Communication";
                 String CAI2t = "Mr. Unknown";
-                String CAI3s = "Allied Physics for Computer Science - I";
+                String CAI3s = "Allied Physics for Computer Science - II";
                 String CAI3t = "Mr. L. Anandaraj";
-                String CAI4s = "Object Oriented Programming with C++";
-                String CAI4t = "Mr. S. Mohanraj ";
-                String CAI5s = "Data Structure and Algorithms";
-                String CAI5t = "Mr. M. Sarlinraj";
+                String CAI4s = "Computer Graphics";
+                String CAI4t = "Mr. Unknown ";
+                String CAI5s = "Relational Database Management System";
+                String CAI5t = "Mr. Unknown";
 
-                String CAII1s = "பொது தமிழ் - III";
-                String CAII1t = "Dr. M. Sarala Devi";
-                String CAII2s = "English for Public Communication";
+                String CAII1s = "பொது தமிழ் - IV";
+                String CAII1t = "Dr. Unknown";
+                String CAII2s = "English for Business Communication";
                 String CAII2t = "Mr. Unknown";
-                String CAII3s = "Allied Physics for Computer Science - I";
+                String CAII3s = "Allied Physics for Computer Science - II";
                 String CAII3t = "Mr. L. Anandaraj";
-                String CAII4s = "Object Oriented Programming with C++";
-                String CAII4t = "Mr. S. Mohanraj";
-                String CAII5s = "DataStructure and Algorithms";
-                String CAII5t = "Mr. M. Sarlinraj";
+                String CAII4s = "Computer Graphics";
+                String CAII4t = "Mr. Unknown";
+                String CAII5s = "Relational Database Management System";
+                String CAII5t = "Mr. Unknown";
 
                 Intent intent = new Intent(getApplicationContext(), Exams.class);
 
@@ -130,27 +130,27 @@ public class RadioActivity extends AppCompatActivity {
             }
             if(III.isChecked())
             {
-                String CAI1s = "Programming with Java";
-                String CAI1t = "Mr. P. Karthik";
-                String CAI2s = "Operating System";
-                String CAI2t = "Mrs. A. Josephine Sagaya Mala";
-                String CAI3s = "Software Engineering";
-                String CAI3t = "Mr. M. Sarlinraj";
-                String CAI4s = "Linux and Shell Programming";
-                String CAI4t = "Mr. D. Adhiyaman";
-                String CAI5s = "Programming with PHP";
-                String CAI5t = "Mr. S. Mohanraj";
+                String CAI1s = "Microprocessor and its Applications";
+                String CAI1t = "Mr. Unknown";
+                String CAI2s = "Web Development using XML";
+                String CAI2t = "Mr Unknown";
+                String CAI3s = "Mobile Apps - Android Development";
+                String CAI3t = "Mr. P. Karthik";
+                String CAI4s = "Programming with Python";
+                String CAI4t = "Mr. Unknown";
+                String CAI5s = "Computer Networks";
+                String CAI5t = "Mrs. A. Josephine Sagaya Mala";
 
-                String CAII1s = "Programming with Java";
-                String CAII1t = "Mr. P. Karthik";
-                String CAII2s = "Operating System";
-                String CAII2t = "Mrs. A. Josephine Sagaya Mala";
-                String CAII3s = "Software Engineering";
-                String CAII3t = "Mr. M. Sarlinraj";
-                String CAII4s = "Linux and Shell Programming";
-                String CAII4t = "Mr. D. Adhiyaman";
-                String CAII5s = "Programming with PHP";
-                String CAII5t = "Mr. S. Mohanraj";
+                String CAII1s = "Microprocessor and its Application";
+                String CAII1t = "Mr. Unknown";
+                String CAII2s = "Web Development using XML";
+                String CAII2t = "Mr. Unknown";
+                String CAII3s = "Mobile Apps - Android Development";
+                String CAII3t = "Mr. P. Karthik";
+                String CAII4s = "Programming With Python";
+                String CAII4t = "Mr. Unknown";
+                String CAII5s = "Computer Networks";
+                String CAII5t = "Mrs. A. Josephine Sagaya Mala";
 
                 Intent intent = new Intent(getApplicationContext(), Exams.class);
 
