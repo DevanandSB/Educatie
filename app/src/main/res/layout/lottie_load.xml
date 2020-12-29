@@ -7,10 +7,12 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/progressAnimationView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         app:lottie_autoPlay="true"
         app:lottie_fileName="loading.json"
+        app:lottie_repeatMode="reverse"
+        app:lottie_repeatCount="3"
         app:lottie_loop="true"
         android:layout_centerInParent="true"/>
 

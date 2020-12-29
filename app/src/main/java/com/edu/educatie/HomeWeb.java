@@ -14,6 +14,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.github.ybq.android.spinkit.style.ChasingDots;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.shashank.sony.fancytoastlib.FancyToast;
@@ -23,6 +24,7 @@ public class HomeWeb extends AppCompatActivity {
     WebView courseWebView;
     private long backPressedTime;
     private Toast backToast;
+
     @Override
     public void onBackPressed() {
         if (courseWebView.canGoBack()) {
@@ -78,7 +80,6 @@ public class HomeWeb extends AppCompatActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                DisableProgressDialog();
                 setTitle(view.getTitle());
             }
         });
@@ -89,10 +90,7 @@ public class HomeWeb extends AppCompatActivity {
 
     }
     private void showProgressDialog(){
-        new LottieDialogFragment().newInstance().
+        LottieDialogFragment.newInstance().
                 show(getSupportFragmentManager(),"");
-    }
-    private void DisableProgressDialog(){
-        new LottieDialogFragment().newInstance().isVisible();
     }
 }
