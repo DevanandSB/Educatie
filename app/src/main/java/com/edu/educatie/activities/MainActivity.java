@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.biometric.BiometricManager;
+import androidx.biometric.BiometricPrompt;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
@@ -31,6 +33,8 @@ import android.widget.ImageView;
 
 import com.edu.educatie.Home;
 import com.edu.educatie.R;
+import com.edu.educatie.StaffProfile;
+import com.edu.educatie.Subjects;
 import com.edu.educatie.adapters.NotesAdapter;
 import com.edu.educatie.database.NotesDatabase;
 import com.edu.educatie.entities.Note;
@@ -39,6 +43,7 @@ import com.shashank.sony.fancytoastlib.FancyToast;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executor;
 
 @SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity implements NotesListener {
@@ -69,6 +74,51 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        BiometricManager biometricManager = BiometricManager.from(this);
+
+        switch (biometricManager.canAuthenticate()) {
+            case BiometricManager.BIOMETRIC_SUCCESS:
+                break;
+            case BiometricManager.BIOMETRIC_ERROR_NO_HARDWARE:
+                break;
+            case BiometricManager.BIOMETRIC_ERROR_HW_UNAVAILABLE:
+                break;
+            case BiometricManager.BIOMETRIC_ERROR_NONE_ENROLLED:
+                break;
+        }
+
+        Executor executor = ContextCompat.getMainExecutor(this);
+        BiometricPrompt biometricPrompt = new BiometricPrompt(this, executor, new BiometricPrompt.AuthenticationCallback() {
+            @Override
+            public void onAuthenticationError(int errorCode, @NonNull CharSequence errString) {
+                super.onAuthenticationError(errorCode, errString);
+                Intent intent = new Intent(MainActivity.this, Home.class);
+                startActivity(intent);
+                finish();
+            }
+
+            @Override
+            public void onAuthenticationSucceeded(@NonNull BiometricPrompt.AuthenticationResult result) {
+                super.onAuthenticationSucceeded(result);
+                FancyToast.makeText(MainActivity.this, "Login Successful.", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
+            }
+
+            @Override
+            public void onAuthenticationFailed() {
+                super.onAuthenticationFailed();
+//
+            }
+        });
+
+        BiometricPrompt.PromptInfo promptInfo = new BiometricPrompt.PromptInfo.Builder()
+                .setTitle("Educatie")
+                .setSubtitle("Confirm Fingerprint to continue")
+                .setNegativeButtonText("Cancel")
+                .build();
+
+        biometricPrompt.authenticate(promptInfo);
+
 
         ImageView imageAddNoteMain = findViewById(R.id.imageAddNoteMain);
         imageAddNoteMain.setOnClickListener(new View.OnClickListener() {
@@ -120,9 +170,9 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
         findViewById(R.id.imageAddImage).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(MainActivity.this,new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_CODE_STORAGE_PERMISSION);
-                }else {
+                if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_CODE_STORAGE_PERMISSION);
+                } else {
                     selectImage();
                 }
             }
@@ -138,7 +188,7 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
 
     private void selectImage() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        if(intent.resolveActivity(getPackageManager()) != null) {
+        if (intent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(intent, REQUEST_CODE_SELECT_IMAGE);
         }
     }
@@ -147,21 +197,21 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == REQUEST_CODE_STORAGE_PERMISSION && grantResults.length > 0) {
-            if(grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 selectImage();
-            }else {
+            } else {
                 FancyToast.makeText(MainActivity.this, "Sorry, Permission Denied", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
 
             }
         }
     }
 
-    private  String getPathFromUri(Uri contentUri) {
+    private String getPathFromUri(Uri contentUri) {
         String filePath;
-        Cursor cursor = getContentResolver().query(contentUri, null,null,null,null);
-        if(cursor == null) {
+        Cursor cursor = getContentResolver().query(contentUri, null, null, null, null);
+        if (cursor == null) {
             filePath = contentUri.getPath();
-        }else {
+        } else {
             cursor.moveToFirst();
             int index = cursor.getColumnIndex("_data");
             filePath = cursor.getString(index);
@@ -190,19 +240,19 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             @Override
             protected void onPostExecute(List<Note> notes) {
                 super.onPostExecute(notes);
-                if(requestCode == REQUEST_CODE_SHOW_NOTES) {
+                if (requestCode == REQUEST_CODE_SHOW_NOTES) {
                     noteList.addAll(notes);
                     notesAdapter.notifyDataSetChanged();
-                }else if(requestCode == REQUEST_CODE_ADD_NOTE) {
-                    noteList.add(0,notes.get(0));
+                } else if (requestCode == REQUEST_CODE_ADD_NOTE) {
+                    noteList.add(0, notes.get(0));
                     notesAdapter.notifyItemInserted(0);
                     notesRecyclerView.smoothScrollToPosition(0);
-                }else if(requestCode == REQUEST_CODE_UPDATE_NOTE) {
+                } else if (requestCode == REQUEST_CODE_UPDATE_NOTE) {
                     noteList.remove(noteClickedPostion);
 
-                    if(isNoteDeleted) {
+                    if (isNoteDeleted) {
                         notesAdapter.notifyItemRemoved(noteClickedPostion);
-                    }else {
+                    } else {
                         noteList.add(noteClickedPostion, notes.get(noteClickedPostion));
                         notesAdapter.notifyItemChanged(noteClickedPostion);
                     }
@@ -216,25 +266,25 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == REQUEST_CODE_ADD_NOTE && requestCode == RESULT_OK) {
+        if (requestCode == REQUEST_CODE_ADD_NOTE && requestCode == RESULT_OK) {
             getNotes(REQUEST_CODE_ADD_NOTE, false);
-        }else if(requestCode == REQUEST_CODE_UPDATE_NOTE && resultCode == RESULT_OK) {
-            if(data != null) {
-                getNotes(REQUEST_CODE_UPDATE_NOTE, data.getBooleanExtra("isNoteDeleted",false));
+        } else if (requestCode == REQUEST_CODE_UPDATE_NOTE && resultCode == RESULT_OK) {
+            if (data != null) {
+                getNotes(REQUEST_CODE_UPDATE_NOTE, data.getBooleanExtra("isNoteDeleted", false));
             }
-        }else if(requestCode == REQUEST_CODE_SELECT_IMAGE && resultCode == RESULT_OK) {
-            if(data != null) {
+        } else if (requestCode == REQUEST_CODE_SELECT_IMAGE && resultCode == RESULT_OK) {
+            if (data != null) {
                 Uri selectedImageUri = data.getData();
 
-                if(selectedImageUri != null) {
+                if (selectedImageUri != null) {
                     try {
                         String selectedImagePath = getPathFromUri(selectedImageUri);
                         Intent intent = new Intent(getApplicationContext(), CreateNoteActivity.class);
                         intent.putExtra("isFromQuickAction", true);
-                        intent.putExtra("quickActionType","image");
-                        intent.putExtra("imagePath",  selectedImagePath);
+                        intent.putExtra("quickActionType", "image");
+                        intent.putExtra("imagePath", selectedImagePath);
                         startActivityForResult(intent, REQUEST_CODE_ADD_NOTE);
-                    }catch (Exception exception) {
+                    } catch (Exception exception) {
                         FancyToast.makeText(MainActivity.this, exception.getMessage(), FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
                     }
                 }
@@ -243,14 +293,14 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     }
 
     private void showAddURLDialog() {
-        if(dialogAddURL == null) {
+        if (dialogAddURL == null) {
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-            View view = LayoutInflater.from(this).inflate(R.layout.layout_add_url,(ViewGroup) findViewById(R.id.layoutAddUrlContainer));
+            View view = LayoutInflater.from(this).inflate(R.layout.layout_add_url, (ViewGroup) findViewById(R.id.layoutAddUrlContainer));
             builder.setView(view);
 
             dialogAddURL = builder.create();
 
-            if(dialogAddURL.getWindow() != null) {
+            if (dialogAddURL.getWindow() != null) {
                 dialogAddURL.getWindow().setBackgroundDrawable(new ColorDrawable(0));
             }
 
@@ -260,16 +310,16 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             view.findViewById(R.id.textAdd).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if(inputURL.getText().toString().trim().isEmpty()) {
+                    if (inputURL.getText().toString().trim().isEmpty()) {
                         FancyToast.makeText(MainActivity.this, "Enter URL", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-                    }else if(!Patterns.WEB_URL.matcher(inputURL.getText().toString()).matches()) {
+                    } else if (!Patterns.WEB_URL.matcher(inputURL.getText().toString()).matches()) {
                         FancyToast.makeText(MainActivity.this, "Enter Valid URL", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-                    }else {
+                    } else {
                         dialogAddURL.dismiss();
                         Intent intent = new Intent(getApplicationContext(), CreateNoteActivity.class);
                         intent.putExtra("isFromQuickAction", true);
-                        intent.putExtra("quickActionType","URL");
-                        intent.putExtra("URL",  inputURL.getText().toString());
+                        intent.putExtra("quickActionType", "URL");
+                        intent.putExtra("URL", inputURL.getText().toString());
                         startActivityForResult(intent, REQUEST_CODE_ADD_NOTE);
                     }
                 }

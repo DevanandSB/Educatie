@@ -4,7 +4,8 @@
     package="com.edu.educatie">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -17,14 +18,17 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-        <activity android:name=".activities.CreateNoteActivity"
-            android:theme="@style/NotesAppTheme"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden"/>
-        <activity android:name=".activities.MainActivity"
+        <activity android:name=".SecretActivity"></activity>
+        <activity
+            android:name=".activities.CreateNoteActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NotesAppTheme"
-            android:windowSoftInputMode="stateHidden"/>
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NotesAppTheme"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".AboutDeveloper"
             android:screenOrientation="portrait"
