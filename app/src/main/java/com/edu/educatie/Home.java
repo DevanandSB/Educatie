@@ -94,13 +94,13 @@ public class Home extends AppCompatActivity
 
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sI3.startAnimation(animation);
-            String sname = "Mr. P. Karthik";
-            String sname1 = "Mr. P. Karthik";
+            String sname = "Mr. S. Mohanraj";
+            String sname1 = "Mr. S. Mohanraj";
             String designation = "Assistant Professor";
             String Department = "Department of Computer Science";
-            String qualification = "M.Sc., B.Ed.,";
+            String qualification = "M.C.A., M.Phil.,";
             String place = "Tirupattur";
-            String mail = "karthikp@shctpt.edu";
+            String mail = "mohanraj@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("department", Department);
@@ -117,13 +117,13 @@ public class Home extends AppCompatActivity
 
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sII3.startAnimation(animation);
-            String sname = "Mrs. A. Josephine Sagaya Mala";
-            String sname1 = "Mrs. A. Josephine Sagaya Mala";
+            String sname = "Staff Name Here";
+            String sname1 = "Staff Name Here";
             String Department = "Department of Computer Science";
-            String designation = "Head of the Department (CS)";
-            String qualification = "M.Com., M.C.A., M.Phil.,";
-            String place = "Tirupattur";
-            String mail = "sagayamala@shctpt.edu";
+            String designation = "Designation Here";
+            String qualification = "Qualification Here";
+            String place = "Place Here";
+            String mail = "staffname@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("department", Department);
             intent.putExtra("sname", sname);
@@ -138,10 +138,11 @@ public class Home extends AppCompatActivity
         sIII3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sIII3.startAnimation(animation);
-            String sname = "Mr. M. Sarlinraj";
-            String sname1 = "Mr. M. Sarlinraj";
+            String sname = "Mr. P. Karthik";
+            String sname1 = "Mr. P. Karthik";
             String Department = "Department of Computer Science";
             String designation = "Assistant Professor";
+            //TODO Change Things here
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
             String mail = "serlinraj@shctpt.edu";
@@ -159,13 +160,13 @@ public class Home extends AppCompatActivity
         sIV3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sIV3.startAnimation(animation);
-            String sname = "Mr. D. Adhiyaman";
-            String sname1 = "Mr. D. Adhiyaman";
+            String sname = "Mr. M. SarlinRaj";
+            String sname1 = "Mr. M. SarlinRaj";
             String Department = "Department of Computer Science";
             String designation = "Assistant Professor";
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
-            String mail = "adhiyaman@shctpt.edu";
+            String mail = "serlinraj@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
@@ -180,13 +181,13 @@ public class Home extends AppCompatActivity
         sV3.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sV3.startAnimation(animation);
-            String sname = "Mr. S. Mohanraj";
-            String sname1 = "Mr. S. Mohanraj";
-            String designation = "Assistant Professor";
+            String sname = "Mrs. A. Josephine Sagaya Mala";
+            String sname1 = "Mrs. A. Josephine Sagaya Mala";
             String Department = "Department of Computer Science";
-            String qualification = "M.C.A., M.Phil.,";
+            String designation = "Head of the Department (CS)";
+            String qualification = "M.Com., M.C.A., M.Phil.,";
             String place = "Tirupattur";
-            String mail = "mohanraj@shctpt.edu";
+            String mail = "sagayamala@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
