@@ -220,7 +220,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="@string/mr_s_mohanraj" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -391,7 +391,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="@string/mr_p_karthik" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -475,7 +475,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="@string/mr_m_sarlinraj" />
 
                                 </LinearLayout>
 
@@ -557,11 +557,11 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:drawableLeft="@drawable/ic_person_outline_red_24dp"
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="@string/hod"
+                                        app:drawableLeftCompat="@drawable/ic_person_outline_red_24dp" />
 
                                 </LinearLayout>
 
@@ -934,7 +934,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here"
+                                        android:text="@string/mr_m_sarlinraj"
                                         app:drawableLeftCompat="@drawable/ic_person_outline_red_24dp" />
 
                                 </LinearLayout>
@@ -2443,14 +2443,14 @@
                 android:weightSum="100">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginRight="16dp"
                     android:layout_weight="50"
                     android:fontFamily="@font/calibri"
-                    android:text="Icons and Illustrations by Iconscout"
+                    android:text="@string/icons_and_illustrations_by_iconscout"
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="18sp"

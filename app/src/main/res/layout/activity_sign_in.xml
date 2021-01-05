@@ -35,7 +35,7 @@
                 android:layout_marginTop="@dimen/_4sdp"
                 android:fontFamily="@font/ubuntu_bold"
                 android:includeFontPadding="false"
-                android:text="@string/educatie_online_class_app"
+                android:text="@string/app_name"
                 android:textColor="@color/colorTextIcons"
                 android:textSize="@dimen/_16ssp"/>
 
@@ -187,6 +187,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textNoAccount" />
+
+        <TextView
+            android:id="@+id/tempLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:includeFontPadding="false"
+            android:padding="@dimen/_6sdp"
+            android:text="Test Login (TO test app)"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textSignUp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

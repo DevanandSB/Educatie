@@ -13,6 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class SplashScreen extends AppCompatActivity {
     FirebaseAuth fAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(2000);
-                    Intent i = new Intent(SplashScreen.this, Home.class);
+                    Intent i = new Intent(SplashScreen.this, SignUpActivity.class);
                     startActivity(i);
                     finish();
                 } catch (Exception e) {
