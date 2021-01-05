@@ -100,4 +100,5 @@
     <string name="cancel">CANCEL</string>
     <string name="microprocessor_and_its_applications">Microprocessor and its Applications</string>
     <string name="icons_and_illustrations_by_iconscout">Icons and Illustrations by Iconscout</string>
+    <string name="login">Login</string>
 </resources>

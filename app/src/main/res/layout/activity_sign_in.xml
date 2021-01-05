@@ -144,7 +144,7 @@
             android:fontFamily="@font/ubuntu_bold"
             android:includeFontPadding="false"
             android:background="@drawable/login_button_bk"
-            android:text="@string/sign_in"
+            android:text="@string/login"
             android:textColor="@color/colorTextIcons"
             android:textSize="@dimen/_13ssp"
             app:layout_constraintTop_toBottomOf="@id/cardSignIn"/>
