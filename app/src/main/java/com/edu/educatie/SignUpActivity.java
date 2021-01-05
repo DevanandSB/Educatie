@@ -26,9 +26,7 @@ public class SignUpActivity extends AppCompatActivity {
             finish();
         });
 
-        signUpButton.setOnClickListener(v -> {
-            FancyToast.makeText(getBaseContext(), "Sign up Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
-        });
+        signUpButton.setOnClickListener(v -> FancyToast.makeText(getBaseContext(), "Sign up Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show());
 
     }
 }

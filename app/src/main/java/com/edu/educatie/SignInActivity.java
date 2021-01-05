@@ -29,9 +29,7 @@ public class SignInActivity extends AppCompatActivity {
             finish();
         });
 
-        signInButton.setOnClickListener(v -> {
-            FancyToast.makeText(getBaseContext(), "Login Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
-        });
+        signInButton.setOnClickListener(v -> FancyToast.makeText(getBaseContext(), "Login Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show());
 
         test.setOnClickListener(v -> {
             Intent intent = new Intent(SignInActivity.this, Home.class);
