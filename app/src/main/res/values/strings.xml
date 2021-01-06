@@ -101,4 +101,9 @@
     <string name="microprocessor_and_its_applications">Microprocessor and its Applications</string>
     <string name="icons_and_illustrations_by_iconscout">Icons and Illustrations by Iconscout</string>
     <string name="login">Login</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="i_year">I Year</string>
+    <string name="ii_year">II Year</string>
+    <string name="john_antony_m">John Antony M</string>
 </resources>

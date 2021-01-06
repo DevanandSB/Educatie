@@ -81,7 +81,7 @@
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:fontFamily="@font/ubuntu_regular"
                         android:includeFontPadding="false"
-                        android:text="@string/first_name"
+                        android:text="Name"
                         android:textColor="@color/colorPrimaryText"
                         android:textSize="@dimen/_11ssp"/>
 
@@ -93,7 +93,7 @@
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:background="@null"
                         android:fontFamily="@font/ubuntu_regular"
-                        android:hint="@string/devanand"
+                        android:hint="@string/john_antony_m"
                         android:imeOptions="actionNext"
                         android:importantForAutofill="no"
                         android:includeFontPadding="false"
@@ -101,37 +101,7 @@
                         android:textColor="@color/colorPrimaryText"
                         android:textColorHint="@color/colorHintText"
                         android:textSize="@dimen/_13ssp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:layout_marginTop="@dimen/_8sdp"
-                        android:layout_marginEnd="@dimen/_8sdp"
-                        android:fontFamily="@font/ubuntu_regular"
-                        android:includeFontPadding="false"
-                        android:text="@string/last_name_initial"
-                        android:textColor="@color/colorPrimaryText"
-                        android:textSize="@dimen/_11ssp"/>
-
-                    <EditText
-                        android:id="@+id/inputLastName"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/_30sdp"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:layout_marginEnd="@dimen/_8sdp"
-                        android:background="@null"
-                        android:fontFamily="@font/ubuntu_regular"
-                        android:hint="@string/s_b"
-                        android:imeOptions="actionNext"
-                        android:importantForAutofill="no"
-                        android:includeFontPadding="false"
-                        android:inputType="text"
-                        android:textColor="@color/colorPrimaryText"
-                        android:textColorHint="@color/colorHintText"
-                        android:textSize="@dimen/_13ssp"/>
-
-
+                    
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -190,36 +160,79 @@
                         android:textColor="@color/colorPrimaryText"
                         android:textColorHint="@color/colorHintText"
                         android:textSize="@dimen/_13ssp"/>
-
-                    <TextView
+                    
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:layout_marginTop="@dimen/_8sdp"
-                        android:layout_marginEnd="@dimen/_8sdp"
-                        android:fontFamily="@font/ubuntu_regular"
-                        android:includeFontPadding="false"
-                        android:text="@string/confirm_password"
-                        android:textColor="@color/colorPrimaryText"
-                        android:textSize="@dimen/_11ssp"/>
+                        android:orientation="horizontal">
 
-                    <EditText
-                        android:id="@+id/inputConfirmPassword"
+                        <RadioGroup
+                            android:id="@+id/designationRadioGroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/studentRadioDesignation"
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="@dimen/_30sdp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/student" />
+
+                            <RadioButton
+                                android:id="@+id/staffRadioDesignation"
+                                android:layout_width="0dp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="@string/teacher" />
+                        </RadioGroup>
+
+                    
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/studentYearLayout"
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/_30sdp"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:layout_marginEnd="@dimen/_8sdp"
-                        android:layout_marginBottom="@dimen/_8sdp"
-                        android:background="@null"
-                        android:fontFamily="@font/ubuntu_regular"
-                        android:hint="@string/password_hint"
-                        android:imeOptions="actionDone"
-                        android:importantForAutofill="no"
-                        android:includeFontPadding="false"
-                        android:inputType="textPassword"
-                        android:textColor="@color/colorPrimaryText"
-                        android:textColorHint="@color/colorHintText"
-                        android:textSize="@dimen/_13ssp"/>
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/studentYearRadioGroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/IstYearRadio"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="@string/i_year" />
+
+                            <RadioButton
+                                android:id="@+id/IIndYearRadio"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ii_year" />
+
+                            <RadioButton
+                                android:id="@+id/IIIrdYearRadio"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="III Year" />
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
