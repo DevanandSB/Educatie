@@ -144,7 +144,7 @@
                         android:textSize="@dimen/_11ssp"/>
 
                     <EditText
-                        android:id="@+id/inputPassword"
+                        android:id="@+id/inputsignupPassword"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_30sdp"
                         android:layout_marginStart="@dimen/_8sdp"
@@ -196,6 +196,7 @@
                     <LinearLayout
                         android:id="@+id/studentYearLayout"
                         android:layout_width="match_parent"
+                        android:visibility="gone"
                         android:layout_marginTop="@dimen/_12sdp"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
