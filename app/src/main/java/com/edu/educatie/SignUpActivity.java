@@ -3,6 +3,7 @@ package com.edu.educatie;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -40,23 +41,30 @@ public class SignUpActivity extends AppCompatActivity {
         RadioStudentYear = findViewById(R.id.studentYearRadioGroup);
         RadioStudent = findViewById(R.id.studentRadioDesignation);
         RadioTeacher = findViewById(R.id.staffRadioDesignation);
+        RadioIYear = findViewById(R.id.IstYearRadio);
+        RadioIIYear = findViewById(R.id.IIndYearRadio);
+        RadioIIIYear = findViewById(R.id.IIIrdYearRadio);
 
 
         passwordchecker = textPassword.getText().toString();
 
-        if(textName.getText().toString().trim().isEmpty()){
-            FancyToast.makeText(getBaseContext(), "Enter Your Name", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-        } else if(textEmail.getText().toString().trim().isEmpty()) {
-            FancyToast.makeText(getBaseContext(), "Enter Your Email", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-        } else if(textPassword.getText().toString().trim().isEmpty()) {
-            FancyToast.makeText(getBaseContext(), "Password can't be Empty", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-        } else if(!Patterns.EMAIL_ADDRESS.matcher(textEmail.getText().toString()).matches()) {
-            FancyToast.makeText(getBaseContext(), "Enter Valid Email", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-        } else if(!validPassword(textPassword.getText().toString())) {
-            FancyToast.makeText(getBaseContext(), "Enter Valid Password", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-        } else {
-            signUpButton.setOnClickListener(v -> FancyToast.makeText(getBaseContext(), "Validation Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show());
-        }
+        signUpButton.setOnClickListener(v -> {
+            if(textName.getText().toString().trim().isEmpty()){
+                FancyToast.makeText(getBaseContext(), "Enter Your Name", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else if(textEmail.getText().toString().trim().isEmpty()) {
+                FancyToast.makeText(getBaseContext(), "Enter Your Email", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else if(!Patterns.EMAIL_ADDRESS.matcher(textEmail.getText().toString()).matches()) {
+                FancyToast.makeText(getBaseContext(), "Enter Valid Email", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else if(textPassword.getText().toString().trim().isEmpty()) {
+                FancyToast.makeText(getBaseContext(), "Password can't be Empty", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else if(!validPassword(textPassword.getText().toString())) {
+                FancyToast.makeText(getBaseContext(), "Enter Valid Password", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else if (!RadioStudent.isChecked() && !RadioTeacher.isChecked()) {
+                FancyToast.makeText(getBaseContext(), "Please Select Your Designation", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+            } else {
+                FancyToast.makeText(getBaseContext(), "Validation Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
+            }
+        });
 
         textLogin.setOnClickListener(v -> {
             Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
@@ -72,10 +80,10 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     public boolean validPassword(String password) {
-        return checkRegex("(?-i)(?=^.{8,}$)((?!.*\\s)(?=.*[A-Z])(?=.*[a-z]))(?=(1)(?=.*\\d)|.*[^A-Za-z0-9])^.*$",passwordchecker);
+        return checkRegex("(?-i)(?=^.{8,}$)((?!.*\\s)(?=.*[A-Z])(?=.*[a-z]))(?=(1)(?=.*\\d)|.*[^A-Za-z0-9])';^.*$",passwordchecker);
 //      At least 8 characters long
 //      At least 1 uppercase and 1 lowercase
 //      At least 1 digit (OR) at least 1 alphanumeric.
-//      No spaces.
+//      No spaces.h
     }
 }
