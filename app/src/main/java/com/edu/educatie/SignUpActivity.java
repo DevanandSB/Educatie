@@ -57,12 +57,29 @@ public class SignUpActivity extends AppCompatActivity {
                 FancyToast.makeText(getBaseContext(), "Enter Valid Email", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
             } else if(textPassword.getText().toString().trim().isEmpty()) {
                 FancyToast.makeText(getBaseContext(), "Password can't be Empty", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-            } else if(!validPassword(textPassword.getText().toString())) {
-                FancyToast.makeText(getBaseContext(), "Enter Valid Password", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
             } else if (!RadioStudent.isChecked() && !RadioTeacher.isChecked()) {
                 FancyToast.makeText(getBaseContext(), "Please Select Your Designation", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
-            } else {
+            } else if(RadioTeacher.isChecked()){
                 FancyToast.makeText(getBaseContext(), "Validation Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
+            }
+        });
+
+        RadioStudent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                StudentYear.setVisibility(View.VISIBLE);
+                if(RadioStudent.isChecked()) {
+                    RadioIYear.setChecked(true);
+                    if (!RadioIYear.isChecked() && !RadioIIYear.isChecked() && !RadioIIIYear.isChecked()) {
+                        FancyToast.makeText(getBaseContext(), "Please Select Year", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
+                    }
+                    signUpButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            FancyToast.makeText(getBaseContext(), "Validation Successful", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
+                        }
+                    });
+                }
             }
         });
 
@@ -77,13 +94,5 @@ public class SignUpActivity extends AppCompatActivity {
     public boolean checkRegex(String pattern, String input) {
         Pattern r = Pattern.compile(pattern);
         return r.matcher(input).matches();
-    }
-
-    public boolean validPassword(String password) {
-        return checkRegex("(?-i)(?=^.{8,}$)((?!.*\\s)(?=.*[A-Z])(?=.*[a-z]))(?=(1)(?=.*\\d)|.*[^A-Za-z0-9])';^.*$",passwordchecker);
-//      At least 8 characters long
-//      At least 1 uppercase and 1 lowercase
-//      At least 1 digit (OR) at least 1 alphanumeric.
-//      No spaces.h
     }
 }
