@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.util.Patterns;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.shashank.sony.fancytoastlib.FancyToast;
@@ -18,6 +21,9 @@ public class SignUpActivity extends AppCompatActivity {
     Button signUpButton;
     EditText textName, textEmail, textPassword;
     String passwordchecker;
+    LinearLayout StudentYear;
+    RadioGroup RadioGroupDesignation, RadioStudentYear;
+    RadioButton RadioStudent, RadioTeacher, RadioIYear, RadioIIYear, RadioIIIYear;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +35,12 @@ public class SignUpActivity extends AppCompatActivity {
         textName = findViewById(R.id.inputFirstName);
         textEmail = findViewById(R.id.inputEmail);
         textPassword = findViewById(R.id.inputsignupPassword);
+        StudentYear = findViewById(R.id.studentYearLayout);
+        RadioGroupDesignation = findViewById(R.id.designationRadioGroup);
+        RadioStudentYear = findViewById(R.id.studentYearRadioGroup);
+        RadioStudent = findViewById(R.id.studentRadioDesignation);
+        RadioTeacher = findViewById(R.id.staffRadioDesignation);
+
 
         passwordchecker = textPassword.getText().toString();
 
@@ -51,7 +63,6 @@ public class SignUpActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
-
 
     }
 
