@@ -3,45 +3,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="@layout/nav_header_home">
 
-    <item android:title="Features">
+    <item
+        android:title="Features">
         <menu>
             <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_home"
-            android:title="Home" />
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
             <item
-            android:id="@+id/nav_courses"
-            android:icon="@drawable/ic_acedemic"
-            android:title="Syllabus" />
-
+                android:id="@+id/nav_courses"
+                android:icon="@drawable/ic_acedemic"
+                android:title="Syllabus" />
             <item
                 android:id="@+id/enterNotes"
                 android:icon="@drawable/ic_notes"
                 android:title="Notes" />
-
 <!--    <item-->
 <!--            android:id="@+id/nav_events"-->
 <!--            android:icon="@drawable/ic_event_black_24dp"-->
 <!--            android:title="Events" />-->
             <item
-            android:id="@+id/timetables"
-            android:icon="@drawable/ic_schedule"
-            android:title="Time Table" />
-
+                android:id="@+id/timetables"
+                android:icon="@drawable/ic_schedule"
+                android:title="Time Table" />
             <item
-            android:id="@+id/onlinecourses"
-            android:icon="@drawable/ic_course"
-            android:title="Free Courses" />
-
+                android:id="@+id/onlinecourses"
+                android:icon="@drawable/ic_course"
+                android:title="Free Courses" />
             <item
-            android:id="@+id/exams"
-            android:icon="@drawable/ic_exams"
-            android:title="CIA Exams" />
-
+                android:id="@+id/exams"
+                android:icon="@drawable/ic_exams"
+                android:title="CIA Exams" />
              <item
-            android:id="@+id/lounge"
-            android:icon="@drawable/ic_activity"
-            android:title="Activity Lounge" />
+                android:id="@+id/lounge"
+                android:icon="@drawable/ic_activity"
+                android:title="Activity Lounge" />
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/ic_message"
+                android:title="Chat Rooms" />
 
         </menu>
     </item>

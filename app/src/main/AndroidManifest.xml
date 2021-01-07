@@ -18,7 +18,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
-
+        <activity android:name=".MessageMainActivity"></activity>
         <activity
             android:name=".activities.CreateNoteActivity"
             android:screenOrientation="portrait"
@@ -76,15 +76,14 @@
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".SignInActivity"
+        <activity
+            android:name=".SignInActivity"
             android:label="Sign In"
-            android:theme="@style/AppTheme"/>
-
-        <activity android:name=".SignUpActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SignUpActivity"
             android:label="Sign Up"
-            android:theme="@style/AppTheme"/>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".SplashScreen"
             android:configChanges="orientation|screenSize"
