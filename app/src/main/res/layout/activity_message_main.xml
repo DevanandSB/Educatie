@@ -9,12 +9,15 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="400dp" />
+        android:layout_height="500dp" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="300dp"
+        android:layout_marginTop="510dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:hint="@string/type_your_message_here"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine" />
