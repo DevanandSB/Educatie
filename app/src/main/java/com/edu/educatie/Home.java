@@ -116,13 +116,13 @@ public class Home extends AppCompatActivity
 
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sII3.startAnimation(animation);
-            String sname = "Staff Name Here";
-            String sname1 = "Staff Name Here";
+            String sname = "Santhoshkumar M";
+            String sname1 = "Santhoshkumar M";
             String Department = "Department of Computer Science";
-            String designation = "Designation Here";
-            String qualification = "Qualification Here";
-            String place = "Place Here";
-            String mail = "staffname@shctpt.edu";
+            String designation = "Assistant Professor";
+            String qualification = "M.Sc., M.Phil., B.Ed., Ph.D.,";
+            String place = "Tirupattur";
+            String mail = "santhosh@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("department", Department);
             intent.putExtra("sname", sname);
@@ -141,10 +141,9 @@ public class Home extends AppCompatActivity
             String sname1 = "Mr. P. Karthik";
             String Department = "Department of Computer Science";
             String designation = "Assistant Professor";
-            //TODO Change Things here
             String qualification = "M.Sc., M.Phil., B.Ed.,";
             String place = "Tirupattur";
-            String mail = "serlinraj@shctpt.edu";
+            String mail = "karthikp@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
@@ -200,6 +199,7 @@ public class Home extends AppCompatActivity
         });
 
         //Second Year
+        // TODO: Change for Second Year
         sI2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sI2.startAnimation(animation);
@@ -289,13 +289,13 @@ public class Home extends AppCompatActivity
         sV2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sV2.startAnimation(animation);
-            String sname = "Mr. M. Sarlinraj";
-            String sname1 = "Mr. M. Sarlinraj";
+            String sname = "Mr. P. Karthik";
+            String sname1 = "Mr. M. P. Karthik";
             String Department = "Department of Computer Science";
             String designation = "Assistant Professor";
-            String qualification = "M.Sc., M.Phil., B.Ed.,";
+            String qualification = "M.Sc., B.Ed.,";
             String place = "Tirupattur";
-            String mail = "serlinraj@shctpt.edu";
+            String mail = "karthikp@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
@@ -308,18 +308,18 @@ public class Home extends AppCompatActivity
             finish();
         });
 
-        //Second Year
+        //First Year
         sI1.setOnClickListener(view -> {
 
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sI1.startAnimation(animation);
-            String sname = "Name here";
-            String sname1 = "Name here";
+            String sname = "Dr. R. Sankar";
+            String sname1 = "Dr. R. Sankar";
             String designation = "Assistant Professor";
-            String qualification = "Qualification";
+            String qualification = "M.A., M.Phil., Ph.D.";
             String Department = "Department of Tamil";
-            String place = "Unknown";
-            String mail = "unknown@shctpt.edu";
+            String place = "Tirupattur";
+            String mail = "sankarr@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);
@@ -339,7 +339,7 @@ public class Home extends AppCompatActivity
             String designation = "Assistant Professor";
             String Department = "Department of English";
             String qualification = "M.A., M.Phil.,";
-            String place = "Unknown";
+            String place = "Tirupattur";
             String mail = "prabhakaran@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
@@ -376,13 +376,13 @@ public class Home extends AppCompatActivity
         sIV1.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sIV1.startAnimation(animation);
-            String sname = "Mr. D. Adhiyaman";
-            String sname1 = "Mr. D. Adhiyaman";
+            String sname = "Mr. M. Santhoshkumar";
+            String sname1 = "Mr. M. Santhoshkumar";
             String Department = "Department of Computer Science";
             String designation = "Assistant Professor";
-            String qualification = "M.Sc., M.Phil., B.Ed.,";
+            String qualification = "M.Sc., M.Phil., B.Ed., Ph.D.";
             String place = "Tirupattur";
-            String mail = "adhiyaman@shctpt.edu";
+            String mail = "santhosh@shctpt.edu";
             Intent intent = new Intent(Home.this, StaffProfile.class);
             intent.putExtra("sname", sname);
             intent.putExtra("sname1", sname1);

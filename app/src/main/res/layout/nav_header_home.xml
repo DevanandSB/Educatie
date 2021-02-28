@@ -23,7 +23,7 @@
             android:layout_height="84dp"
             android:contentDescription="@string/app_name"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
-            app:srcCompat="@drawable/ic_person" />
+            app:srcCompat="@drawable/user" />
 
     </RelativeLayout>
 

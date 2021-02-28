@@ -202,7 +202,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_5_hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -287,7 +287,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_5_hours" />
 
                                 </LinearLayout>
 
@@ -305,7 +305,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="right"
-                                        android:text="Staff Name Here" />
+                                        android:text="Mr. M. Santhoshkumar" />
 
                                 </LinearLayout>
 
@@ -373,7 +373,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_5_hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -458,7 +458,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_2_hours" />
 
                                 </LinearLayout>
 
@@ -543,7 +543,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="@string/_2_hours"
+                                        android:text="@string/_4hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -662,7 +662,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_5_hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -748,7 +748,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_5_hours" />
 
                                 </LinearLayout>
 
@@ -833,7 +833,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_4hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -918,7 +918,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_4hours" />
 
                                 </LinearLayout>
 
@@ -1004,7 +1004,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_4hours" />
 
                                 </LinearLayout>
 
@@ -1021,7 +1021,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="Mr. P. Karthik" />
 
                                 </LinearLayout>
 
@@ -1123,7 +1123,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_5_hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -1141,7 +1141,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="Dr. R. Sankar" />
 
                                 </LinearLayout>
 
@@ -1209,7 +1209,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_5_hours" />
 
                                 </LinearLayout>
 
@@ -1226,7 +1226,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here" />
+                                        android:text="Mr. S. Prabakaran" />
 
                                 </LinearLayout>
 
@@ -1294,7 +1294,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours"
+                                        android:text="@string/_6_hours"
                                         app:drawableLeftCompat="@drawable/ic_access_time_red_24dp" />
 
                                 </LinearLayout>
@@ -1379,7 +1379,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_4hours" />
 
                                 </LinearLayout>
 
@@ -1395,7 +1395,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="Staff Name Here"
+                                        android:text="Mr. M. Santhoshkumar"
                                         app:drawableLeftCompat="@drawable/ic_person_outline_red_24dp" />
 
                                 </LinearLayout>
@@ -1465,7 +1465,7 @@
                                         android:drawablePadding="8dp"
                                         android:fontFamily="@font/calibri"
                                         android:gravity="center"
-                                        android:text="__ Hours" />
+                                        android:text="@string/_4hours" />
 
                                 </LinearLayout>
 

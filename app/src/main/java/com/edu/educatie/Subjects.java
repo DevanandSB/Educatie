@@ -96,7 +96,7 @@ public class Subjects extends AppCompatActivity {
             II3.startAnimation(animation);
             Intent intent = new Intent(Subjects.this, SyllabusActivity.class);
 
-            String SubName = "Allied Physics for Computer Science - I";
+            String SubName = "Allied Physics for Computer Science - II";
             String Unit1 = "Unit 1: Semiconductor Devices and Applications";
             String Unit2 = "Unit 2: Operational Amplifier and Applications";
             String Unit3 = "Unit 3: Switching and Wave Shaping Circuits";
