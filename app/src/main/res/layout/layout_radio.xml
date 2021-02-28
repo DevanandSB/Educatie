@@ -6,9 +6,9 @@
     app:cardCornerRadius="@dimen/loginCardRadius"
     android:elevation="5dp"
     android:layout_gravity="center"
+    android:background="#F0F0F0"
     android:layout_marginTop="@dimen/loginViewsMargin"
-    android:layout_marginBottom="@dimen/loginViewsMargin"
-    android:background="@color/whiteCardColor">
+    android:layout_marginBottom="@dimen/loginViewsMargin">
 
     <LinearLayout
         style="@style/linearParent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Home"
-    android:background="#F1F2F6"
+    android:background="#F0F0F0"
     tools:showIn="@layout/app_bar_home">
 
     <ScrollView
@@ -2443,12 +2443,11 @@
                 android:weightSum="100">
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginRight="16dp"
-                    android:layout_weight="50"
                     android:fontFamily="@font/calibri"
                     android:text="@string/icons_and_illustrations_by_iconscout"
                     android:textAlignment="center"
