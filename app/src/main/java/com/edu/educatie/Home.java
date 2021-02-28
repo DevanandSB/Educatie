@@ -575,6 +575,9 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), OnboardingActivity.class);
             startActivity(intent);
             finish();
+        } else if (id == R.id.messageChat) {
+            FancyToast.makeText(Home.this, "This Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

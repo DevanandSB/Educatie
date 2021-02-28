@@ -100,7 +100,6 @@ public class CreateNoteActivity extends AppCompatActivity {
             public void onClick(View v) {
                 saveNote();
                 FancyToast.makeText(CreateNoteActivity.this, "Note Saved Successfully", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, false).show();
-                FancyToast.makeText(CreateNoteActivity.this, "Visit again to see your notes", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
             }});
 
 

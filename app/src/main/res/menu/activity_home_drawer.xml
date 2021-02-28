@@ -39,7 +39,7 @@
                 android:icon="@drawable/ic_activity"
                 android:title="Activity Lounge" />
             <item
-                android:id="@+id/message"
+                android:id="@+id/messageChat"
                 android:icon="@drawable/ic_message"
                 android:title="Chat Rooms" />
 
