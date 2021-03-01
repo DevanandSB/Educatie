@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F0F0"
     tools:context=".Exams">
 
     <ScrollView
@@ -59,7 +60,7 @@
                         android:paddingTop="8dp"
                         android:paddingRight="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Date 1"
+                        android:text="@string/_15_th_jan_2021"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -109,7 +110,7 @@
                         android:paddingTop="8dp"
                         android:paddingRight="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Date 2"
+                        android:text="@string/_16_th_jan_2021"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -159,7 +160,7 @@
                         android:paddingTop="8dp"
                         android:paddingRight="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Date 3"
+                        android:text="@string/_17_th_jan_2021"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -208,7 +209,7 @@
                         android:paddingTop="8dp"
                         android:paddingRight="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Date 4"
+                        android:text="@string/_18_th_jan_2021"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -257,7 +258,7 @@
                         android:paddingTop="8dp"
                         android:paddingRight="12dp"
                         android:paddingBottom="8dp"
-                        android:text="Date 5"
+                        android:text="@string/_19_th_jan_2021"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 

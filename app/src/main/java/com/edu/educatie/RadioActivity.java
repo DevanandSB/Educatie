@@ -31,26 +31,26 @@ public class RadioActivity extends AppCompatActivity {
             if(I.isChecked())
             {
                 String CAI1s = "பொது தமிழ் - II";
-                String CAI1t = "Mr. Unknown";
+                String CAI1t = "Dr. R. Sankar";
                 String CAI2s = "English for Basic Communication";
-                String CAI2t = "Mr. Unknown";
+                String CAI2t = "Mr. S. Prabhakaran";
                 String CAI3s = "Allied Mathematics - II";
-                String CAI3t = "Mr. Unknown";
+                String CAI3t = "Miss. D. Saraswathi";
                 String CAI4s = "Computer Organisation and Architecture";
-                String CAI4t = "Mr. Unknown";
+                String CAI4t = "Mr. M. Santhoshkumar";
                 String CAI5s = "Programming With C";
-                String CAI5t = "Mr. Unknown";
+                String CAI5t = "Mrs. A. Josephine Sagaya Mala";
 
                 String CAII1s = "பொது தமிழ் - II";
-                String CAII1t = "Mr. Unknown";
+                String CAII1t = "Dr. R. Sankar";
                 String CAII2s = "English for Basic Communication";
-                String CAII2t = "Mr. Unknown";
+                String CAII2t = "Mr. S. Parbhakaran";
                 String CAII3s = "Allied Mathematics - II";
-                String CAII3t = "Mr. Unknown";
+                String CAII3t = "Miss. D. Saraswathi";
                 String CAII4s = "Computer Organisation and Architecture";
-                String CAII4t = "Mr. Unknown";
+                String CAII4t = "Mr. M. Santhoshkumar";
                 String CAII5s = "Programming with C";
-                String CAII5t = "Mr. Unknown";
+                String CAII5t = "Mrs. A. Josephine Sagaya Mala";
 
                 Intent intent = new Intent(getApplicationContext(), Exams.class);
 
@@ -87,20 +87,20 @@ public class RadioActivity extends AppCompatActivity {
                 String CAI3s = "Allied Physics for Computer Science - II";
                 String CAI3t = "Mr. L. Anandaraj";
                 String CAI4s = "Computer Graphics";
-                String CAI4t = "Mr. Unknown ";
+                String CAI4t = "Mr. M. Sarlin Raj";
                 String CAI5s = "Relational Database Management System";
-                String CAI5t = "Mr. Unknown";
+                String CAI5t = "Mr. P. Karthik";
 
                 String CAII1s = "பொது தமிழ் - IV";
-                String CAII1t = "Dr. Unknown";
+                String CAII1t = "Dr. M. Sarala Devi";
                 String CAII2s = "English for Business Communication";
                 String CAII2t = "Mr. Unknown";
                 String CAII3s = "Allied Physics for Computer Science - II";
                 String CAII3t = "Mr. L. Anandaraj";
                 String CAII4s = "Computer Graphics";
-                String CAII4t = "Mr. Unknown";
+                String CAII4t = "Mr. M. Sarlin Raj";
                 String CAII5s = "Relational Database Management System";
-                String CAII5t = "Mr. Unknown";
+                String CAII5t = "Mr. P. Karthik";
 
                 Intent intent = new Intent(getApplicationContext(), Exams.class);
 
@@ -131,24 +131,24 @@ public class RadioActivity extends AppCompatActivity {
             if(III.isChecked())
             {
                 String CAI1s = "Microprocessor and its Applications";
-                String CAI1t = "Mr. Unknown";
+                String CAI1t = "Mr. S. Mohanraj";
                 String CAI2s = "Web Development using XML";
-                String CAI2t = "Mr Unknown";
+                String CAI2t = "Mr. M. Santhoshkumar";
                 String CAI3s = "Mobile Apps - Android Development";
                 String CAI3t = "Mr. P. Karthik";
                 String CAI4s = "Programming with Python";
-                String CAI4t = "Mr. Unknown";
+                String CAI4t = "Mr. M. Sarlin Raj";
                 String CAI5s = "Computer Networks";
                 String CAI5t = "Mrs. A. Josephine Sagaya Mala";
 
                 String CAII1s = "Microprocessor and its Application";
-                String CAII1t = "Mr. Unknown";
+                String CAII1t = "Mr. S. Mohanraj";
                 String CAII2s = "Web Development using XML";
-                String CAII2t = "Mr. Unknown";
+                String CAII2t = "Mr. M. Santhoshkumar";
                 String CAII3s = "Mobile Apps - Android Development";
                 String CAII3t = "Mr. P. Karthik";
                 String CAII4s = "Programming With Python";
-                String CAII4t = "Mr. Unknown";
+                String CAII4t = "Mr. M. Sarlin Raj";
                 String CAII5s = "Computer Networks";
                 String CAII5t = "Mrs. A. Josephine Sagaya Mala";
 
