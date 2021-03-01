@@ -89,7 +89,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="Staff Name Here"
+                                android:text="@string/mr_s_mohanraj"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -161,7 +161,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="Staff Name Here"
+                                android:text="M. Santhoshkumar"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -231,7 +231,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="M. SarlinRaj"
+                                android:text="P. Karthik"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -303,7 +303,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="50"
                                 android:fontFamily="@font/calibri"
-                                android:text="Staff Name Here"
+                                android:text="M. SarlinRaj"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -681,7 +681,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="Staff Name Here"
+                                android:text="M. Santhoshkumar"
                                 android:textAlignment="textEnd"
                                 android:textSize="14sp" />
 
@@ -765,7 +765,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="50"
                                     android:fontFamily="@font/calibri"
-                                    android:text="Staff Name Here"
+                                    android:text="P. Karthik"
                                     android:textAlignment="textEnd"
                                     android:textSize="14sp" />
 
