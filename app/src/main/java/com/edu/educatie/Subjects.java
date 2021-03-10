@@ -149,7 +149,7 @@ public class Subjects extends AppCompatActivity {
             String Content1 = "Raster scans display - Random scan display - Graphics software - Output Primitives: Points and Lines - Line drawing algorithms: DDA Algorithm - Bresenham's Line Algorithm - Circle generating algorithm: Properties of Circles - Mid Point Circle Generation Algorithm.";
             String Content2 = "Two Dimensioanal Transformation: Transistion - Scaling - Rotation - Homogeneous Representation - Inverse Transformation - Composite Transformation: Pivot point Rotation - fixed point scaling - Other Transformation: Reflection - Shear.";
             String Content3 = "The Viewing pipeline - Window to Viewport coordinate Transformstion - Clipping operation - Point Clipping - line clipping: Cohen Sutherland line clipping - Polygon clipping: Sutherland Hodegeman polygon clipping.";
-            String Content4 = "he User Dialogue - Input of Graphical Data: Locator, Stroke, String, Valuator, And Choice, Pick devices - Interactive picture construction techniques - Three Dimensional Display methods: 3D Transformation.";
+            String Content4 = "The User Dialogue - Input of Graphical Data: Locator, Stroke, String, Valuator, And Choice, Pick devices - Interactive picture construction techniques - Three Dimensional Display methods: 3D Transformation.";
             String Content5 = "Visible Surface Detection: Back Face Detection - Depth Buffer Method - A Buffer Method - Scan Line Method - Depth Sorting Method - Area Subdivision Method.";
 
             intent.putExtra("SubName", SubName);
