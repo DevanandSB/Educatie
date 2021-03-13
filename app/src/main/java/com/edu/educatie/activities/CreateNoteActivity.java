@@ -171,7 +171,7 @@ public class CreateNoteActivity extends AppCompatActivity {
 
     private void saveNote() {
         if(inputNoteTitle.getText().toString().trim().isEmpty()) {
-            FancyToast.makeText(CreateNoteActivity.this, "Note title can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
+            FancyToast.makeText(CreateNoteActivity.this, "Note title can't be empty", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
             return;
         } else if(inputNoteSubtitle.getText().toString().trim().isEmpty() && inputNoteText.getText().toString().trim().isEmpty()) {
 //            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();

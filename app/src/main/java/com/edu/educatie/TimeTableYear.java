@@ -349,18 +349,18 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject4II = "Computer Networks";
                 String Staff4II = "Mrs. A. Josephine Sagaya Mala";
                 String Subject5II = "Programming with XML";
-                String Staff5II = "Staff Name Here";
+                String Staff5II = "Mr. M. Santhoshkumar";
 
                 String Subject1III = "Mobile Application - Android Development";
                 String Staff1III = "Mr. P. Karthik";
                 String Subject2III = "Programming with XML";
-                String Staff2III = "Staff Name Here";
+                String Staff2III = "Mr. M. Santhoshkumar";
                 String Subject3III = "Computer Networks";
                 String Staff3III = "Mrs. A. Josephine Sagaya Mala";
                 String Subject4III = "Programming with XML (Practical)";
-                String Staff4III = "Staff Name Here | Mr. M. SarlinRaj | Mrs. A. Josephine Sagaya Mala";
+                String Staff4III = "Mr. M. Santhoshkumar | Mr. M. SarlinRaj | Mrs. A. Josephine Sagaya Mala";
                 String Subject5III = "Programming with XML (Practical)";
-                String Staff5III = "Staff Name Here | Mr. M. SarlinRaj | Mrs. A. Josephine Sagaya Mala";
+                String Staff5III = "Mr. M. Santhoshkumar | Mr. M. SarlinRaj | Mrs. A. Josephine Sagaya Mala";
 
                 String Subject1IV = "Computer Networks";
                 String Staff1IV = "Mrs. A. Josephine Sagaya Mala";
@@ -369,20 +369,20 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject3IV = "Mobile Apps - Android Development";
                 String Staff3IV = "Mr. P. Karthik";
                 String Subject4IV = "Programming with Python (Practical)";
-                String Staff4IV = "Mr. M. SarlinRaj | Mr. S. MohanRaj | Staff Name Here";
+                String Staff4IV = "Mr. M. SarlinRaj | Mr. S. MohanRaj | Mr. M. Santhoshkumar";
                 String Subject5IV = "Programming with Python (Practical)";
-                String Staff5IV = "Mr. M. SarlinRaj | Mr. S. MohanRaj | Staff Name Here";
+                String Staff5IV = "Mr. M. SarlinRaj | Mr. S. MohanRaj | Mr. M. Santhoshkumar";
 
                 String Subject1V = "Microprocessor and its Applications";
                 String Staff1V = "Mr. S. Mohanraj";
                 String Subject2V = "Programming with XML";
-                String Staff2V = "Staff Name Here";
+                String Staff2V = "Mr. M. Santhoshkumar";
                 String Subject3V = "Non Major Elective";
                 String Staff3V = " ";
                 String Subject4V = "Microprocessor and its Applications (Practical)";
-                String Staff4V = "Mr. S. MohanRaj | Mr. M. SarlinRaj | Staff Name Here";
+                String Staff4V = "Mr. S. MohanRaj | Mr. M. SarlinRaj | Mr. M. Santhoshkumar";
                 String Subject5V = "Microprocessor and its Applications (Practical)";
-                String Staff5V = "Mr. S. MohanRaj | Mr. M. SarlinRaj | Staff Name Here";
+                String Staff5V = "Mr. S. MohanRaj | Mr. M. SarlinRaj | Mr. M. Santhoshkumar";
 
                 String Subject1VI = "Microprocessor and its Applications";
                 String Staff1VI = "Mr. S. MohanRaj";
@@ -391,7 +391,7 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject3VI = "Mobile Apps - Android Development";
                 String Staff3VI = "Mr. P. Karthik";
                 String Subject4VI = "Programming with XML";
-                String Staff4VI = "Staff Name Here";
+                String Staff4VI = "Mr. M. Santhoshkumar";
                 String Subject5VI = "Project";
                 String Staff5VI = "Mr. S. MohanRaj";
 
