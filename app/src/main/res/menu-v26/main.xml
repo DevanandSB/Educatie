@@ -11,4 +11,19 @@
         android:icon="@drawable/ic_profile"
         android:title="About Developer" />
 
+<!--    <menu>-->
+
+<!--        <item-->
+<!--            android:id="@+id/github"-->
+<!--            android:icon="@drawable/ic_info"-->
+<!--            android:title="GitHub" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/instagram"-->
+<!--            android:icon="@drawable/ic_info"-->
+<!--            android:title="LinkedIn" />-->
+
+<!--    </menu>-->
+
+
 </menu>
