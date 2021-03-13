@@ -87,7 +87,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -135,7 +135,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.15AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -183,7 +183,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -345,7 +345,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -393,7 +393,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.45AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -441,7 +441,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -602,7 +602,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -650,7 +650,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.45AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -698,7 +698,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -859,7 +859,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -907,7 +907,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.45AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -955,7 +955,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1116,7 +1116,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1164,7 +1164,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.45AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1212,7 +1212,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1373,7 +1373,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="9.00AM to 9.45AM"
+                            android:text="1.25 PM to 2.15 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1421,7 +1421,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="11.00AM to 11.45AM"
+                            android:text="2.15 PM to 3.05 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -1469,7 +1469,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/calibri"
-                            android:text="3.00PM to 3.45PM"
+                            android:text="3.05 PM to 3.55 PM"
                             android:textSize="14sp" />
                     </LinearLayout>
 
