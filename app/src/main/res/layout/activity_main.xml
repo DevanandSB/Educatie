@@ -40,6 +40,7 @@
             android:layout_height="@dimen/_20sdp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_search"
+            android:layout_gravity="center"
             app:tint="@color/NotescolorSearchIcon" />
 
         <EditText
@@ -118,8 +119,9 @@
         android:background="@drawable/background_add_button"
         android:contentDescription="@string/app_name"
         android:padding="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:src="@drawable/ic_add"
-        app:tint="@color/NotescolorPrimary"
+        app:tint="#FFF"
         app:layout_constraintBottom_toTopOf="@id/layoutQuickActions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/layoutQuickActions"/>
