@@ -25,8 +25,8 @@ public class TimeTableYear extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timetable_year);
-        //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         Iyear = findViewById(R.id.Iexam);
         IIyear = findViewById(R.id.IIexam);
@@ -44,9 +44,9 @@ public class TimeTableYear extends AppCompatActivity {
 
                 String year = "I Year";
                 String Subject1I = "Computer Organisation and Architecture";
-                String Staff1I = "Staff name here ";
+                String Staff1I = "Mr. M. Santhoshkumar";
                 String Subject2I = "English for Basic Communication";
-                String Staff2I = "Staff name here";
+                String Staff2I = "Mr. S. Prabakaran";
                 String Subject3I = "Allied Mathematics - II";
                 String Staff3I = "Miss. D. Saraswathi";
                 String Subject4I = "Programming with C (Practical)";
@@ -55,42 +55,42 @@ public class TimeTableYear extends AppCompatActivity {
                 String Staff5I = "Mrs. A. Josephine Sagaya Mala";
 
                 String Subject1II = "English for Basic Communication";
-                String Staff1II = "Staff name here";
+                String Staff1II = "Mr. S. Prabakaran";
                 String Subject2II = "Personal Skills";
                 String Staff2II = "Staff Name Here";
                 String Subject3II = "பொது தமிழ் - II";
                 String Staff3II = "Staff Name Here";
                 String Subject4II = "Allied Mathematics - II";
                 String Staff4II = "Miss. D. Saraswathi";
-                String Subject5II = "Ethics";
+                String Subject5II = "Value Education";
                 String Staff5II = "Mr. M. SarlinRaj";
 
                 String Subject1III = "Programming with C";
                 String Staff1III = "Mrs. A. Josephine Sagaya Mala";
                 String Subject2III = "English for Basic Communication";
-                String Staff2III = "Staff Name Here";
+                String Staff2III = "Mr. S. Prabakaran";
                 String Subject3III = "Computer Organisation and Architecture";
-                String Staff3III = "Staff Name Here";
+                String Staff3III = "Mr. M. Santhoshkumar";
                 String Subject4III = "பொது தமிழ் - II";
-                String Staff4III = "Staff Name Here";
+                String Staff4III = "Dr. R. Sankar";
                 String Subject5III = "Allied Mathematics - II";
                 String Staff5III = "Miss. D. Saraswathi";
 
-                String Subject1IV = "Ethics";
+                String Subject1IV = "Value Education";
                 String Staff1IV = "Mr. M. SarlinRaj";
                 String Subject2IV = "Allied Mathematics - II";
                 String Staff2IV = "Miss. D. Saraswathi";
                 String Subject3IV = "Computer Organisation and Architecture";
-                String Staff3IV = "Staff Name Here";
+                String Staff3IV = "Mr. M. Santhoshkumar";
                 String Subject4IV = "Programming with C";
                 String Staff4IV = "Mrs. A. Josephine Sagaya Mala";
                 String Subject5IV = "பொது தமிழ் - II";
-                String Staff5IV = "Staff Name Here";
+                String Staff5IV = "Dr. R. Sankar";
 
                 String Subject1V = "பொது தமிழ் - II";
-                String Staff1V = "Staff Name Here";
+                String Staff1V = "Dr. R. Sankar";
                 String Subject2V = "English for Basic Communication";
-                String Staff2V = "Staff Name Here";
+                String Staff2V = "Mr. S. Prasanth";
                 String Subject3V = "Personal Skills";
                 String Staff3V = "Staff Name Here";
                 String Subject4V = "Allied Mathematics - II";
@@ -101,13 +101,13 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject1VI = "Allied Mathematics - II";
                 String Staff1VI = "Miss. D. Saraswathi";
                 String Subject2VI = "பொது தமிழ் - II";
-                String Staff2VI = "Staff Name Here";
+                String Staff2VI = "Dr. R. Sankar";
                 String Subject3VI = "Programming with C";
                 String Staff3VI = "Mrs. A. Josephine Sagaya Mala";
                 String Subject4VI = "English for Basic Communication";
-                String Staff4VI = "Staff Name Here";
+                String Staff4VI = "Mr. S. Prasanth";
                 String Subject5VI = "Computer Organisation and Architecture";
-                String Staff5VI = "Staff Name Here";
+                String Staff5VI = "Mr. M. Santhoshkumar";
 
                 intent.putExtra("year",year);
                 intent.putExtra("Subject1I", Subject1I);
@@ -189,10 +189,10 @@ public class TimeTableYear extends AppCompatActivity {
                 String Staff1I = "Staff Name Here | Staff Name Here";
                 String Subject2I = "English for Business Communication";
                 String Staff2I = "Staff Name Here";
-                String Subject3I = "Human Rights";
+                String Subject3I = "Environmental Studies";
                 String Staff3I = "Mr. M. SarlinRaj";
                 String Subject4I = "Employability Skills";
-                String Staff4I = "Staff Name Here";
+                String Staff4I = "Mr. Picasso";
                 String Subject5I = "Relational Database Management System";
                 String Staff5I = "Mr. P. Karthik";
 
@@ -205,7 +205,7 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject4II = "Computer Graphics";
                 String Staff4II = "Mr. M. SarlinRaj";
                 String Subject5II = "Relational Database Management System";
-                String Staff5II = "Mr. S. Mohanraj";
+                String Staff5II = "Mr. P. Karthik";
 
                 String Subject1III = "Computer Graphics";
                 String Staff1III = "Mr. M. SarlinRaj";
@@ -215,11 +215,11 @@ public class TimeTableYear extends AppCompatActivity {
                 String Staff3III = "Staff Name Here | Staff Name Here";
                 String Subject4III = "Allied Physics for Computer Science - II";
                 String Staff4III = "Mr. L. Anandaraj";
-                String Subject5III = "Human Rights";
+                String Subject5III = "Environmental Studies";
                 String Staff5III = "Mr. M. SarlinRaj";
 
                 String Subject1IV = "Relational Database Management System";
-                String Staff1IV = "Mr. S. Mohanraj";
+                String Staff1IV = "Mr. P. Karthik";
                 String Subject2IV = "English for Business Communication";
                 String Staff2IV = "Staff Name Here";
                 String Subject3IV = "Computer Graphics";
@@ -249,7 +249,7 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject4VI = "English for Business Communication";
                 String Staff4VI = "Staff Name Here";
                 String Subject5VI = "பொது தமிழ் - IV";
-                String Staff5VI = "Staff Name Here";
+                String Staff5VI = "Staff Name Here | Staff Name Here";
 
                 intent.putExtra("year",year);
 
@@ -338,7 +338,7 @@ public class TimeTableYear extends AppCompatActivity {
                 String Subject4I = "Mobile Applications - Android Development";
                 String Staff4I = "Mr. P. Karthik";
                 String Subject5I = "Programming with XML";
-                String Staff5I = "Staff Name Here";
+                String Staff5I = "Mr. M. Santhoshkumar";
 
                 String Subject1II = "Microprocessor and its Applications";
                 String Staff1II = "Mr. S. Mohanraj";
