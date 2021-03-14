@@ -174,7 +174,7 @@ public class CreateNoteActivity extends AppCompatActivity {
             FancyToast.makeText(CreateNoteActivity.this, "Note title can't be empty", FancyToast.LENGTH_SHORT, FancyToast.ERROR, false).show();
             return;
         } else if(inputNoteSubtitle.getText().toString().trim().isEmpty() && inputNoteText.getText().toString().trim().isEmpty()) {
-//            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.WARNING, false).show();
+            FancyToast.makeText(CreateNoteActivity.this, "Note can't be empty", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         }
 
 
@@ -183,6 +183,8 @@ public class CreateNoteActivity extends AppCompatActivity {
         note.setSubtitle(inputNoteSubtitle.getText().toString());
         note.setNoteText(inputNoteText.getText().toString());
         note.setDateTime(textDateTime.getText().toString());
+
+
         note.setColor(selectedNoteColor);
         note.setImagePath(selectedImagePath);
 
@@ -194,7 +196,6 @@ public class CreateNoteActivity extends AppCompatActivity {
             note.setId(alreadyAvailableNote.getId());
         }
 
-        @SuppressLint("StaticFieldLeak")
         class SaveNoteTask extends AsyncTask<Void, Void, Void> {
 
             @Override
@@ -202,11 +203,11 @@ public class CreateNoteActivity extends AppCompatActivity {
                 NotesDatabase.getDatabase(getApplicationContext()).noteDao().insertNote(note);
                 return null;
             }
-
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                Intent intent = new Intent(CreateNoteActivity.this, Home.class);
+//                Intent intent = new Intent(CreateNoteActivity.this, Home.class);
+                Intent intent = new Intent();
                 setResult(RESULT_OK, intent);
                 finish();
             }
