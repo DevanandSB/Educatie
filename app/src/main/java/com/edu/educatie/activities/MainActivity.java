@@ -159,13 +159,13 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             }
         });
 
-//        findViewById(R.id.imageNote).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivityForResult(new Intent(getApplicationContext(), CreateNoteActivity.class),
-//                        REQUEST_CODE_ADD_NOTE);
-//            }
-//        });
+        findViewById(R.id.imageNote).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(getApplicationContext(), CreateNoteActivity.class),
+                        REQUEST_CODE_ADD_NOTE);
+            }
+        });
 
         findViewById(R.id.imageAddImage).setOnClickListener(new View.OnClickListener() {
             @Override
