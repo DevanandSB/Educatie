@@ -59,4 +59,14 @@
         </menu>
     </item>
 
+    <item android:title="Show support">
+        <menu>
+            <item
+                android:id="@+id/buymeacoffee"
+                android:icon="@drawable/ic_info"
+                android:title="Buy me a Coffee" />
+
+        </menu>
+    </item>
+
 </menu>

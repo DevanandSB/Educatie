@@ -43,7 +43,7 @@ public class Home extends AppCompatActivity
 
     private long backPressedTime;
     private Toast backToast;
-    String[] urls = new String[7];
+    String[] urls = new String[8];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +63,7 @@ public class Home extends AppCompatActivity
         urls[4] = "https://educatie.me/pythonCerti"; //Python Udemy Certificate
         urls[5] = "https://www.udemy.com/course/linux-operating-system-for-beginners-in-tamil/"; //Linux Udemy Certificate
         urls[6] = "https://www.udemy.com/course/python-programming-with-real-life-example/";
+        urls[7] = "https://www.buymeacoffee.com/DevanandSB";
 
         //Third Year
         sI3 = findViewById(R.id.sI3);
@@ -584,7 +585,13 @@ public class Home extends AppCompatActivity
             finish();
         } else if (id == R.id.messageChat) {
             FancyToast.makeText(Home.this, "This Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+        }
 
+        else if (id == R.id.buymeacoffee) {
+            Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
+            intent.putExtra("Links",urls[7]);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -592,13 +599,13 @@ public class Home extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-
-        inflater.inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//
+//        inflater.inflate(R.menu.main, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
     @Override
     public void onClick(View view) {
