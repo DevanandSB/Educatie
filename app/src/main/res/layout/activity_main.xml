@@ -85,14 +85,6 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
-            android:id="@+id/imageAddNote"
-            android:layout_width="@dimen/_23sdp"
-            android:layout_height="@dimen/_23sdp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_add_outline"
-            app:tint="@color/NotescolorIcons" />
-
-        <ImageView
             android:id="@+id/imageAddImage"
             android:layout_width="@dimen/_23sdp"
             android:layout_height="@dimen/_23sdp"
