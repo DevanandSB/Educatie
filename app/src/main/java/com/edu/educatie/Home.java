@@ -593,7 +593,7 @@ public class Home extends AppCompatActivity
             intent.putExtra("Links",urls[7]);
             startActivity(intent);
             finish();
-        } else if (id == R.id.buymeacoffee) {
+        } else if (id == R.id.github) {
             Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
             intent.putExtra("Links",urls[8]);
             startActivity(intent);
