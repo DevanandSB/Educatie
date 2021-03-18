@@ -63,8 +63,13 @@
         <menu>
             <item
                 android:id="@+id/buymeacoffee"
-                android:icon="@drawable/ic_info"
+                android:icon="@drawable/coffee"
                 android:title="Buy me a Coffee" />
+
+            <item
+                android:id="@+id/github"
+                android:icon="@drawable/github"
+                android:title="Follow us on GitHub" />
 
         </menu>
     </item>
