@@ -21,6 +21,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
     buildTypes {
         release {
             minifyEnabled false
@@ -98,7 +104,9 @@ dependencies {
     implementation "androidx.room:room-runtime:2.2.6"
     annotationProcessor "androidx.room:room-compiler:2.2.6"
     //Biometric
-    implementation "androidx.biometric:biometric:1.0.1"
+    implementation "androidx.biometric:biometric:1.1.0"
+
+    compile 'io.customerly:customerly-android-sdk:3.0.10'
 
 }
 apply plugin: 'com.google.gms.google-services'

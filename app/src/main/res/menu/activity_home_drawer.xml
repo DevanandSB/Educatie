@@ -7,10 +7,6 @@
         android:title="Features">
         <menu>
             <item
-                android:id="@+id/nav_home"
-                android:icon="@drawable/ic_home"
-                android:title="Home" />
-            <item
                 android:id="@+id/nav_courses"
                 android:icon="@drawable/ic_acedemic"
                 android:title="Syllabus" />
@@ -22,10 +18,6 @@
                 android:id="@+id/timetables"
                 android:icon="@drawable/ic_schedule"
                 android:title="Time Table" />
-            <item
-                android:id="@+id/onlinecourses"
-                android:icon="@drawable/ic_course"
-                android:title="Free Courses" />
             <item
                 android:id="@+id/exams"
                 android:icon="@drawable/ic_exams"

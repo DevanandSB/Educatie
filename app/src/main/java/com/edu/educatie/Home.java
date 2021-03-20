@@ -548,10 +548,6 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), Subjects.class);
             startActivity(intent);
             finish();
-        }else if(id == R.id.nav_home) {
-            Intent intent = new Intent(getApplicationContext(), Home.class);
-            startActivity(intent);
-            finish();
         }else if(id == R.id.enterNotes) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
@@ -572,10 +568,6 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), AboutDeveloper.class);
             startActivity(intent);
             finish();
-        }else if (id == R.id.onlinecourses) {
-                Intent intent = new Intent(getApplicationContext(), FreeCourses.class);
-                startActivity(intent);
-                finish();
         } else if (id == R.id.exams) {
             Intent intent = new Intent(getApplicationContext(), RadioActivity.class);
             startActivity(intent);

@@ -23,7 +23,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,8 +32,6 @@ import android.widget.ImageView;
 
 import com.edu.educatie.Home;
 import com.edu.educatie.R;
-import com.edu.educatie.StaffProfile;
-import com.edu.educatie.Subjects;
 import com.edu.educatie.adapters.NotesAdapter;
 import com.edu.educatie.database.NotesDatabase;
 import com.edu.educatie.entities.Note;
@@ -73,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notesmain);
 
         BiometricManager biometricManager = BiometricManager.from(this);
 
