@@ -63,7 +63,7 @@ public class Home extends AppCompatActivity
         urls[4] = "https://educatie.me/pythonCerti"; //Python Udemy Certificate
         urls[5] = "https://www.udemy.com/course/linux-operating-system-for-beginners-in-tamil/"; //Linux Udemy Certificate
         urls[6] = "https://www.udemy.com/course/python-programming-with-real-life-example/";
-        urls[7] = "https://www.buymeacoffee.com/SBDevanand";
+        urls[7] = "https://www.buymeacoffee.com/DevanandSB";
         urls[8] = "https://github.com/DevanandSB";
 
         //Third Year
