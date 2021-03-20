@@ -18,10 +18,6 @@
                 android:id="@+id/enterNotes"
                 android:icon="@drawable/ic_notes"
                 android:title="Notes" />
-<!--    <item-->
-<!--            android:id="@+id/nav_events"-->
-<!--            android:icon="@drawable/ic_event_black_24dp"-->
-<!--            android:title="Events" />-->
             <item
                 android:id="@+id/timetables"
                 android:icon="@drawable/ic_schedule"
@@ -39,9 +35,13 @@
                 android:icon="@drawable/ic_activity"
                 android:title="Activity Lounge" />
             <item
-                android:id="@+id/messageChat"
-                android:icon="@drawable/ic_message"
-                android:title="Chat Rooms" />
+                android:id="@+id/job_activity"
+                android:icon="@drawable/ic_jobs"
+                android:title="Jobs Preparation" />
+<!--            <item-->
+<!--                android:id="@+id/messageChat"-->
+<!--                android:icon="@drawable/ic_message"-->
+<!--                android:title="Chat Rooms" />-->
 
         </menu>
     </item>

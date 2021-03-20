@@ -61,9 +61,9 @@
             android:configChanges="orientation|screenSize"
             android:label="Time Table" />
         <activity
-            android:name=".Events"
+            android:name=".JobsActivity"
             android:configChanges="orientation|screenSize"
-            android:label="Events" />
+            android:label="Job Preparation" />
         <activity
             android:name=".Subjects"
             android:configChanges="orientation|screenSize"

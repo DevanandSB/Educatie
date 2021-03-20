@@ -556,9 +556,9 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
             finish();
-//        } else if (id == R.id.nav_events) {
-//            Intent intent = new Intent(getApplicationContext(), Events.class);
-//            startActivity(intent);
+        } else if (id == R.id.job_activity) {
+            Intent intent = new Intent(getApplicationContext(), JobsActivity.class);
+            startActivity(intent);
         } else if (id == R.id.timetables) {
             Intent intent = new Intent(getApplicationContext(), TimeTableYear.class);
             startActivity(intent);
@@ -584,9 +584,10 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), OnboardingActivity.class);
             startActivity(intent);
             finish();
-        } else if (id == R.id.messageChat) {
-            FancyToast.makeText(Home.this, "This Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
         }
+//        else if (id == R.id.messageChat) {
+//            FancyToast.makeText(Home.this, "This Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+//        }
 
         else if (id == R.id.buymeacoffee) {
             Intent intent = new Intent(getApplicationContext(), HomeWeb.class);
