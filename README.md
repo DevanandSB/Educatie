@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DevanandSB/Educatie)
+
 <h1 align="center">Educatie - College Management app</h1>
 <p align = center>
     <img alt="Project Logo" src="https://image.flaticon.com/icons/svg/270/270780.svg" target="_blank" width = 120 height = 120 />
