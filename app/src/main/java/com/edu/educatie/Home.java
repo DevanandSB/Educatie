@@ -20,6 +20,8 @@ import com.edu.educatie.activities.MainActivity;
 import com.google.android.material.navigation.NavigationView;
 import com.shashank.sony.fancytoastlib.FancyToast;
 
+import soup.neumorphism.NeumorphCardView;
+
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
@@ -199,7 +201,6 @@ public class Home extends AppCompatActivity
         });
 
         //Second Year
-        // TODO: Change for Second Year
         sI2.setOnClickListener(view -> {
             Animation animation = AnimationUtils.loadAnimation(this,R.anim.nav_default_enter_anim);
             sI2.startAnimation(animation);
