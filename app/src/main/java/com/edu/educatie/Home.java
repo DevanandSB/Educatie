@@ -59,7 +59,6 @@ public class Home extends AppCompatActivity
         urls[8] = "https://github.com/DevanandSB";
 
         //Third Year
-
         sI3 = findViewById(R.id.sI3);
         sII3 = findViewById(R.id.sII3);
         sIII3 = findViewById(R.id.sIII3);
