@@ -30,11 +30,15 @@
                     android:layout_marginTop="8sp"
                     android:padding="12dp">
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shadowColorLight="@color/softuilight"
+                        app:neumorph_shadowColorDark="@color/softuidark"
+                        app:neumorph_lightSource="leftTop"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="6dp"
                         app:cardUseCompatPadding="false">
 
                         <ImageView
@@ -44,9 +48,9 @@
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img" />
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -60,9 +64,9 @@
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img1" />
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -76,9 +80,9 @@
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img2" />
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -92,9 +96,9 @@
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img3" />
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -108,7 +112,7 @@
                             android:scaleType="centerInside"
                             android:src="@drawable/banner_img4" />
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
                 </LinearLayout>
 
@@ -146,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp">
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -228,9 +232,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -314,10 +318,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -399,9 +403,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -484,10 +488,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -570,7 +574,7 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
                 </LinearLayout>
 
@@ -606,7 +610,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp">
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -689,9 +693,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -774,10 +778,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -859,9 +863,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -944,10 +948,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1030,7 +1034,7 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
                 </LinearLayout>
 
@@ -1067,7 +1071,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp">
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1150,9 +1154,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1235,10 +1239,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1320,9 +1324,9 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1405,10 +1409,10 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
 
-                    <com.google.android.material.card.MaterialCardView
+                    <soup.neumorphism.NeumorphCardView
                         android:layout_width="320dp"
                         android:layout_height="wrap_content"
                         app:cardCornerRadius="4dp"
@@ -1492,7 +1496,7 @@
                         </LinearLayout>
 
 
-                    </com.google.android.material.card.MaterialCardView>
+                    </soup.neumorphism.NeumorphCardView>
 
                 </LinearLayout>
 
@@ -1532,7 +1536,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -1579,9 +1583,9 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -1627,9 +1631,9 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -1677,7 +1681,7 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
         </LinearLayout>
         </HorizontalScrollView>
@@ -1714,7 +1718,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -1761,9 +1765,9 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -1809,9 +1813,9 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -1859,7 +1863,7 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
         </LinearLayout>
         </HorizontalScrollView>
 
@@ -1896,7 +1900,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -1943,9 +1947,9 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -1991,7 +1995,7 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
         </LinearLayout>
         </HorizontalScrollView>
@@ -2018,7 +2022,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -2110,7 +2114,7 @@
 
                 </RelativeLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
 
             <LinearLayout
@@ -2135,7 +2139,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -2240,8 +2244,8 @@
 
                 </RelativeLayout>
 
-            </com.google.android.material.card.MaterialCardView>
-            <com.google.android.material.card.MaterialCardView
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -2346,7 +2350,7 @@
 
                 </RelativeLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -2370,7 +2374,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <com.google.android.material.card.MaterialCardView
+            <soup.neumorphism.NeumorphCardView
                 android:id="@+id/moodleEducatie"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -2434,7 +2438,7 @@
 
                 </LinearLayout>
 
-            </com.google.android.material.card.MaterialCardView>
+            </soup.neumorphism.NeumorphCardView>
 
             <LinearLayout
                 android:layout_width="match_parent"

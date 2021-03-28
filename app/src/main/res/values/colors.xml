@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="softuilight">#ffffff</color>
+    <color name="softuidark">#d9d9d9</color>
     <color name="colorPrimary">#ff393a</color>
 <!--    <color name="colorPrimaryDark">#c45248</color>-->
     <color name="colorPrimaryDark">#ff393a</color>
