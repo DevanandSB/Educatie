@@ -2258,7 +2258,6 @@
                     android:orientation="horizontal"
                     android:weightSum="100">
 
-
                     <ImageView
                         android:id="@+id/myCourse2"
                         android:layout_width="120dp"
