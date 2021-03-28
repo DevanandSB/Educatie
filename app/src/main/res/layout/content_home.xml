@@ -2022,11 +2022,10 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="12dp"
-                app:cardUseCompatPadding="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="16dp"
                 app:contentPadding="4dp">
 
                 <RelativeLayout
@@ -2128,6 +2127,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
+                    android:layout_marginTop="12dp"
                     android:fontFamily="@font/calibri"
                     android:text="Paid Udemy Course for free"
                     android:textAlignment="textStart"
@@ -2139,11 +2139,10 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
-                app:cardUseCompatPadding="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="16dp"
                 app:contentPadding="4dp">
 
                 <RelativeLayout
@@ -2242,14 +2241,15 @@
                 </RelativeLayout>
 
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
-                app:cardUseCompatPadding="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="15dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="16dp"
                 app:contentPadding="4dp">
 
                 <RelativeLayout
