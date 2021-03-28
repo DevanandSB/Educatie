@@ -33,11 +33,7 @@
 
                     <com.google.android.material.card.MaterialCardView
                         app:neumorph_shadowElevation="6dp"
-                        app:neumorph_shadowColorLight="@color/softuilight"
-                        app:neumorph_shadowColorDark="@color/softuidark"
-                        app:neumorph_lightSource="leftTop"
-                        app:neumorph_shapeType="flat"
-                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:cardElevation="6dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:cardUseCompatPadding="false">
@@ -2028,8 +2024,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="4dp">
 
