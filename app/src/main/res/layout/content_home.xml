@@ -2142,7 +2142,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="16dp"
+                app:cardElevation="12dp"
                 app:contentPadding="4dp">
 
                 <RelativeLayout
@@ -2246,10 +2246,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="15dp"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="16dp"
+                app:cardElevation="12dp"
                 app:contentPadding="4dp">
 
                 <RelativeLayout
@@ -2362,6 +2362,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
+                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/calibri"
                     android:text="Activity Lounge"
                     android:textAlignment="textStart"
@@ -2374,11 +2375,11 @@
                 android:id="@+id/moodleEducatie"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
-                app:cardUseCompatPadding="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="#fff"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="12dp"
                 app:contentPadding="4dp">
 
                 <LinearLayout
