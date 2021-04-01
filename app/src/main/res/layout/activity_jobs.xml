@@ -32,21 +32,126 @@
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/event_slider_img" />
+                        android:src="@drawable/gfg" />
 
                     <ImageView
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/event_slider_img1" />
+                        android:src="@drawable/prepinsta" />
 
                     <ImageView
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/event_slider_img2" />
+                        android:src="@drawable/glassdoor" />
 
                 </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/calibri"
+                android:text="Choose an MNC"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <RadioGroup
+                        android:id="@+id/roundRadioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/TCS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TCS"
+                            android:checked="true"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+                        <RadioButton
+                            android:id="@+id/Wipro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wipro"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+                        <RadioButton
+                            android:id="@+id/Infosys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Infosys"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+                        <RadioButton
+                            android:id="@+id/cts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CTS"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+                        <RadioButton
+                            android:id="@+id/Zoho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zoho"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+
+                        <RadioButton
+                            android:id="@+id/others"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other Companies"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/radio_text"
+                            android:elevation="4dp"
+                            android:padding="16dp"
+                            android:layout_margin="5dp"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
 
             </HorizontalScrollView>
 
