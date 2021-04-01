@@ -75,7 +75,8 @@
                         android:id="@+id/roundRadioGroup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginStart="16dp">
 
                         <RadioButton
                             android:id="@+id/TCS"
@@ -156,11 +157,12 @@
             </HorizontalScrollView>
 
             <TextView
+                android:id="@+id/round1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:fontFamily="@font/calibri"
-                android:text="Reference Books"
+                android:text="TCS National Qualifier Test"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -183,16 +185,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
+                        android:textStyle="bold"
                         android:fontFamily="@font/calibri"
-                        android:text="Online Applications 2020 - 2021"
+                        android:text="About the Test"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="20sp" />
 
                     <TextView
+                        android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Admission is ongoing in our college for 2020 - 2021 Batch Students"
+                        android:text="-> NQT (Cognitive Skills) is a prerequisite for all the tests\n\n->Two-year validity of NQT Score\n\n->Conducted online (at home) and physical In-Centre at TCS iON Authorised Exam Centres.\n\n->Candidates with NQT Score will be eligible to apply on the TCS iON Job Listing Portal.\n\n->Apply for any entry-level role in any corporate with the NQT Score."
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -216,7 +220,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:fontFamily="@font/calibri"
-                        android:text="Admit Card: 1"
+                        android:textStyle="bold"
+                        android:text="Who can Apply"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="20sp" />
 
@@ -224,7 +229,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
-                        android:text="Admit Card: I YEAR UG. Download your Admit card using Application No/ Register Number with Date of Birth"
+                        android:text="UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
                         android:textSize="18sp" />
                 </LinearLayout>
 
