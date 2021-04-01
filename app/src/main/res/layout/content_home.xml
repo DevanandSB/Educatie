@@ -29,14 +29,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8sp"
-                    android:padding="12dp">
+                    android:padding="15dp">
 
                     <com.google.android.material.card.MaterialCardView
-                        app:neumorph_shadowElevation="6dp"
                         app:cardElevation="6dp"
+                        app:cardCornerRadius="4dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:cardUseCompatPadding="false">
+                        android:layout_height="wrap_content">
 
                         <ImageView
                             android:layout_width="300dp"
@@ -50,9 +49,8 @@
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="6dp"
-                        app:cardUseCompatPadding="false">
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="4dp">
 
                         <ImageView
                             android:layout_width="300dp"
@@ -66,9 +64,8 @@
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="6dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="4dp">
 
                         <ImageView
                             android:layout_width="300dp"
@@ -82,9 +79,8 @@
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="6dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="4dp">
 
                         <ImageView
                             android:layout_width="300dp"
@@ -98,9 +94,8 @@
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="4dp"
-                        app:cardElevation="6dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="4dp">
 
                         <ImageView
                             android:layout_width="300dp"
