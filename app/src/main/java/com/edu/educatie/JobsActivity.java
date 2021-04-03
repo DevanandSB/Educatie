@@ -1,7 +1,6 @@
 package com.edu.educatie;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class JobsActivity extends AppCompatActivity {
@@ -11,12 +10,6 @@ public class JobsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return true;
     }
-
 }

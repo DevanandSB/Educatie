@@ -218,7 +218,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/round1card2"
+                android:id="@+id/round1card3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -242,14 +242,17 @@
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="20sp" />
 
-                    <TextView
-                        android:id="@+id/round1desc2"
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tablayout1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/calibri"
-                        android:textColor="#000"
-                        android:text="->UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
-                        android:textSize="18sp" />
+                        app:tabSelectedTextColor="#ff393a"/>
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
