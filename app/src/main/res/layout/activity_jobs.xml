@@ -234,6 +234,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
+                        android:textColor="#000"
                         android:text="UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -245,7 +246,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:fontFamily="@font/calibri"
-                android:text="Website - Aptitude to Interview"
+                android:text="Technical Round"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
