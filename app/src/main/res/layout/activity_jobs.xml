@@ -211,7 +211,44 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
                         android:textColor="#000"
-                        android:text="UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
+                        android:text="->UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/round1card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/round1title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/calibri"
+                        android:textStyle="bold"
+                        android:text="Syllabus for preparation"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/round1desc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calibri"
+                        android:textColor="#000"
+                        android:text="->UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
                         android:textSize="18sp" />
                 </LinearLayout>
 
