@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="8dp"
                 android:fontFamily="@font/calibri"
                 android:text="Choose an MNC"
                 android:textColor="#000000"
@@ -76,7 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginStart="16dp">
+                        android:layout_marginStart="8dp">
 
                         <RadioButton
                             android:id="@+id/TCS"
@@ -160,7 +160,9 @@
                 android:id="@+id/round1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="4dp"
                 android:fontFamily="@font/calibri"
                 android:text="TCS National Qualifier Test"
                 android:textColor="#000000"
@@ -174,11 +176,13 @@
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
                 app:cardUseCompatPadding="true"
-                app:contentPadding="16dp">
+                app:contentPadding="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
                     android:orientation="vertical">
 
                     <TextView
