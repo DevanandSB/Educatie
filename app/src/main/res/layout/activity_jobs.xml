@@ -13,6 +13,7 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:id="@+id/tcsLinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
@@ -139,7 +140,6 @@
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
-
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/round1card1"
@@ -349,6 +349,147 @@
                                 android:text="Symbol x refers that it is not mandatory"/>
                     </TableLayout>
 
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/calibri"
+                        android:text="Topics to be Study"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Numerical Ability:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Number System"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          Number System, LCM &amp; and HCF\n          Divisibility\n          Numbers and Decimal Fractions"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Mensuration"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          Geometry\n          Area, Shapes &amp; Perimeter"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Arithmetic Ability"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          Percentages\n          Allegations and Mixtures\n          Ratios, Proportion\n          Work &amp; Time\n          Speed, Time &amp; distance\n          Profit and Loss\n          Averages\n          Equations\n          Ages\n          Probability\n          Clocks &amp; Calendar\n          Series and Progressions"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Elementary Statistics"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          Mean, Median, Mode\n          Variance\n          Standard Deviation"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Data Interpretation"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          PI Charts\n          Tabular DI\n          Graphical DI"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-> Simplification &amp; Approximations"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          Simplifications and Calculations (Rational and Irrational Numbers)"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
