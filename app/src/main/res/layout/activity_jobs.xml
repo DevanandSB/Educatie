@@ -169,6 +169,7 @@
                         android:textSize="20sp" />
 
                     <TextView
+                        android:layout_marginTop="8dp"
                         android:id="@+id/round1desc1"
                         android:textColor="#000"
                         android:layout_width="match_parent"
@@ -209,6 +210,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#000"
+                        android:layout_marginTop="8dp"
                         android:text="->UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -242,6 +244,7 @@
 
 
                     <TableLayout
+                        android:layout_marginTop="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:stretchColumns="1">
