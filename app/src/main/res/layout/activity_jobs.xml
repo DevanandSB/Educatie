@@ -172,6 +172,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/round1card1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -187,6 +188,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/round1title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -197,6 +199,7 @@
                         android:textSize="20sp" />
 
                     <TextView
+                        android:id="@+id/round1desc1"
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -208,6 +211,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/round1card2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
@@ -221,6 +225,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/round1title2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -231,6 +236,7 @@
                         android:textSize="20sp" />
 
                     <TextView
+                        android:id="@+id/round1desc2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/calibri"
@@ -242,6 +248,7 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
+                android:id="@+id/round2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -253,6 +260,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/round2card1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp"
