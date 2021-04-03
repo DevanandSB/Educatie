@@ -32,19 +32,19 @@
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/gfg" />
+                        android:src="@drawable/job1" />
 
                     <ImageView
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/prepinsta" />
+                        android:src="@drawable/job2" />
 
                     <ImageView
                         android:layout_width="300dp"
                         android:layout_height="150dp"
                         android:layout_marginRight="4dp"
-                        android:src="@drawable/glassdoor" />
+                        android:src="@drawable/job3" />
 
                 </LinearLayout>
 
@@ -76,7 +76,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginStart="8dp">
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp">
 
                         <RadioButton
                             android:id="@+id/TCS"
