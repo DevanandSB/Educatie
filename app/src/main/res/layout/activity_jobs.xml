@@ -173,9 +173,8 @@
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/calibri"
                         android:text="-> NQT (Cognitive Skills) is a prerequisite for all the tests\n\n->Two-year validity of NQT Score\n\n->Conducted online (at home) and physical In-Centre at TCS iON Authorised Exam Centres.\n\n->Candidates with NQT Score will be eligible to apply on the TCS iON Job Listing Portal.\n\n->Apply for any entry-level role in any corporate with the NQT Score."
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -209,10 +208,9 @@
                         android:id="@+id/round1desc2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/calibri"
                         android:textColor="#000"
                         android:text="->UG, PG and Diploma students in their pre-final and final year.\n\n->Students with any degree and specialisation/discipline.\n\n->Freshers with less than 2 years of experience."
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -242,16 +240,112 @@
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="20sp" />
 
-                    <com.google.android.material.tabs.TabLayout
-                        android:id="@+id/tablayout1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:tabSelectedTextColor="#ff393a"/>
 
-                    <androidx.viewpager.widget.ViewPager
-                        android:id="@+id/viewPager1"
+                    <TableLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_height="match_parent"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:padding="3dip"
+                                android:text="Verbal Ability" />
+                            <TextView
+                                android:text="24 Questions"
+                                android:textColor="#000"
+                                android:padding="3dip"
+                                android:gravity="end"/>
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:text="Reasoning Ability"
+                                android:padding="3dip" />
+                            <TextView
+                                android:text="30 Questions"
+                                android:gravity="right"
+                                android:textColor="#000"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:text="Numerical Ability"
+                                android:padding="3dip" />
+                            <TextView
+                                android:text="26 Questions"
+                                android:textColor="#000"
+                                android:gravity="right"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:background="#FF909090" />
+
+                        <TableRow>
+                            <TextView
+                                android:text="X"
+                                android:textColor="#000"
+                                android:padding="3dip" />
+                            <TextView
+                                android:textColor="#000"
+                                android:text="Programming Logic"
+                                android:padding="3dip" />
+                            <TextView
+                                android:textColor="#000"
+                                android:text="10 Questions"
+                                android:gravity="right"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:text="X"
+                                android:textColor="#000"
+                                android:padding="3dip" />
+                            <TextView
+                                android:text="Coding"
+                                android:textColor="#000"
+                                android:padding="3dip" />
+                            <TextView
+                                android:textColor="#000"
+                                android:text="2 Hands-on Question"
+                                android:gravity="right"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:background="#FF909090" />
+
+                        <TableRow>
+                            <TextView
+                                android:textColor="#000"
+                                android:layout_column="1"
+                                android:text="Time: 180 Minutes"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:background="#FF909090" />
+
+
+                            <TextView
+                                android:textColor="#000"
+                                android:layout_column="1"
+                                android:gravity="end"
+                                android:text="Symbol x refers that it is not mandatory"/>
+                    </TableLayout>
+
 
                 </LinearLayout>
 
