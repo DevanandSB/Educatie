@@ -45,6 +45,64 @@ public class JobsActivity extends AppCompatActivity {
             othersLayout.setVisibility(View.GONE);
         }
 
+        if(wipro.isChecked()){
+            tcsLayout.setVisibility(View.GONE);
+            wiproLayout.setVisibility(View.VISIBLE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
 
+        if(infosys.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
+
+        if(cts.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
+
+        if(zoho.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
+
+        if(techmahindra.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
+
+        if(others.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
     }
 }
