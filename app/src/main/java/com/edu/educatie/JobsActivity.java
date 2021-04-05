@@ -18,12 +18,14 @@ public class JobsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         tcs = findViewById(R.id.TCS);
-        tcs = findViewById(R.id.Wipro);
-        tcs = findViewById(R.id.Infosys);
-        tcs = findViewById(R.id.cts);
-        tcs = findViewById(R.id.Zoho);
-        tcs = findViewById(R.id.techMahindra);
-        tcs = findViewById(R.id.others);
+        wipro = findViewById(R.id.Wipro);
+        infosys = findViewById(R.id.Infosys);
+        cts = findViewById(R.id.cts);
+        zoho = findViewById(R.id.Zoho);
+        techmahindra = findViewById(R.id.techMahindra);
+        others = findViewById(R.id.others);
+
+
 
     }
 }
