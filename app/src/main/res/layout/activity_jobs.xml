@@ -703,6 +703,56 @@
                             android:textSize="16sp" />
 
 
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> OOPs (1 - 2 Question)"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Procedural vs OOps\n          Classes and Objects\n          Inheritance\n          Abstraction\n          Encapsulation\n          Virtual and Pure Virtual\n          Constructor and Destructor\n          Polymorphism"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Data Structure (3 Question)"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Stacks\n          Queues\n          Linked Lists(Singly, Doubly, Circular)\n          Trees\n          Binary Search Trees\n          Graphs(only basics)\n          Searching\n          Sorting\n          Hashing"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Advanced-Data Structure (Only 1 Question)"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          AVL Trees\n          B Trees"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
