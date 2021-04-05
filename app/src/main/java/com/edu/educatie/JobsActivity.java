@@ -1,5 +1,6 @@
 package com.edu.educatie;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -13,6 +14,14 @@ public class JobsActivity extends AppCompatActivity {
 
     RadioButton tcs, wipro, infosys, cts, zoho, techmahindra, others;
     LinearLayout tcsLayout, wiproLayout, infosysLayout, ctsLayout, zoholayout, techMahiLayout, othersLayout;
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        Intent intent = new Intent(JobsActivity.this, Home.class);
+        startActivity(intent);
+        finish();
+        return true;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,5 +138,6 @@ public class JobsActivity extends AppCompatActivity {
                 othersLayout.setVisibility(View.VISIBLE);
             }
         });
+
     }
 }

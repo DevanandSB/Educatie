@@ -19,8 +19,8 @@ public class Subjects extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_courses);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         TextView Book, Author1;
         CardView III1, III2, III3, III4, III5;
