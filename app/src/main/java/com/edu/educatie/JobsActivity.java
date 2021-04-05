@@ -7,6 +7,8 @@ import android.widget.RadioButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Objects;
+
 public class JobsActivity extends AppCompatActivity {
 
     RadioButton tcs, wipro, infosys, cts, zoho, techmahindra, others;
@@ -16,7 +18,7 @@ public class JobsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         tcs = findViewById(R.id.TCS);
         wipro = findViewById(R.id.Wipro);
