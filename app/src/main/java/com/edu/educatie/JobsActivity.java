@@ -45,6 +45,16 @@ public class JobsActivity extends AppCompatActivity {
         techMahiLayout = findViewById(R.id.tech_mahindraLinearLayout);
         othersLayout = findViewById(R.id.OthersLinearLayout);
 
+        if(tcs.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
+
         tcs.setOnClickListener(v -> {
             if(tcs.isChecked()){
                 tcsLayout.setVisibility(View.VISIBLE);
