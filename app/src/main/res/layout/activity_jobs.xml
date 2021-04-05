@@ -154,8 +154,9 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginBottom="4dp"
                     android:fontFamily="@font/calibri"
-                    android:text="TCS National Qualifier Test"
-                    android:textColor="#000000"
+                    android:text="Round 1: TCS National Qualifier Test"
+                    android:textColor="#ff393a"
+                    android:gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -508,6 +509,200 @@
                             android:layout_height="wrap_content"
                             android:text="          Simplifications and Calculations (Rational and Irrational Numbers)"
                             android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Reasoning Ability:"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Identifying Word"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Word Pattern\n          Letter Series"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Numeric Pattern"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Number Series"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Problem Solving"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Seating Arrangements\n          Blood Relations\n          Data Arrangements"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Figural and Factual Analysis"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Cube Folding, Paper Cuts, and Folds"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Decision Making"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Decision Making\n          Syllogism\n          Data Sufficiency"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Propositional Reasoning"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Statements Based\n          Logical Venn Diagram Based DI"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Visual/Spatial Reasoning"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Visual and Spatial Reasoning"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Verbal Ability:"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> English Grammar"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Word Completion\n          Sentence Completion\n          Error Identification\n          Arrangements\n          Formal or Informal Sentences, Sentence Joining\n          Meanings"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Reading Comprehension"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Programming Logic"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Basics of C (4 - 5 Question)"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          Data Types\n          Input and Output\n          Functions and Scope\n          Inbuilt libraries\n          Variables and Registers\n          Command Line Programming\n          Pointers\n          Call by value/reference\n          Iteration\n          Recursion"
+                            android:textSize="16sp" />
+
+
 
                     </LinearLayout>
 
