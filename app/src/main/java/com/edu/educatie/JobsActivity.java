@@ -1,6 +1,7 @@
 package com.edu.educatie;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 
@@ -34,6 +35,15 @@ public class JobsActivity extends AppCompatActivity {
         othersLayout = findViewById(R.id.OthersLinearLayout);
 
 
+        if(tcs.isChecked()){
+            tcsLayout.setVisibility(View.VISIBLE);
+            wiproLayout.setVisibility(View.GONE);
+            infosysLayout.setVisibility(View.GONE);
+            ctsLayout.setVisibility(View.GONE);
+            zoholayout.setVisibility(View.GONE);
+            techMahiLayout.setVisibility(View.GONE);
+            othersLayout.setVisibility(View.GONE);
+        }
 
 
     }
