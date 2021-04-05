@@ -275,6 +275,7 @@
                                     android:textColor="#000"
                                     android:padding="3dip"
                                     android:text="Verbal Ability" />
+
                                 <TextView
                                     android:text="24 Questions"
                                     android:textColor="#000"
@@ -288,6 +289,7 @@
                                     android:textColor="#000"
                                     android:text="Reasoning Ability"
                                     android:padding="3dip" />
+
                                 <TextView
                                     android:text="30 Questions"
                                     android:gravity="right"
