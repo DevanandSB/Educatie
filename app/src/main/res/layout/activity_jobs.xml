@@ -783,6 +783,57 @@
                             android:text="          Example - 1, 2, 5, 4, 25, 16, 125, 64 ...... This series is mixture of power of 2 and power of 5. You have to print it via code."
                             android:textSize="16sp" />
 
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Strings "
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="           Example - Read a string and convert all the uppercases to $ sign and all lower cases to &amp; sign and print the output."
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Matrix "
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="           Finding the Highest sum for a row in a given matrix"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> Pythagoras Triplets"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-> LCM of 3 Numbers"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
