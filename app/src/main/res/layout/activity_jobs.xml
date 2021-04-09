@@ -948,7 +948,7 @@
                             android:textColor="#000"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="          What is your goal in life?\n          Tell me something about yourself that is interesting and you haven’t mentioned yet.\n          Why do you want to join TCS?\n          Why should we hire you?\n          Do you want to be a small fish in a big pond or a big fish in a small pond?\n          If your Team Lead is not giving you enough credit for your work, and is often complaining that you are not working, even if you are, then what will you do?\n          Tell me something about your family.\n          Who are your role models? "
+                            android:text="           -> What is your goal in life?\n          -> Tell me something about yourself that is interesting and you haven’t mentioned yet.\n          -> Why do you want to join TCS?\n          -> Why should we hire you?\n          -> Do you want to be a small fish in a big pond or a big fish in a small pond?\n          -> If your Team Lead is not giving you enough credit for your work, and is often complaining that you are not working, even if you are, then what will you do?\n          -> Tell me something about your family.\n          -> Who are your role models? "
                             android:textSize="16sp" />
 
                     </LinearLayout>
