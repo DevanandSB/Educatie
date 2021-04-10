@@ -1030,10 +1030,143 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginBottom="4dp"
                 android:fontFamily="@font/calibri"
-                android:text="WIPRO Section"
-                android:textColor="#000000"
+                android:text="Round 1: Online Test"
+                android:textColor="#ff393a"
+                android:gravity="center"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/calibri"
+                        android:text="About the Test"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="          The Online test consist of questions from various domains and an essay writing. This is a time based test and each section is allocated specific time. Different sections of the test are:\n\n          Quantitative Aptitude\n          Logical Reasoning\n          Verbal Ability\n          Basic Programming and Computer Fundamentals"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/round1card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/calibri"
+                        android:textStyle="bold"
+                        android:text="Syllabus for preparation"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+
+                    <TableLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:padding="3dip"
+                                android:text="Quantitative Aptitude" />
+
+                            <TextView
+                                android:text="20 Questions"
+                                android:textColor="#000"
+                                android:padding="3dip"
+                                android:gravity="end"/>
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:text="Logical Ability"
+                                android:padding="3dip" />
+
+                            <TextView
+                                android:text="20 Questions"
+                                android:gravity="right"
+                                android:textColor="#000"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_column="1"
+                                android:textColor="#000"
+                                android:text="Verbal Ability"
+                                android:padding="3dip" />
+                            <TextView
+                                android:text="20 Questions"
+                                android:textColor="#000"
+                                android:gravity="right"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:background="#FF909090" />
+
+                        <TableRow>
+                            <TextView
+                                android:textColor="#000"
+                                android:layout_column="1"
+                                android:text="Time: 60 Minutes"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:background="#FF909090" />
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
 
         </LinearLayout>
 
