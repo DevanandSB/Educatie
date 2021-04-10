@@ -1066,7 +1066,7 @@
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="          The Online test consist of questions from various domains and an essay writing. This is a time based test and each section is allocated specific time. Different sections of the test are:\n\n          Quantitative Aptitude\n          Logical Reasoning\n          Verbal Ability\n          Basic Programming and Computer Fundamentals"
+                        android:text="          The Online test consist of questions from various domains and an essay writing. This is a time based test and each section is allocated specific time. Different sections of the test are:\n\n     -> Quantitative Aptitude\n     -> Logical Reasoning\n     -> Verbal Ability"
                         android:textSize="16sp" />
                 </LinearLayout>
 
@@ -1204,14 +1204,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/calibri"
+                        android:textColor="#000"
                         android:text="Essay writing is given specific time and you have to write an essay on paper on topic provided to you. Topics may vary from current affairs to politics to abstract."
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_marginTop="8dp"
-                        android:textColor="#000"
+                        android:textColor="#ff393a"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -1223,9 +1222,8 @@
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="           Below are the topics that are frequently asked in Wipro Written Communication Test. We are providing the topics asked in recent as well as in earlier drive of Wipro.\n          Discuss, what are the factors to influence fate and life choice of those kids? Is it their environments, parents, society or something else?\n          Lots of students wear a uniform. Do you think tutors should also have their special dress code?\n          Students of high and elementary schools often are not allowed to use smartphones in those institutions. Is it right?\n          What person from the past you would like to become a teacher in your university or college? Who should it be and why?\n          Is it necessary kids to have any other duties at home except their homework? Use your personal experience to explain your point of view.\n          Water disputes between States. How we can solve it?\n          Social media effect on young people. Have we become slaves to our new creation? Express your views on this topic and give suggestion.\n          The influence of my favorite movie/book on me. Express your view from any real life incident.\n          What is the impact of genetically engineered food. Should it be sold in market or not?\n          How globalization affects economy. Express your views on this topic and give suggestion.\n          Religious Freedom. Is it good or bad? Support your point.\n          Indian Model of Secularism. Use your personal experience to explain your point of view."
+                        android:text="           Below are the topics that are frequently asked in Wipro Written Communication Test. We are providing the topics asked in recent as well as in earlier drive of Wipro.\n\n          -> Discuss, what are the factors to influence fate and life choice of those kids? Is it their environments, parents, society or something else?\n\n          -> Lots of students wear a uniform. Do you think tutors should also have their special dress code?\n\n          -> Students of high and elementary schools often are not allowed to use smartphones in those institutions. Is it right?\n\n          -> What person from the past you would like to become a teacher in your university or college? Who should it be and why?\n\n          -> Is it necessary kids to have any other duties at home except their homework? Use your personal experience to explain your point of view.\n\n          -> Water disputes between States. How we can solve it?\n\n          -> Social media effect on young people. Have we become slaves to our new creation? Express your views on this topic and give suggestion.\n\n          -> The influence of my favorite movie/book on me. Express your view from any real life incident.\n\n          -> What is the impact of genetically engineered food. Should it be sold in market or not?\n\n          -> How globalization affects economy. Express your views on this topic and give suggestion.\n\n          -> Religious Freedom. Is it good or bad? Support your point.\n\n          -> Indian Model of Secularism. Use your personal experience to explain your point of view."
                         android:textSize="16sp" />
-
 
                 </LinearLayout>
 
