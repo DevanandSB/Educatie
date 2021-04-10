@@ -951,6 +951,65 @@
                             android:text="           -> What is your goal in life?\n          -> Tell me something about yourself that is interesting and you haven’t mentioned yet.\n          -> Why do you want to join TCS?\n          -> Why should we hire you?\n          -> Do you want to be a small fish in a big pond or a big fish in a small pond?\n          -> If your Team Lead is not giving you enough credit for your work, and is often complaining that you are not working, even if you are, then what will you do?\n          -> Tell me something about your family.\n          -> Who are your role models? "
                             android:textSize="16sp" />
 
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/calibri"
+                    android:text="Round 4: HR Round"
+                    android:textColor="#ff393a"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/calibri"
+                            android:text="Frequently Asked Questions"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          The round is intended to assess aspects like cultural fitment and attitude, although technical questions, brain teasers or behavioral questions are not outside its purview. Keep your answers brief and to the point, stay calm, smile often, think your answers through, and don’t get defensive if you cannot answer any question.\n          Here are some sample questions to help you prepare: "
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:textColor="#000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="           -> Introduce yourself.\n          -> Why did you decide to become an engineer?\n          -> What are your strengths and weaknesses?\n          -> Tell us something about your extracurricular activities.\n          -> What is more important to you, money or work?\n          -> Are you willing to work overtime, night shifts and weekends?\n          -> Are you open to the idea of relocating?\n          -> What do you know about the recent trends in the IT industry? "
+                            android:textSize="16sp" />
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
