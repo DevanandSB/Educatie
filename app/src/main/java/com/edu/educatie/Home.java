@@ -571,7 +571,9 @@ public class Home extends AppCompatActivity
             finish();
         }
 //        else if (id == R.id.messageChat) {
-//            FancyToast.makeText(Home.this, "This Feature Available Soon", FancyToast.LENGTH_SHORT, FancyToast.INFO, false).show();
+//            Intent intent = new Intent(getApplicationContext(), com.edu.educatie.MainActivity.class);
+//            startActivity(intent);
+//            finish();
 //        }
 
         else if (id == R.id.buymeacoffee) {

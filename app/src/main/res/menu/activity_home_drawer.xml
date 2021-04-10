@@ -33,7 +33,7 @@
 <!--            <item-->
 <!--                android:id="@+id/messageChat"-->
 <!--                android:icon="@drawable/ic_message"-->
-<!--                android:title="Chat Rooms" />-->
+<!--                android:title="Student Support" />-->
 
         </menu>
     </item>
